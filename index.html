@@ -121,6 +121,23 @@ body{
   .panel { padding: 10px; }
   .c-board { padding: 12px; }
 }
+
+  .platform-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 12px; }
+  @media(max-width:600px){ .platform-grid { grid-template-columns: 1fr; } }
+  .platform-card { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); border-radius: 12px; padding: 16px; }
+  .pp-card { border-color: rgba(255,165,0,.3); }
+  .ud-card { border-color: rgba(0,217,255,.3); }
+  .platform-header { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; border-bottom: 1px solid rgba(255,255,255,.08); padding-bottom: 10px; }
+  .platform-icon { font-size: 1.2rem; }
+  .platform-name { font-size: .95rem; font-weight: 700; color: var(--text); flex: 1; }
+  .platform-badge { font-size: .65rem; font-weight: 800; padding: 2px 8px; border-radius: 12px; background: rgba(0,200,100,.15); color: #00c864; letter-spacing: .05em; }
+  .platform-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .p-stat { text-align: center; }
+  .p-num { display: block; font-size: 1.4rem; font-weight: 800; color: var(--blue); line-height: 1.2; }
+  .pp-card .p-num { color: #ffa500; }
+  .p-lbl { display: block; font-size: .6rem; color: var(--dim); text-transform: uppercase; letter-spacing: .05em; margin-top: 2px; }
+  .section-title { font-size: .75rem; font-weight: 700; color: var(--dim); text-transform: uppercase; letter-spacing: .12em; margin: 0 0 4px; }
+  .section { margin: 24px 0; }
 </style>
 </head>
 <body>
@@ -224,6 +241,41 @@ body{
   </table>
 </div>
 
+
+<!-- ═══ PLATFORM BREAKDOWN ═══════════════════════════════════════════════ -->
+<div style="margin:24px 0">
+  <div style="font-size:.7rem;font-weight:700;color:var(--dim,#888);text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px">⚡ Platform Stats</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+
+    <!-- PrizePicks -->
+    <div style="background:rgba(255,165,0,.05);border:1px solid rgba(255,165,0,.3);border-radius:10px;padding:16px">
+      <div style="font-size:.8rem;font-weight:800;color:#ffa500;margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🎯 PrizePicks</div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center">
+        <div><span id="pp-fetched" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Fetched</span></div>
+        <div><span id="pp-analyzed" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Analyzed</span></div>
+        <div><span id="pp-qualified" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Qualified</span></div>
+        <div><span id="pp-shadow" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Tracked</span></div>
+        <div><span id="pp-graded" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Graded</span></div>
+        <div><span id="pp-winrate" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Win Rate</span></div>
+      </div>
+    </div>
+
+    <!-- Underdog -->
+    <div style="background:rgba(0,217,255,.04);border:1px solid rgba(0,217,255,.3);border-radius:10px;padding:16px">
+      <div style="font-size:.8rem;font-weight:800;color:var(--blue,#00d9ff);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🐶 Underdog Fantasy</div>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center">
+        <div><span id="ud-fetched" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Fetched</span></div>
+        <div><span id="ud-analyzed" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Analyzed</span></div>
+        <div><span id="ud-qualified" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Qualified</span></div>
+        <div><span id="ud-shadow" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Tracked</span></div>
+        <div><span id="ud-graded" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Graded</span></div>
+        <div><span id="ud-winrate" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Win Rate</span></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <!-- FOOTER -->
 <div class="footer">
   <div class="ft-logo">PRIZM</div>
@@ -241,11 +293,11 @@ const STATS = {
   props_analyzed: 0,
   picks_qualified: 65,
   tier_a_picks: 96,
-  shadow_tracked: 2059,
+  shadow_tracked: 2109,
   tier_a: 96,
   tier_b: 150,
   tier_c: 1511,
-  tier_d: 302,
+  tier_d: 352,
   slips_generated: 6382,
   outcomes_graded: 65,
   sessions_run: 5,
@@ -262,7 +314,28 @@ setEl('c-fetched',  fmt(STATS.props_fetched || STATS.shadow_tracked));
 setEl('c-shadow',   fmt(STATS.shadow_tracked));
 setEl('c-slips',    fmt(STATS.slips_generated));
 setEl('c-graded',   fmt(STATS.outcomes_graded));
-setEl('c-sessions', fmt(STATS.sessions_run));
+
+        // Platform breakdown
+        var _bp = STATS.by_platform || {};
+        var _pp = _bp.prizepicks || {};
+        var _ud = _bp.underdog   || {};
+        function _wr(g,h){ return g > 0 ? (h/g*100).toFixed(1)+'%' : '–'; }
+        setEl('pp-fetched',   fmt(_pp.fetched   || 0));
+        setEl('pp-analyzed',  fmt(_pp.analyzed  || 0));
+        setEl('pp-qualified', fmt(_pp.qualified || 0));
+        setEl('pp-shadow',    fmt(_pp.shadow    || 0));
+        setEl('pp-graded',    fmt(_pp.graded    || 0));
+        setEl('pp-winrate',   _wr(_pp.graded || 0, _pp.hits || 0));
+        setEl('ud-fetched',   fmt(_ud.fetched   || 0));
+        setEl('ud-analyzed',  fmt(_ud.analyzed  || 0));
+        setEl('ud-qualified', fmt(_ud.qualified || 0));
+        setEl('ud-shadow',    fmt(_ud.shadow    || 0));
+        setEl('ud-graded',    fmt(_ud.graded    || 0));
+        setEl('ud-winrate',   _wr(_ud.graded || 0, _ud.hits || 0));
+        // Also update the top-bar UD counter if present
+        if(document.getElementById('c-ud-fetched')) setEl('c-ud-fetched', fmt(_ud.fetched || 0));
+
+        setEl('c-sessions', fmt(STATS.sessions_run));
         var _bp=STATS.by_platform||{}; var _ud=_bp.underdog||{}; setEl('c-ud-fetched',fmt(_ud.fetched||0));
 setEl('c-platforms', (STATS.platforms_active || ['PrizePicks','Underdog']).length || 2);
 setEl('c-days',     fmt(STATS.days_active));
@@ -350,6 +423,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
   }
 })();
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 02, 2026 at 09:45 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 02, 2026 at 10:05 AM ET</div>
 </body>
 </html>
