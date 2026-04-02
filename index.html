@@ -159,7 +159,7 @@ body{
       <span class="s-lbl">SCOUTER READING</span>
       <span class="s-num" id="s-num">0</span>
       <span class="s-lbl">TIER A PICKS GRADED</span>
-      <span class="s-lvl" id="levelName">RADITZ (BASE FORM)</span>
+      <span class="s-lvl" id="levelName">⚡ SS2</span>
     </div>
     <div class="vl"></div>
     <div style="padding-left:20px">
@@ -169,7 +169,7 @@ body{
       <div class="prog-row"><div class="prog-bg"><div class="prog-fill" id="p-ssg" style="background:#ff4040"></div></div><span class="prog-lbl" style="color:#ff4040">SSG · 500 picks · Day 2</span></div>
       <div class="prog-row"><div class="prog-bg"><div class="prog-fill" id="p-ui" style="background:#fff"></div></div><span class="prog-lbl" style="color:#fff">✦ ULTRA INSTINCT · 1,000 · Day 3</span></div>
       <div style="margin-top:10px;font-family:var(--mono);font-size:10px;color:var(--golddim);line-height:1.7">
-        Day 1 → SS3 &nbsp;|&nbsp; Day 3 → <span style="color:var(--gold)">Ultra Instinct</span> &nbsp;|&nbsp; Day 11 → Angel &nbsp;|&nbsp; Day 55 → <span style="color:var(--gold);font-weight:bold">ZENO ✦✦✦</span>
+        Day 3 → SS3  |  Day 16 → Ultra Instinct  |  Day 79 → Angel  |  Day 397 → ZENO ✦✦✦<span style="color:var(--gold)">Ultra Instinct</span> &nbsp;|&nbsp; Day 11 → Angel &nbsp;|&nbsp; Day 55 → <span style="color:var(--gold);font-weight:bold">ZENO ✦✦✦</span>
       </div>
     </div>
   </div>
@@ -180,22 +180,15 @@ body{
 <div class="panel mb6">
   <div style="font-family:var(--mono);font-size:9px;color:var(--golddim);margin-bottom:12px;text-align:center;letter-spacing:2px">ALL TIMES ET · FULLY AUTOMATED · MAC MUST BE ON (DISPLAY CAN SLEEP)</div>
   <table class="cron-table">
-    <thead><tr style="border-bottom:1px solid var(--border2)">
-      <td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px;padding:6px 12px">TIME</td>
-      <td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px">JOB</td>
-      <td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px">WHAT IT DOES</td>
-      <td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px">STATUS</td>
-    </tr></thead>
-    <tbody id="cronRows">
-      <tr><td>8:00 AM</td><td>📊 Auto-Grade</td><td>Grades last night's picks against real outcomes</td><td id="s-autograde" class="status-up">⏳ Upcoming</td></tr>
-      <tr><td>8:05 AM</td><td>🔬 Chamber Grade</td><td>Grades all virtual training slips automatically</td><td id="s-chamber" class="status-up">⏳ Upcoming</td></tr>
-      <tr><td>9:00 AM</td><td>✅ Data Validator</td><td>21 data quality checks across all sources</td><td id="s-validator" class="status-up">⏳ Upcoming</td></tr>
-      <tr><td>10:00 AM</td><td>⚡ Morning Picks</td><td>Full analysis + email — morning slate</td><td id="s-morning" class="status-up">⏳ Upcoming</td></tr>
-      <tr><td>1:00 PM</td><td>⚡ Afternoon Picks</td><td>Full analysis + email — afternoon refresh</td><td id="s-afternoon" class="status-up">⏳ Upcoming</td></tr>
-      <tr><td>6:00 PM</td><td>⚡ Evening Picks</td><td>Full analysis + email — evening slate</td><td id="s-evening" class="status-up">⏳ Upcoming</td></tr>
-      <tr><td>Sunday 9 AM</td><td>🧬 Calibration</td><td>Weekly model accuracy analysis + update</td><td id="s-calibrate" class="status-up">Weekly</td></tr>
-    </tbody>
-  </table>
+<tr><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px">TIME</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">JOB</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">STATUS</td></tr>
+<tr><td>8:00 AM</td><td>📊 Auto-Grade</td><td class="status-done" id="s-autograde">✅ Complete (8:42 AM)</td></tr>
+<tr><td>8:05 AM</td><td>🔬 Chamber Grade</td><td class="status-done" id="s-chamber">✅ Complete (8:41 AM)</td></tr>
+<tr><td>9:00 AM</td><td>✅ Data Validator</td><td class="status-up" id="s-validator">⏱ 9:00 AM ET</td></tr>
+<tr><td>10:00 AM</td><td>⚡ Morning Picks</td><td class="status-done" id="s-morning">✅ Complete (10:43 AM)</td></tr>
+<tr><td>1:00 PM</td><td>⚡ Afternoon Picks</td><td class="status-up" id="s-afternoon">⏱ in 1h 24m</td></tr>
+<tr><td>6:00 PM</td><td>⚡ Evening Picks</td><td class="status-up" id="s-evening">⏱ in 6h 24m</td></tr>
+<tr><td>Sunday 9 AM</td><td>🚀 Calibration</td><td class="status-up" id="s-calibrate">⏱ 9:00 AM ET</td></tr>
+</table>
 </div>
 
 <!-- COUNTER -->
@@ -203,13 +196,13 @@ body{
 <div class="c-board mb6">
   <span class="c-title">◈ SCANNING LIFETIME INTELLIGENCE DATABASE ◈</span>
   <div class="g3 mb3">
-    <div class="c-cell"><span class="c-num" id="c-fetched">—</span><span class="c-lbl">Total Props Fetched</span></div>
-    <div class="c-cell"><span class="c-num" id="c-shadow" style="color:var(--purple)">—</span><span class="c-lbl">Total Props Tracked</span></div>
-    <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">—</span><span class="c-lbl">Virtual Training Slips</span></div>
-    <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">—</span><span class="c-lbl">Outcomes Graded</span></div>
-    <div class="c-cell"><span class="c-num" id="c-sessions">—</span><span class="c-lbl">Analysis Sessions Run</span></div>
+    <div class="c-cell"><span class="c-num" id="c-fetched">8,086</span><span class="c-lbl">Total Props Fetched</span></div>
+    <div class="c-cell"><span class="c-num" id="c-shadow" style="color:var(--purple)">5,020</span><span class="c-lbl">Total Props Tracked</span></div>
+    <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">8,342</span><span class="c-lbl">Virtual Training Slips</span></div>
+    <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">65</span><span class="c-lbl">Outcomes Graded</span></div>
+    <div class="c-cell"><span class="c-num" id="c-sessions">6</span><span class="c-lbl">Analysis Sessions Run</span></div>
     <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
-    <div class="c-cell" style="border-color:rgba(245,200,66,.3)"><span class="c-num" id="c-days" style="color:var(--gold)">—</span><span class="c-lbl">Days Active</span></div>
+    <div class="c-cell" style="border-color:rgba(245,200,66,.3)"><span class="c-num" id="c-days" style="color:var(--gold)">2</span><span class="c-lbl">Days Active</span></div>
   </div>
   <div style="text-align:center;font-family:var(--mono);font-size:9px;color:var(--dim)" id="ct-ts">◈ UPDATED AFTER EVERY ANALYSIS RUN ◈</div>
 </div>
@@ -225,53 +218,29 @@ body{
       <td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">WHAT IT MEANS</td>
     </tr></thead>
     <tbody>
-      <tr><td class="lv0">⬡ Raditz (Base)</td><td class="lv0">0</td><td class="lv0">Day 0</td><td class="lv0">Training begins</td></tr>
-      <tr><td class="lv1">◈ Saiyan</td><td class="lv1">25+</td><td class="lv1">Day 1</td><td class="lv1">First patterns visible</td></tr>
-      <tr><td class="lv-s1">✦ Super Saiyan 1</td><td class="lv-s1">50+</td><td class="lv-s1">Day 1</td><td class="lv-s1">Calibration online</td></tr>
-      <tr><td class="lv-s2">⚡ Super Saiyan 2</td><td class="lv-s2">100+</td><td class="lv-s2">Day 1</td><td class="lv-s2">Accuracy patterns known</td></tr>
-      <tr><td class="lv-s3">✦✦ Super Saiyan 3</td><td class="lv-s3">200+</td><td class="lv-s3">Day 1</td><td class="lv-s3">Auto-tuning begins</td></tr>
-      <tr><td class="lv-sg">🔴 Super Saiyan God</td><td class="lv-sg">500+</td><td class="lv-sg"><span id="eta-25">Day 2</span></td><td class="lv-sg">Full model calibration</td></tr>
-      <tr><td class="lv-sb">🔵 Super Saiyan Blue</td><td class="lv-sb">750+</td><td class="lv-sb">Day 2</td><td class="lv-sb">System self-optimizing</td></tr>
-      <tr class="cur-row"><td class="lv-ui">✦ Ultra Instinct</td><td class="lv-ui">1,000+</td><td class="lv-ui"><span id="eta-50">Day 3</span></td><td class="lv-ui">Fully self-improving · edge validated</td></tr>
-      <tr><td class="lv-ang">☁ Angel (Whis)</td><td class="lv-ang">5,000+</td><td class="lv-ang">Day 11</td><td class="lv-ang">Predictive model active</td></tr>
-      <tr><td class="lv-gp">◎ Grand Priest</td><td class="lv-gp">10,000+</td><td class="lv-gp"><span id="eta-100">Day 22</span></td><td class="lv-gp">Market intelligence</td></tr>
-      <tr style="background:rgba(245,200,66,.06)"><td class="lv-zn">✦✦✦ ZENO — OMNI-KING</td><td class="lv-zn">25,000+</td><td class="lv-zn">Day 55</td><td class="lv-zn">PRIZM IS the sharp line</td></tr>
+      <tr><td class="lv0">⬡ Raditz (Base)</td><td class="lv0">0</td><td class="lv0" style="color:#00c864;font-weight:800">✅ REACHED</td><td class="lv0">Training begins</td></tr>
+      <tr><td class="lv1">◈ Saiyan</td><td class="lv1">25+</td><td class="lv1" style="color:#00c864;font-weight:800">✅ REACHED</td><td class="lv1">First patterns visible</td></tr>
+      <tr><td class="lv-s1">✦ Super Saiyan 1</td><td class="lv-s1">50+</td><td class="lv-s1" style="color:#00c864;font-weight:800">✅ REACHED</td><td class="lv-s1">Calibration online</td></tr>
+      <tr class="cur-row"><td class="lv-s2">⚡ Super Saiyan 2</td><td class="lv-s2">100+</td><td class="lv-s2" style="color:#00c864;font-weight:800">✅ REACHED</td><td class="lv-s2">Accuracy patterns known</td></tr>
+      <tr><td class="lv-s3">✦✦ Super Saiyan 3</td><td class="lv-s3">200+</td><td class="lv-s3">Tomorrow</td><td class="lv-s3">Auto-tuning begins</td></tr>
+      <tr><td class="lv-sg">🔴 Super Saiyan God</td><td class="lv-sg">500+</td><td class="lv-sg">Day 8</td><td class="lv-sg">Full model calibration</td></tr>
+      <tr><td class="lv-sb">🔵 Super Saiyan Blue</td><td class="lv-sb">750+</td><td class="lv-sb">Day 12</td><td class="lv-sb">System self-optimizing</td></tr>
+      <tr><td class="lv-ui">✦ Ultra Instinct</td><td class="lv-ui">1,000+</td><td class="lv-ui">Day 16</td><td class="lv-ui">Fully self-improving · edge validated</td></tr>
+      <tr><td class="lv-ui">✦✦ True Ultra Instinct</td><td class="lv-ui">2,500+</td><td class="lv-ui">Day 40</td><td class="lv-ui">PP mispricing database</td></tr>
+      <tr><td class="lv-ang">☁ Angel (Whis)</td><td class="lv-ang">5,000+</td><td class="lv-ang">Day 79</td><td class="lv-ang">Predictive line model active</td></tr>
+      <tr><td class="lv-gp">◎ Grand Priest</td><td class="lv-gp">10,000+</td><td class="lv-gp">Day 159</td><td class="lv-gp">Market-making intelligence</td></tr>
+      <tr><td class="lv-zn">✦✦✦ ZENO — OMNI-KING</td><td class="lv-zn">25,000+</td><td class="lv-zn">Day 397</td><td class="lv-zn">PRIZM IS the sharp line</td></tr>
     </tbody>
   </table>
 </div>
 
 
-<!-- ═══ PLATFORM BREAKDOWN ═══════════════════════════════════════════════ -->
+<!-- ═══ PLATFORM BREAKDOWN ══════════════════════════════════════════ -->
 <div style="margin:24px 0">
-  <div style="font-size:.7rem;font-weight:700;color:var(--dim,#888);text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px">⚡ Platform Stats</div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
-
-    <!-- PrizePicks -->
-    <div style="background:rgba(255,165,0,.05);border:1px solid rgba(255,165,0,.3);border-radius:10px;padding:16px">
-      <div style="font-size:.8rem;font-weight:800;color:#ffa500;margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🎯 PrizePicks</div>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center">
-        <div><span id="pp-fetched" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Fetched</span></div>
-        <div><span id="pp-analyzed" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Analyzed</span></div>
-        <div><span id="pp-qualified" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Qualified</span></div>
-        <div><span id="pp-shadow" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Tracked</span></div>
-        <div><span id="pp-graded" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Graded</span></div>
-        <div><span id="pp-winrate" style="display:block;font-size:1.2rem;font-weight:800;color:#ffa500">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Win Rate</span></div>
-      </div>
-    </div>
-
-    <!-- Underdog -->
-    <div style="background:rgba(0,217,255,.04);border:1px solid rgba(0,217,255,.3);border-radius:10px;padding:16px">
-      <div style="font-size:.8rem;font-weight:800;color:var(--blue,#00d9ff);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🐶 Underdog Fantasy</div>
-      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center">
-        <div><span id="ud-fetched" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Fetched</span></div>
-        <div><span id="ud-analyzed" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Analyzed</span></div>
-        <div><span id="ud-qualified" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Qualified</span></div>
-        <div><span id="ud-shadow" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Tracked</span></div>
-        <div><span id="ud-graded" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Graded</span></div>
-        <div><span id="ud-winrate" style="display:block;font-size:1.2rem;font-weight:800;color:var(--blue,#00d9ff)">–</span><span style="font-size:.6rem;color:var(--dim,#888);text-transform:uppercase">Win Rate</span></div>
-      </div>
-    </div>
-
+  <div style="font-size:.7rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px">⚡ Platform Stats</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:900px">
+    <div style="background:rgba(255,165,0,.05);border:1px solid rgba(255,165,0,.3);border-radius:10px;padding:16px"><div style="font-size:.8rem;font-weight:800;color:rgba(255,165,0,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🎯 PrizePicks <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#00c864">ACTIVE</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-fetched">3,613</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Fetched</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-analyzed">1,757</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Analyzed</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-qualified">96</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Qualified</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-shadow">2,052</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Tracked</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-graded">46</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Graded</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-winrate">56.5%</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Win Rate</span></div></div></div>
+    <div style="background:rgba(0,217,255,.05);border:1px solid rgba(0,217,255,.3);border-radius:10px;padding:16px"><div style="font-size:.8rem;font-weight:800;color:rgba(0,217,255,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🐶 Underdog Fantasy <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#00c864">ACTIVE</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-fetched">4,473</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Fetched</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-analyzed">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Analyzed</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-qualified">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Qualified</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-shadow">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Tracked</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-graded">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Graded</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-winrate">–</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Win Rate</span></div></div></div>
   </div>
 </div>
 
@@ -292,11 +261,11 @@ const STATS = {
   props_analyzed: 0,
   picks_qualified: 95,
   tier_a_picks: 126,
-  shadow_tracked: 5020,
+  shadow_tracked: 5021,
   tier_a: 126,
   tier_b: 150,
   tier_c: 4390,
-  tier_d: 354,
+  tier_d: 355,
   slips_generated: 8342,
   outcomes_graded: 65,
   sessions_run: 6,
@@ -479,6 +448,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
         })();
         // =========================================================================
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 02, 2026 at 10:52 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 02, 2026 at 11:36 AM ET</div>
 </body>
 </html>
