@@ -179,8 +179,9 @@ body{
     <div style="text-align:center;padding-right:20px">
       <span class="s-lbl">SCOUTER READING</span>
       <span class="s-num" id="powerNum">143</span>
-      <span class="s-lbl">TIER A PICKS GRADED</span>
+      <span class="s-lbl">TIER A QUALIFIED PICKS</span>
       <span class="s-lvl" id="levelName">⚡ SUPER SAIYAN 2</span>
+      <div style="font-size:9px;color:var(--dim);margin-top:4px;font-family:var(--mono)" id="scouter-breakdown">PP: 96 qualified · 65 graded · 40% win rate  |  UD: 47 qualified · collecting</div>
     </div>
     <div class="vl"></div>
     <div style="padding-left:20px">
@@ -217,7 +218,7 @@ body{
   <span class="c-title">◈ SCANNING LIFETIME INTELLIGENCE DATABASE ◈</span>
   <div class="g3 mb3">
     <div class="c-cell"><span class="c-num" id="c-fetched">4,947</span><span class="c-lbl">PrizePicks Props Fetched (Today)</span></div>
-    <div class="c-cell"><span class="c-num" id="c-shadow" title="Props that passed Gate 1 and entered analysis pipeline — cumulative all-time" style="color:var(--purple)">8,041</span><span class="c-lbl">Shadow Analyses (All-Time)</span></div>
+    <div class="c-cell"><span class="c-num" id="c-shadow" title="Props that passed Gate 1 and entered analysis pipeline — cumulative all-time" style="color:var(--purple)">8,044</span><span class="c-lbl">Shadow Analyses (All-Time)</span></div>
     <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">9,683</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">65</span><span class="c-lbl">Outcomes Graded</span></div>
     <div class="c-cell"><span class="c-num" id="c-sessions">7</span><span class="c-lbl">Analysis Sessions Run</span></div>
@@ -259,8 +260,8 @@ body{
 <div style="margin:24px 0">
   <div style="font-size:.7rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px">⚡ Platform Stats</div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:900px">
-    <div style="background:rgba(255,165,0,.05);border:1px solid rgba(255,165,0,.3);border-radius:10px;padding:16px"><div style="display:flex;align-items:center;justify-content:space-between;font-size:.8rem;font-weight:800;color:rgba(255,165,0,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🎯 PrizePicks <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#00c864">ACTIVE</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-fetched">4,947</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Fetched</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-analyzed">1,757</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Analyzed</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-qualified">96</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Qualified</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-shadow">2,052</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Tracked</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-graded">46</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Graded</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-winrate">56.5%</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Win Rate</span></div></div></div>
-    <div style="background:rgba(0,217,255,.05);border:1px solid rgba(0,217,255,.3);border-radius:10px;padding:16px"><div style="display:flex;align-items:center;justify-content:space-between;font-size:.8rem;font-weight:800;color:rgba(0,217,255,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🐶 Underdog Fantasy <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#00c864">ACTIVE</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-fetched">6,964</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Fetched</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-analyzed">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Analyzed</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-qualified">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Qualified</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-shadow">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Tracked</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-graded">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Graded</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-winrate">–</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Win Rate</span></div></div></div>
+    <div style="background:rgba(255,165,0,.05);border:1px solid rgba(255,165,0,.3);border-radius:10px;padding:16px"><div style="display:flex;align-items:center;justify-content:space-between;font-size:.8rem;font-weight:800;color:rgba(255,165,0,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🎯 PrizePicks <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#00c864">ACTIVE</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-fetched">4,947</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Fetched (Run)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-analyzed">3,905</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Analyzed (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-qualified">96</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Qualified (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-graded">65</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Graded (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-winrate">40.0%</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Win Rate</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-hits">26</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Hits</span></div></div></div>
+    <div style="background:rgba(0,217,255,.05);border:1px solid rgba(0,217,255,.3);border-radius:10px;padding:16px"><div style="display:flex;align-items:center;justify-content:space-between;font-size:.8rem;font-weight:800;color:rgba(0,217,255,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🐶 Underdog Fantasy <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#00c864">ACTIVE</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-fetched">6,964</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Fetched (Run)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-analyzed">4,139</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Analyzed (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-qualified">47</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Qualified (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-graded">0</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Graded (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-winrate">–</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Win Rate</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-hits">0</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Hits</span></div></div></div>
   </div>
 </div>
 <!-- FOOTER -->
@@ -268,7 +269,7 @@ body{
   <div class="ft-logo">PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-02 16:13 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-02 17:25 ET</div>
 </div>
 
 </div>
@@ -280,7 +281,7 @@ const STATS = {
   "props_analyzed": 0,
   "picks_qualified": 112,
   "tier_a_picks": 143,
-  "shadow_tracked": 8041,
+  "shadow_tracked": 8044,
   "slips_generated": 9683,
   "outcomes_graded": 65,
   "sessions_run": 7,
@@ -294,27 +295,32 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
-    "prizepicks": {
-      "fetched": 4947,
-      "analyzed": 1757,
-      "qualified": 96,
-      "shadow": 2052,
-      "graded": 46,
-      "hits": 26,
-      "win_rate": 56.5
-    },
     "underdog": {
       "fetched": 6964,
-      "analyzed": 0,
-      "qualified": 0,
-      "shadow": 0,
+      "analyzed": 4139,
+      "qualified": 47,
+      "shadow": 4139,
+      "tier_a": 47,
+      "picks_logged": 0,
       "graded": 0,
-      "hits": 0
+      "hits": 0,
+      "win_rate_pct": 0.0
+    },
+    "prizepicks": {
+      "fetched": 4947,
+      "analyzed": 3905,
+      "qualified": 96,
+      "shadow": 3905,
+      "tier_a": 96,
+      "picks_logged": 85,
+      "graded": 65,
+      "hits": 26,
+      "win_rate_pct": 40.0
     }
   },
   "tier_b": 150,
   "tier_c": 7338,
-  "tier_d": 410
+  "tier_d": 413
 };
 
 function fmt(n){if(!n||n===0)return '—';return n.toLocaleString();}
@@ -416,45 +422,103 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 // ── LIVE CRON STATUS UPDATER ─────────────────────────────────────────────────
 // Runs every 60s. Computes schedule status from browser's current time.
 // Python-generated ✅ Complete statuses are kept; future jobs get countdown.
+
+// ── PRIZM LIVE CRON UPDATER ──────────────────────────────────────────────────
+// Updates every 60s. Shows live countdown OR complete status from log.
+// Server-generated "Complete (HH:MM)" statuses are preserved.
+// Future jobs get live countdown. Past jobs without Complete get "Completed".
 (function liveCron(){
+  var LOG_NAMES = {
+    's-early':     'early',
+    's-autograde': 'autograde',
+    's-chamber':   'hyperchamber',
+    's-validator': 'validator',
+    's-morning':   'morning',
+    's-afternoon': 'afternoon',
+    's-evening':   'evening',
+    's-calibrate': 'calibrate'
+  };
+
   function pad(n){ return String(n).padStart(2,'0'); }
-  function updateCronRows(){
+
+  function fmtCountdown(diffMs){
+    var totalMins = Math.ceil(diffMs / 60000);
+    if(totalMins <= 0) return '0m';
+    var h = Math.floor(totalMins / 60);
+    var m = totalMins % 60;
+    if(h === 0) return m + 'm';
+    return h + 'h ' + pad(m) + 'm';
+  }
+
+  function updateAll(){
     var now = new Date();
+
     document.querySelectorAll('tr[data-sched-h]').forEach(function(row){
-      var h = parseInt(row.getAttribute('data-sched-h'));
-      var m = parseInt(row.getAttribute('data-sched-m'));
-      var el = row.querySelector('td[id^="s-"]');
+      var h   = parseInt(row.getAttribute('data-sched-h'), 10);
+      var m   = parseInt(row.getAttribute('data-sched-m'), 10);
+      var el  = row.querySelector('td[id]');
       if(!el) return;
-      // If Python already marked as Complete, keep it
-      if(el.textContent.indexOf('Complete') >= 0) return;
-      var sched = new Date(now.getFullYear(), now.getMonth(), now.getDate(), h, m, 0);
+
+      // PRESERVE server-generated Complete status — it has the actual time
+      if(el.textContent.indexOf('Complete') >= 0 && el.textContent.indexOf('✅') >= 0){
+        el.className = 'status-done';
+        return;
+      }
+      if(el.textContent.indexOf('Failed') >= 0){
+        el.className = 'status-fail';
+        return;
+      }
+
+      // Compute schedule time for TODAY
+      var sched = new Date(now.getFullYear(), now.getMonth(), now.getDate(), h, m, 0, 0);
       var diffMs = sched - now;
+
       if(diffMs > 0){
-        // Future
-        var mins = Math.ceil(diffMs/60000);
-        el.textContent = mins < 60 ? ('⏱ in ' + mins + 'm') : ('⏱ in ' + Math.floor(mins/60) + 'h ' + (mins%60) + 'm');
+        // Future job — show live countdown
+        el.textContent = '⏱ in ' + fmtCountdown(diffMs);
         el.className = 'status-up';
       } else {
         // Past scheduled time
-        var pastMins = Math.floor(-diffMs/60000);
-        if(pastMins < 3){
-          el.textContent = '🔄 Starting...';
+        var pastMins = Math.floor(-diffMs / 60000);
+        if(pastMins < 2){
+          el.textContent = '🔄 Starting…';
           el.className = 'status-next';
-        } else if(pastMins < 90){
-          el.textContent = '🔄 Running... (' + h + ':' + pad(m) + ' ' + (h < 12 ? 'AM' : 'PM') + ')';
+        } else if(pastMins < 75){
+          // Within expected run window — likely running or just completed
+          el.textContent = '🔄 Running… (' + h + ':' + pad(m) + (h < 12 ? ' AM' : ' PM') + ')';
           el.className = 'status-next';
         } else {
+          // More than 75 min past schedule with no Complete status — completed earlier
           el.textContent = '✅ Completed Today';
           el.className = 'status-done';
         }
       }
     });
   }
-  updateCronRows();
-  setInterval(updateCronRows, 60000);
+
+  // Run immediately on load (DOM is ready — script is at end of body)
+  updateAll();
+  // Update every 60 seconds
+  setInterval(updateAll, 60000);
+  // Also update countdown every 30s for smoother experience
+  setInterval(function(){
+    document.querySelectorAll('tr[data-sched-h]').forEach(function(row){
+      var h = parseInt(row.getAttribute('data-sched-h'), 10);
+      var m = parseInt(row.getAttribute('data-sched-m'), 10);
+      var el = row.querySelector('td[id]');
+      if(!el) return;
+      if(el.className === 'status-up'){
+        var now = new Date();
+        var sched = new Date(now.getFullYear(), now.getMonth(), now.getDate(), h, m, 0, 0);
+        var diffMs = sched - now;
+        if(diffMs > 0) el.textContent = '⏱ in ' + fmtCountdown(diffMs);
+      }
+    });
+  }, 30000);
 })();
+// ─────────────────────────────────────────────────────────────────────────────
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 02, 2026 at 04:16 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 02, 2026 at 05:26 PM ET</div>
 </body>
 </html>
