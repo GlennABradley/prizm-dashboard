@@ -192,6 +192,7 @@ body{
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">—</span><span class="c-lbl">Outcomes Graded</span></div>
     <div class="c-cell"><span class="c-num" id="c-sessions">—</span><span class="c-lbl">Analysis Sessions Run</span></div>
     <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
+    <div class="c-cell" style="border-color:rgba(0,217,255,.2)"><span class="c-num" id="c-ud-fetched" style="color:var(--blue)">–</span><span class="c-lbl">Underdog Props Fetched</span></div>
     <div class="c-cell" style="border-color:rgba(245,200,66,.3)"><span class="c-num" id="c-days" style="color:var(--gold)">—</span><span class="c-lbl">Days Active</span></div>
   </div>
   <div style="text-align:center;font-family:var(--mono);font-size:9px;color:var(--dim)" id="ct-ts">◈ UPDATED AFTER EVERY ANALYSIS RUN ◈</div>
@@ -240,11 +241,11 @@ const STATS = {
   props_analyzed: 0,
   picks_qualified: 65,
   tier_a_picks: 96,
-  shadow_tracked: 2055,
+  shadow_tracked: 2059,
   tier_a: 96,
   tier_b: 150,
   tier_c: 1511,
-  tier_d: 298,
+  tier_d: 302,
   slips_generated: 6382,
   outcomes_graded: 65,
   sessions_run: 5,
@@ -262,6 +263,7 @@ setEl('c-shadow',   fmt(STATS.shadow_tracked));
 setEl('c-slips',    fmt(STATS.slips_generated));
 setEl('c-graded',   fmt(STATS.outcomes_graded));
 setEl('c-sessions', fmt(STATS.sessions_run));
+        var _bp=STATS.by_platform||{}; var _ud=_bp.underdog||{}; setEl('c-ud-fetched',fmt(_ud.fetched||0));
 setEl('c-platforms', (STATS.platforms_active || ['PrizePicks','Underdog']).length || 2);
 setEl('c-days',     fmt(STATS.days_active));
 
@@ -348,6 +350,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
   }
 })();
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 02, 2026 at 08:49 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 02, 2026 at 09:45 AM ET</div>
 </body>
 </html>
