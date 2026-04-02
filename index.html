@@ -55,6 +55,7 @@ body{
 .panel{background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:14px}
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .g3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+.bk-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;text-align:center}
 
 /* SCOUTER */
 .scouter{border:1px solid var(--gold);border-radius:8px;padding:20px;
@@ -108,7 +109,6 @@ body{
 /* live-badge removed — last updated now in footer */
 
 /* ── MOBILE RESPONSIVE ── */
-@media (max-width: 700px) {
   .page { padding: 16px 12px 40px; }
   .logo { font-size: 40px; letter-spacing: 8px; }
   .edge { font-size: 11px; letter-spacing: 2px; }
@@ -131,40 +131,94 @@ body{
 }
 
   /* ══ COMPREHENSIVE MOBILE RESPONSIVENESS ══════════════════════════════════ */
+  }
+  }
+
+
+  /* ═══════════════════════════════════════════════════════════════
+     PRIZM RESPONSIVE DESIGN — Mobile & Tablet Support
+     ═══════════════════════════════════════════════════════════════ */
+
+  /* ── Tablet (≤ 900px) ─────────────────────────────────────────── */
+  @media (max-width: 900px) {
+    .logo { font-size: 52px; letter-spacing: 10px; }
+    .s-num { font-size: 44px; }
+  }
+
+  /* ── Mobile (≤ 700px) ─────────────────────────────────────────── */
   @media (max-width: 700px) {
-    .page { padding: 16px 10px 40px; }
-    .logo { font-size: 38px; letter-spacing: 6px; }
-    .edge { font-size: 10px; letter-spacing: 1.5px; }
-    .htc  { font-size: 8px; letter-spacing: 2px; }
-    /* Scouter: stack vertically */
-    .s-inner { grid-template-columns: 1fr; gap: 16px; }
+    /* Layout */
+    .page { padding: 14px 12px 48px; }
+
+    /* Header */
+    .logo { font-size: 38px; letter-spacing: 8px; }
+    .edge { font-size: 11px; letter-spacing: 2px; }
+    .htc  { font-size: 8px;  letter-spacing: 3px; }
+
+    /* Scouter — stack vertically */
+    .s-inner { grid-template-columns: 1fr !important; gap: 16px; }
     .vl      { display: none; }
     .s-num   { font-size: 38px; }
     .s-lvl   { font-size: 11px; }
     .scouter { padding: 14px; }
-    /* Counter grid: 2 cols on mobile */
-    .g2, .g3 { grid-template-columns: repeat(2, 1fr) !important; }
-    .c-num   { font-size: 18px; }
-    /* Power table: truncate long text */
-    .pw-table td { font-size: 9px; padding: 5px 5px; }
-    .pw-table td:last-child { display: none; } /* hide "What it means" on mobile */
-    /* Cron table */
-    .cron-table td { font-size: 10px; padding: 6px 8px; }
-    /* Platform grid: stack on mobile */
+    #scouter-breakdown { font-size: 8px !important; }
+
+    /* Counter grid — 2 cols on mobile */
+    .g3 { grid-template-columns: repeat(2, 1fr) !important; }
+    .g2 { grid-template-columns: 1fr !important; }
+    .c-num { font-size: 18px; }
+    .c-lbl { font-size: 7px; }
+
+    /* Bankroll — 2x2 on mobile */
+    .bk-grid { grid-template-columns: repeat(2, 1fr) !important; gap: 8px; }
+
+    /* Power table — hide less-important columns on small screens */
+    .pw-table td { font-size: 9px; padding: 5px 6px; }
+    .pw-table .pw-hide-mobile { display: none; }
+
+    /* Platform cards — stack vertically */
     .platform-grid-outer { grid-template-columns: 1fr !important; }
+
+    /* Cron table */
+    .cron-table { font-size: 10px; }
+    .cron-table td { padding: 6px 8px; font-size: 10px; }
+
+    /* Progress bars */
+    .prog-row { flex-wrap: wrap; gap: 6px; }
+    .prog-lbl { font-size: 7px !important; }
+
     /* Panel padding */
     .panel { padding: 10px; }
     .c-board { padding: 12px; }
-    .mb6 { margin-bottom: 14px; }
+
+    /* Section headers */
+    .sec { font-size: 8px; letter-spacing: 2px; }
+
     /* Footer */
-    .footer { margin-top: 20px; }
-    .ft-logo { font-size: 18px; letter-spacing: 4px; }
+    .footer { margin-top: 24px; }
+    .ft-logo { font-size: 20px; letter-spacing: 5px; }
   }
+
+  /* ── Small Mobile (≤ 480px) ───────────────────────────────────── */
   @media (max-width: 480px) {
     .logo { font-size: 28px; letter-spacing: 5px; }
-    .pw-table td { font-size: 8px; padding: 4px 3px; }
-    .pw-table td:nth-child(2) { display: none; } /* hide picks count on very small */
+    .s-num { font-size: 32px; }
     .c-num { font-size: 16px; }
+    .bk-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    /* Cron table: allow horizontal scroll */
+    .cron-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    /* Power level chips wrap */
+    .prog-row { display: block; }
+    .prog-bg { margin: 6px 0; }
+  }
+
+  /* ── Tiny (≤ 380px) ───────────────────────────────────────────── */
+  @media (max-width: 380px) {
+    .page { padding: 10px 8px 40px; }
+    .logo { font-size: 24px; letter-spacing: 4px; }
+    .bk-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    .g3 { grid-template-columns: 1fr !important; }
+    .platform-grid-outer > div { font-size: 10px; }
   }
 
 </style>
@@ -207,16 +261,17 @@ body{
 <div class="sec mb3">DAILY TRAINING SCHEDULE</div>
 <div class="panel mb6">
   <div style="font-family:var(--mono);font-size:9px;color:var(--golddim);margin-bottom:12px;text-align:center;letter-spacing:2px">ALL TIMES ET · FULLY AUTOMATED · MAC MUST BE ON (DISPLAY CAN SLEEP)</div>
-  <table class="cron-table">
+  <div class="cron-table-wrap"><table class="cron-table">
 <tr><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px">TIME</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">JOB</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">STATUS</td></tr>
 <tr data-sched-h="7" data-sched-m="0"><td>7:00 AM</td><td>🌅 Early Picks</td><td class="status-done" id="s-early">✅ Complete (6:52 PM)</td></tr>
+<tr data-sched-h="8" data-sched-m="7"><td>8:07 AM</td><td>📬 Morning Brief</td><td class="status-up" id="s-briefing">Scheduled 8:07 AM</td></tr>
 <tr data-sched-h="8" data-sched-m="0"><td>8:00 AM</td><td>📊 Auto-Grade</td><td class="status-done" id="s-autograde">✅ Complete (8:42 AM)</td></tr>
 <tr data-sched-h="8" data-sched-m="5"><td>8:05 AM</td><td>🔬 Chamber Grade</td><td class="status-done" id="s-chamber">✅ Complete (8:41 AM)</td></tr>
 <tr data-sched-h="9" data-sched-m="0"><td>9:00 AM</td><td>✅ Data Validator</td><td class="status-done" id="s-validator">✅ Complete (8:42 AM)</td></tr>
 <tr data-sched-h="10" data-sched-m="0"><td>10:00 AM</td><td>⚡ Morning Picks</td><td class="status-done" id="s-morning">✅ Complete (6:52 PM)</td></tr>
 <tr data-sched-h="13" data-sched-m="0"><td>1:00 PM</td><td>⚡ Afternoon Picks</td><td class="status-done" id="s-afternoon">✅ Complete (6:52 PM)</td></tr>
 <tr data-sched-h="18" data-sched-m="0"><td>6:00 PM</td><td>⚡ Evening Picks</td><td class="status-done" id="s-evening">✅ Complete (6:52 PM)</td></tr>
-<tr data-sched-h="23" data-sched-m="30"><td>11:30 PM</td><td>📊 Late Grade</td><td class="status-up" id="s-lategrade">⏱ in 4h 30m</td></tr>
+<tr data-sched-h="23" data-sched-m="30"><td>11:30 PM</td><td>📊 Late Grade</td><td class="status-up" id="s-lategrade">⏱ in 4h 21m</td></tr>
 <tr data-sched-h="9" data-sched-m="0"><td>Sunday 9 AM</td><td>🚀 Calibration</td><td class="status-up" id="s-calibrate">Scheduled 9:00 AM</td></tr>
 </table>
 </div>
@@ -227,7 +282,7 @@ body{
   <span class="c-title">◈ SCANNING PRIZM INTELLIGENCE DATABASE ◈</span>
   <div class="g3 mb3">
     <div class="c-cell"><span class="c-num" id="c-fetched">0</span><span class="c-lbl">Total Props Fetched (All-Time)</span></div>
-    <div class="c-cell"><span class="c-num" id="c-shadow" title="Props that passed Gate 1 and entered analysis pipeline — cumulative all-time" style="color:var(--purple)">11,144</span><span class="c-lbl">Shadow Analyses (All-Time)</span></div>
+    <div class="c-cell"><span class="c-num" id="c-shadow" title="Props that passed Gate 1 and entered analysis pipeline — cumulative all-time" style="color:var(--purple)">11,145</span><span class="c-lbl">Shadow Analyses (All-Time)</span></div>
     <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">9,687</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">65</span><span class="c-lbl">Outcomes Graded</span></div>
     <div class="c-cell"><span class="c-num" id="c-sessions">7</span><span class="c-lbl">Analysis Sessions Run</span></div>
@@ -239,7 +294,7 @@ body{
 
 <!-- BANKROLL SIMULATION -->
 <div class="sec mb3">💰 SIMULATED BANKROLL — $100 STARTING</div>
-<div class="panel mb6" style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;text-align:center">
+<div class="panel mb6" class="bk-grid">
   <div>
     <span style="font-family:var(--orb);font-size:24px;font-weight:900;color:var(--green);display:block" id="bk-current">$163.72</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Current Balance</span>
@@ -289,7 +344,7 @@ body{
 <div style="margin:24px 0">
   <div style="font-size:.7rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px">⚡ Platform Stats</div>
   <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:900px">
-    <div style="background:rgba(255,165,0,.05);border:1px solid rgba(255,165,0,.3);border-radius:10px;padding:16px"><div style="display:flex;align-items:center;justify-content:space-between;font-size:.8rem;font-weight:800;color:rgba(255,165,0,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🎯 PrizePicks <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#ffa500">COLLECTING</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-fetched">0</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Fetched (Today)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-analyzed">4,879</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Analyzed (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-qualified">96</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Qualified (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-graded">65</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Graded (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-winrate">40.0%</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Win Rate</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-hits">26</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Hits</span></div></div></div>
+    <div style="background:rgba(255,165,0,.05);border:1px solid rgba(255,165,0,.3);border-radius:10px;padding:16px"><div style="display:flex;align-items:center;justify-content:space-between;font-size:.8rem;font-weight:800;color:rgba(255,165,0,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🎯 PrizePicks <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#ffa500">COLLECTING</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-fetched">0</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Fetched (Today)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-analyzed">4,880</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Analyzed (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-qualified">96</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Qualified (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-graded">65</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Graded (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-winrate">40.0%</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Win Rate</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(255,165,0,1)" id="pp-hits">26</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Hits</span></div></div></div>
     <div style="background:rgba(0,217,255,.05);border:1px solid rgba(0,217,255,.3);border-radius:10px;padding:16px"><div style="display:flex;align-items:center;justify-content:space-between;font-size:.8rem;font-weight:800;color:rgba(0,217,255,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🐶 Underdog Fantasy <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#ffa500">COLLECTING</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-fetched">0</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Fetched (Today)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-analyzed">6,265</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Analyzed (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-qualified">50</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Qualified (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-graded">0</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Graded (All-Time)</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-winrate">–</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Win Rate</span></div><div><span style="display:block;font-size:1.1rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-hits">0</span><span style="font-size:.58rem;color:#888;text-transform:uppercase;line-height:1.3">Hits</span></div></div></div>
   </div>
 </div>
@@ -298,7 +353,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-02 18:59 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-02 19:08 ET</div>
 </div>
 
 </div>
@@ -310,7 +365,7 @@ const STATS = {
   "props_analyzed": 0,
   "picks_qualified": 3,
   "tier_a_picks": 146,
-  "shadow_tracked": 11144,
+  "shadow_tracked": 11145,
   "slips_generated": 9687,
   "outcomes_graded": 65,
   "sessions_run": 7,
@@ -324,17 +379,6 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
-    "prizepicks": {
-      "fetched": 0,
-      "analyzed": 4879,
-      "qualified": 96,
-      "shadow": 4879,
-      "tier_a": 96,
-      "picks_logged": 85,
-      "graded": 65,
-      "hits": 26,
-      "win_rate_pct": 40.0
-    },
     "underdog": {
       "fetched": 0,
       "analyzed": 6265,
@@ -356,11 +400,22 @@ const STATS = {
       "graded": 0,
       "hits": 0,
       "win_rate_pct": 0.0
+    },
+    "prizepicks": {
+      "fetched": 0,
+      "analyzed": 4880,
+      "qualified": 96,
+      "shadow": 4880,
+      "tier_a": 96,
+      "picks_logged": 85,
+      "graded": 65,
+      "hits": 26,
+      "win_rate_pct": 40.0
     }
   },
   "tier_b": 150,
   "tier_c": 10381,
-  "tier_d": 467
+  "tier_d": 468
 };
 
 function fmt(n){if(!n||n===0)return '—';return n.toLocaleString();}
@@ -558,6 +613,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 // ─────────────────────────────────────────────────────────────────────────────
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 02, 2026 at 07:00 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 02, 2026 at 07:08 PM ET</div>
 </body>
 </html>
