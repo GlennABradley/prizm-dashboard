@@ -191,6 +191,7 @@ body{
     <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">—</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">—</span><span class="c-lbl">Outcomes Graded</span></div>
     <div class="c-cell"><span class="c-num" id="c-sessions">—</span><span class="c-lbl">Analysis Sessions Run</span></div>
+    <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
     <div class="c-cell" style="border-color:rgba(245,200,66,.3)"><span class="c-num" id="c-days" style="color:var(--gold)">—</span><span class="c-lbl">Days Active</span></div>
   </div>
   <div style="text-align:center;font-family:var(--mono);font-size:9px;color:var(--dim)" id="ct-ts">◈ UPDATED AFTER EVERY ANALYSIS RUN ◈</div>
@@ -235,19 +236,19 @@ body{
 <script>
 // PRIZM Public Dashboard — Stats injected by prizm_dashboard.py
 const STATS = {
-  props_fetched: 1399,
+  props_fetched: 2275,
   props_analyzed: 0,
-  picks_qualified: 19,
-  tier_a_picks: 90,
-  shadow_tracked: 1225,
-  tier_a: 90,
-  tier_b: 146,
-  tier_c: 746,
-  tier_d: 243,
-  slips_generated: 4660,
+  picks_qualified: 25,
+  tier_a_picks: 96,
+  shadow_tracked: 2052,
+  tier_a: 96,
+  tier_b: 150,
+  tier_c: 1511,
+  tier_d: 295,
+  slips_generated: 4717,
   outcomes_graded: 46,
-  sessions_run: 3,
-  api_spend: 0.0,
+  sessions_run: 4,
+  api_spend: 0.32,
   days_active: 1,
   last_run: "2026-04-01",
 };
@@ -261,6 +262,7 @@ setEl('c-shadow',   fmt(STATS.shadow_tracked));
 setEl('c-slips',    fmt(STATS.slips_generated));
 setEl('c-graded',   fmt(STATS.outcomes_graded));
 setEl('c-sessions', fmt(STATS.sessions_run));
+setEl('c-platforms', (STATS.platforms_active || ['PrizePicks','Underdog']).length || 2);
 setEl('c-days',     fmt(STATS.days_active));
 
 // Power level
@@ -346,6 +348,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
   }
 })();
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 01, 2026 at 02:26 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 01, 2026 at 08:35 PM ET</div>
 </body>
 </html>
