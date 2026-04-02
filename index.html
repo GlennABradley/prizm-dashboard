@@ -157,7 +157,7 @@ body{
   <div class="s-inner">
     <div style="text-align:center;padding-right:20px">
       <span class="s-lbl">SCOUTER READING</span>
-      <span class="s-num" id="powerNum">0</span>
+      <span class="s-num" id="s-num">0</span>
       <span class="s-lbl">TIER A PICKS GRADED</span>
       <span class="s-lvl" id="levelName">RADITZ (BASE FORM)</span>
     </div>
@@ -203,13 +203,12 @@ body{
 <div class="c-board mb6">
   <span class="c-title">◈ SCANNING LIFETIME INTELLIGENCE DATABASE ◈</span>
   <div class="g3 mb3">
-    <div class="c-cell"><span class="c-num" id="c-fetched">—</span><span class="c-lbl">Props Fetched from PrizePicks</span></div>
+    <div class="c-cell"><span class="c-num" id="c-fetched">—</span><span class="c-lbl">Total Props Fetched</span></div>
     <div class="c-cell"><span class="c-num" id="c-shadow" style="color:var(--purple)">—</span><span class="c-lbl">Total Props Tracked</span></div>
     <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">—</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">—</span><span class="c-lbl">Outcomes Graded</span></div>
     <div class="c-cell"><span class="c-num" id="c-sessions">—</span><span class="c-lbl">Analysis Sessions Run</span></div>
     <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
-    <div class="c-cell" style="border-color:rgba(0,217,255,.2)"><span class="c-num" id="c-ud-fetched" style="color:var(--blue)">–</span><span class="c-lbl">Underdog Props Fetched</span></div>
     <div class="c-cell" style="border-color:rgba(245,200,66,.3)"><span class="c-num" id="c-days" style="color:var(--gold)">—</span><span class="c-lbl">Days Active</span></div>
   </div>
   <div style="text-align:center;font-family:var(--mono);font-size:9px;color:var(--dim)" id="ct-ts">◈ UPDATED AFTER EVERY ANALYSIS RUN ◈</div>
@@ -231,11 +230,11 @@ body{
       <tr><td class="lv-s1">✦ Super Saiyan 1</td><td class="lv-s1">50+</td><td class="lv-s1">Day 1</td><td class="lv-s1">Calibration online</td></tr>
       <tr><td class="lv-s2">⚡ Super Saiyan 2</td><td class="lv-s2">100+</td><td class="lv-s2">Day 1</td><td class="lv-s2">Accuracy patterns known</td></tr>
       <tr><td class="lv-s3">✦✦ Super Saiyan 3</td><td class="lv-s3">200+</td><td class="lv-s3">Day 1</td><td class="lv-s3">Auto-tuning begins</td></tr>
-      <tr><td class="lv-sg">🔴 Super Saiyan God</td><td class="lv-sg">500+</td><td class="lv-sg">Day 2</td><td class="lv-sg">Full model calibration</td></tr>
+      <tr><td class="lv-sg">🔴 Super Saiyan God</td><td class="lv-sg">500+</td><td class="lv-sg"><span id="eta-25">Day 2</span></td><td class="lv-sg">Full model calibration</td></tr>
       <tr><td class="lv-sb">🔵 Super Saiyan Blue</td><td class="lv-sb">750+</td><td class="lv-sb">Day 2</td><td class="lv-sb">System self-optimizing</td></tr>
-      <tr class="cur-row"><td class="lv-ui">✦ Ultra Instinct</td><td class="lv-ui">1,000+</td><td class="lv-ui">Day 3</td><td class="lv-ui">Fully self-improving · edge validated</td></tr>
+      <tr class="cur-row"><td class="lv-ui">✦ Ultra Instinct</td><td class="lv-ui">1,000+</td><td class="lv-ui"><span id="eta-50">Day 3</span></td><td class="lv-ui">Fully self-improving · edge validated</td></tr>
       <tr><td class="lv-ang">☁ Angel (Whis)</td><td class="lv-ang">5,000+</td><td class="lv-ang">Day 11</td><td class="lv-ang">Predictive model active</td></tr>
-      <tr><td class="lv-gp">◎ Grand Priest</td><td class="lv-gp">10,000+</td><td class="lv-gp">Day 22</td><td class="lv-gp">Market intelligence</td></tr>
+      <tr><td class="lv-gp">◎ Grand Priest</td><td class="lv-gp">10,000+</td><td class="lv-gp"><span id="eta-100">Day 22</span></td><td class="lv-gp">Market intelligence</td></tr>
       <tr style="background:rgba(245,200,66,.06)"><td class="lv-zn">✦✦✦ ZENO — OMNI-KING</td><td class="lv-zn">25,000+</td><td class="lv-zn">Day 55</td><td class="lv-zn">PRIZM IS the sharp line</td></tr>
     </tbody>
   </table>
@@ -289,21 +288,21 @@ body{
 <script>
 // PRIZM Public Dashboard — Stats injected by prizm_dashboard.py
 const STATS = {
-  props_fetched: 2275,
+  props_fetched: 5518,
   props_analyzed: 0,
-  picks_qualified: 65,
-  tier_a_picks: 96,
-  shadow_tracked: 2109,
-  tier_a: 96,
+  picks_qualified: 95,
+  tier_a_picks: 126,
+  shadow_tracked: 5018,
+  tier_a: 126,
   tier_b: 150,
-  tier_c: 1511,
+  tier_c: 4390,
   tier_d: 352,
   slips_generated: 6382,
   outcomes_graded: 65,
-  sessions_run: 5,
-  api_spend: 0.32,
+  sessions_run: 6,
+  api_spend: 1.41,
   days_active: 2,
-  last_run: "2026-04-01",
+  last_run: "2026-04-02",
 };
 
 function fmt(n){if(!n||n===0)return '—';return n.toLocaleString();}
@@ -314,29 +313,8 @@ setEl('c-fetched',  fmt(STATS.props_fetched || STATS.shadow_tracked));
 setEl('c-shadow',   fmt(STATS.shadow_tracked));
 setEl('c-slips',    fmt(STATS.slips_generated));
 setEl('c-graded',   fmt(STATS.outcomes_graded));
-
-        // Platform breakdown
-        var _bp = STATS.by_platform || {};
-        var _pp = _bp.prizepicks || {};
-        var _ud = _bp.underdog   || {};
-        function _wr(g,h){ return g > 0 ? (h/g*100).toFixed(1)+'%' : '–'; }
-        setEl('pp-fetched',   fmt(_pp.fetched   || 0));
-        setEl('pp-analyzed',  fmt(_pp.analyzed  || 0));
-        setEl('pp-qualified', fmt(_pp.qualified || 0));
-        setEl('pp-shadow',    fmt(_pp.shadow    || 0));
-        setEl('pp-graded',    fmt(_pp.graded    || 0));
-        setEl('pp-winrate',   _wr(_pp.graded || 0, _pp.hits || 0));
-        setEl('ud-fetched',   fmt(_ud.fetched   || 0));
-        setEl('ud-analyzed',  fmt(_ud.analyzed  || 0));
-        setEl('ud-qualified', fmt(_ud.qualified || 0));
-        setEl('ud-shadow',    fmt(_ud.shadow    || 0));
-        setEl('ud-graded',    fmt(_ud.graded    || 0));
-        setEl('ud-winrate',   _wr(_ud.graded || 0, _ud.hits || 0));
-        // Also update the top-bar UD counter if present
-        if(document.getElementById('c-ud-fetched')) setEl('c-ud-fetched', fmt(_ud.fetched || 0));
-
         setEl('c-sessions', fmt(STATS.sessions_run));
-        var _bp=STATS.by_platform||{}; var _ud=_bp.underdog||{}; setEl('c-ud-fetched',fmt(_ud.fetched||0));
+        var _bp=STATS.by_platform||{}; var _ud=_bp.underdog||{}; );
 setEl('c-platforms', (STATS.platforms_active || ['PrizePicks','Underdog']).length || 2);
 setEl('c-days',     fmt(STATS.days_active));
 
@@ -422,7 +400,86 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
     }
   }
 })();
+
+        // === PRIZM DYNAMIC CALCULATIONS ==========================================
+        (function(){
+          var ta   = STATS.tier_a_picks || 0;
+          var days = Math.max(STATS.days_active || 1, 1);
+          var pace = ta / days;
+          var now_day = days;
+          // ── ETA column in power scale table ────────────────────────────────
+          var LVLS = [25,50,100,200,500,750,1000,2500,5000,10000,25000];
+          LVLS.forEach(function(t){
+            var el = document.getElementById('eta-'+t);
+            if(!el) return;
+            var rem = Math.max(0, t - ta);
+            if(rem===0){
+              el.textContent='✅ REACHED';
+              el.style.color='#00c864';
+              el.style.fontWeight='800';
+            } else if(pace>0){
+              var ed = rem/pace;
+              if(ed<0.5)      el.textContent='Today';
+              else if(ed<1.5) el.textContent='Tomorrow';
+              else            el.textContent='Day '+Math.round(now_day+ed);
+            } else { el.textContent='—'; }
+          });
+          // ── Scouter Reading — live power level ─────────────────────────────
+          var sn = document.getElementById('s-num');
+          if(sn) sn.textContent = ta.toLocaleString();
+          // Level name — uses levelName id (existing element)
+          var sl = document.getElementById('levelName') || document.getElementById('s-level');
+          if(sl){
+            var n='Raditz (Base)';
+            if(ta>=25000)      n='✦✦✦ ZENO — OMNI-KING';
+            else if(ta>=10000) n='Grand Priest ◎';
+            else if(ta>=5000)  n='Angel (Whis) ☁';
+            else if(ta>=2500)  n='True Ultra Instinct';
+            else if(ta>=1000)  n='Ultra Instinct ✦';
+            else if(ta>=750)   n='Super Saiyan Blue';
+            else if(ta>=500)   n='Super Saiyan God';
+            else if(ta>=200)   n='Super Saiyan 3';
+            else if(ta>=100)   n='Super Saiyan 2';
+            else if(ta>=50)    n='⚡ SUPER SAIYAN 1';
+            else if(ta>=25)    n='Saiyan';
+            sl.textContent=n;
+          }
+          // Pace
+          var sp = document.getElementById('paceLabel') || document.getElementById('s-pace');
+          if(sp) sp.textContent = pace.toFixed(1)+' qualified picks/day';
+          // ── Win rate in scouter ─────────────────────────────────────────────
+          var wr_el = document.getElementById('winRateLabel') || document.getElementById('s-wr');
+          if(wr_el){
+            var wr = STATS.win_rate || 0;
+            wr_el.textContent = (wr*100).toFixed(1)+'%';
+          }
+          // ── Platform breakdown ──────────────────────────────────────────────
+          var _bp = STATS.by_platform || {};
+          var _pp = _bp.prizepicks || {};
+          var _ud = _bp.underdog   || {};
+          function _wr2(g,h){ return (g>0) ? (h/g*100).toFixed(1)+'%' : '—'; }
+          function _set(id,v){ var e=document.getElementById(id); if(e) e.textContent=v; }
+          // PP counters
+          _set('pp-fetched',   ((_pp.fetched||0)).toLocaleString());
+          _set('pp-analyzed',  ((_pp.analyzed||0)).toLocaleString());
+          _set('pp-qualified', ((_pp.qualified||0)).toLocaleString());
+          _set('pp-shadow',    ((_pp.shadow||0)).toLocaleString());
+          _set('pp-graded',    ((_pp.graded||0)).toLocaleString());
+          _set('pp-winrate',   _wr2(_pp.graded||0, _pp.hits||0));
+          // UD counters
+          _set('ud-fetched',   ((_ud.fetched||0)).toLocaleString());
+          _set('ud-analyzed',  ((_ud.analyzed||0)).toLocaleString());
+          _set('ud-qualified', ((_ud.qualified||0)).toLocaleString());
+          _set('ud-shadow',    ((_ud.shadow||0)).toLocaleString());
+          _set('ud-graded',    ((_ud.graded||0)).toLocaleString());
+          _set('ud-winrate',   _wr2(_ud.graded||0, _ud.hits||0));
+          // UD status badge
+          var udb = document.getElementById('ud-badge');
+          if(udb && _ud.fetched>0){ udb.textContent='ACTIVE'; udb.style.color='#00c864'; }
+          else if(udb){ udb.textContent='COLLECTING'; udb.style.color='#ffa500'; }
+        })();
+        // =========================================================================
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 02, 2026 at 10:05 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid #00d4ff;border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 LAST UPDATED: April 02, 2026 at 10:43 AM ET</div>
 </body>
 </html>
