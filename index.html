@@ -121,27 +121,39 @@ body{
   .panel { padding: 10px; }
   .c-board { padding: 12px; }
 }
-
-  .platform-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-top: 12px; }
-  @media(max-width:600px){ .platform-grid { grid-template-columns: 1fr; } }
-  .platform-card { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); border-radius: 12px; padding: 16px; }
-  .pp-card { border-color: rgba(255,165,0,.3); }
-  .ud-card { border-color: rgba(0,217,255,.3); }
-  .platform-header { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; border-bottom: 1px solid rgba(255,255,255,.08); padding-bottom: 10px; }
-  .platform-icon { font-size: 1.2rem; }
-  .platform-name { font-size: .95rem; font-weight: 700; color: var(--text); flex: 1; }
-  .platform-badge { font-size: .65rem; font-weight: 800; padding: 2px 8px; border-radius: 12px; background: rgba(0,200,100,.15); color: #00c864; letter-spacing: .05em; }
-  .platform-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-  .p-stat { text-align: center; }
-  .p-num { display: block; font-size: 1.4rem; font-weight: 800; color: var(--blue); line-height: 1.2; }
-  .pp-card .p-num { color: #ffa500; }
-  .p-lbl { display: block; font-size: .6rem; color: var(--dim); text-transform: uppercase; letter-spacing: .05em; margin-top: 2px; }
-  .section-title { font-size: .75rem; font-weight: 700; color: var(--dim); text-transform: uppercase; letter-spacing: .12em; margin: 0 0 4px; }
-  .section { margin: 24px 0; }
 </style>
 </head>
 <body>
-<div id="s-milestone-text" class="page">Tomorrow → SS3  |  Day 16 → Ultra Instinct  |  Day 79 → Angel  |  Day 397 → ZENO ✦✦✦</div>
+<div class="page">
+
+<!-- HEADER -->
+<div class="hdr mb6">
+  <div class="htc">⚡ THE HYPERBOLIC TIME CHAMBER ⚡</div>
+  <div class="htc-q">"ONE DAY OUTSIDE = ONE YEAR OF TRAINING INSIDE"</div>
+  <div class="logo">PRIZM</div>
+  <div class="byline">BY HUNCHO</div>
+  <div class="edge">WE DON'T TRY. WE FIND THE EDGE.</div>
+</div>
+
+<!-- SCOUTER -->
+<div class="scouter mb6">
+  <div class="s-inner">
+    <div style="text-align:center;padding-right:20px">
+      <span class="s-lbl">SCOUTER READING</span>
+      <span class="s-num" id="powerNum">126</span>
+      <span class="s-lbl">TIER A PICKS GRADED</span>
+      <span class="s-lvl" id="levelName">⚡ SUPER SAIYAN 2</span>
+    </div>
+    <div class="vl"></div>
+    <div style="padding-left:20px">
+      <div style="font-family:var(--mono);font-size:9px;color:var(--cyan);letter-spacing:2px;margin-bottom:10px">▸ PATH TO ULTRA INSTINCT</div>
+      <div class="prog-row"><div class="prog-bg"><div class="prog-fill" id="p-ss1" style="background:var(--gold)"></div></div><span class="prog-lbl" style="color:var(--gold)">SS1 · 50 picks</span></div>
+      <div class="prog-row"><div class="prog-bg"><div class="prog-fill" id="p-ss3" style="background:#fff080"></div></div><span class="prog-lbl" style="color:#fff080">SS3 · 200 picks · Day 4</span></div>
+      <div class="prog-row"><div class="prog-bg"><div class="prog-fill" id="p-ssg" style="background:#ff4040"></div></div><span class="prog-lbl" style="color:#ff4040">SSG · 500 picks · Day 11</span></div>
+      <div class="prog-row"><div class="prog-bg"><div class="prog-fill" id="p-ui" style="background:#fff"></div></div><span class="prog-lbl" style="color:#fff">✦ ULTRA INSTINCT · 1,000 · Day 23</span></div>
+      <div style="margin-top:10px;font-family:var(--mono);font-size:10px;color:var(--golddim);line-height:1.7">
+        Day 4 → SS3 &nbsp;|&nbsp; Day 23 → <span style="color:var(--gold)">Ultra Instinct</span> &nbsp;|&nbsp; Day 118 → Angel &nbsp;|&nbsp; Day 594 → <span style="color:var(--gold);font-weight:bold">ZENO ✦✦✦</span>
+      </div>
     </div>
   </div>
 </div>
@@ -156,8 +168,8 @@ body{
 <tr><td>8:05 AM</td><td>🔬 Chamber Grade</td><td class="status-done" id="s-chamber">✅ Complete (8:41 AM)</td></tr>
 <tr><td>9:00 AM</td><td>✅ Data Validator</td><td class="status-up" id="s-validator">Scheduled 9:00 AM</td></tr>
 <tr><td>10:00 AM</td><td>⚡ Morning Picks</td><td class="status-done" id="s-morning">✅ Complete (10:43 AM)</td></tr>
-<tr><td>1:00 PM</td><td>⚡ Afternoon Picks</td><td class="status-up" id="s-afternoon">⏱ in 1h 5m</td></tr>
-<tr><td>6:00 PM</td><td>⚡ Evening Picks</td><td class="status-up" id="s-evening">⏱ in 6h 5m</td></tr>
+<tr><td>1:00 PM</td><td>⚡ Afternoon Picks</td><td class="status-up" id="s-afternoon">⏱ in 48m</td></tr>
+<tr><td>6:00 PM</td><td>⚡ Evening Picks</td><td class="status-up" id="s-evening">⏱ in 5h 48m</td></tr>
 <tr><td>Sunday 9 AM</td><td>🚀 Calibration</td><td class="status-up" id="s-calibrate">Scheduled 9:00 AM</td></tr>
 </table>
 </div>
@@ -167,15 +179,16 @@ body{
 <div class="c-board mb6">
   <span class="c-title">◈ SCANNING LIFETIME INTELLIGENCE DATABASE ◈</span>
   <div class="g3 mb3">
-    <div class="c-cell"><span class="c-num" id="c-fetched">8,086</span><span class="c-lbl">Total Props Fetched</span></div>
-    <div class="c-cell"><span class="c-num" id="c-shadow" style="color:var(--purple)">5,021</span><span class="c-lbl">Total Props Tracked</span></div>
+    <div class="c-cell"><span class="c-num" id="c-fetched">8,086</span><span class="c-lbl">Props Fetched from PrizePicks</span></div>
+    <div class="c-cell"><span class="c-num" id="c-shadow" style="color:var(--purple)">5,022</span><span class="c-lbl">Total Props Tracked</span></div>
     <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">8,342</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">65</span><span class="c-lbl">Outcomes Graded</span></div>
     <div class="c-cell"><span class="c-num" id="c-sessions">6</span><span class="c-lbl">Analysis Sessions Run</span></div>
     <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
+    <div class="c-cell" style="border-color:rgba(0,217,255,.2)"><span class="c-num" id="c-ud-fetched" style="color:var(--blue)">–</span><span class="c-lbl">Underdog Props Fetched</span></div>
     <div class="c-cell" style="border-color:rgba(245,200,66,.3)"><span class="c-num" id="c-days" style="color:var(--gold)">2</span><span class="c-lbl">Days Active</span></div>
   </div>
-  <div style="text-align:center;font-family:var(--mono);font-size:9px;color:var(--dim)" id="ct-ts">◈ UPDATED AFTER EVERY ANALYSIS RUN ◈</div>
+  <div style="text-align:center;font-family:var(--mono);font-size:9px;color:var(--dim)" id="ct-ts">◈ LAST RUN: 2026-04-02 ◈</div>
 </div>
 
 <!-- POWER SCALE -->
@@ -205,7 +218,6 @@ body{
   </table>
 </div>
 
-
 <!-- ═══ PLATFORM BREAKDOWN ══════════════════════════════════════════ -->
 <div style="margin:24px 0">
   <div style="font-size:.7rem;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:.12em;margin-bottom:12px">⚡ Platform Stats</div>
@@ -214,13 +226,12 @@ body{
     <div style="background:rgba(0,217,255,.05);border:1px solid rgba(0,217,255,.3);border-radius:10px;padding:16px"><div style="font-size:.8rem;font-weight:800;color:rgba(0,217,255,1);margin-bottom:12px;border-bottom:1px solid rgba(255,255,255,.06);padding-bottom:8px">🐶 Underdog Fantasy <span style="float:right;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:12px;background:rgba(0,200,100,.15);color:#00c864">ACTIVE</span></div><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center"><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-fetched">4,473</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Fetched</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-analyzed">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Analyzed</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-qualified">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Qualified</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-shadow">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Tracked</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-graded">0</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Graded</span></div><div><span style="display:block;font-size:1.2rem;font-weight:800;color:rgba(0,217,255,1)" id="ud-winrate">–</span><span style="font-size:.6rem;color:#888;text-transform:uppercase">Win Rate</span></div></div></div>
   </div>
 </div>
-
 <!-- FOOTER -->
 <div class="footer">
   <div class="ft-logo">PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">◈ UPDATED AFTER EVERY ANALYSIS RUN ◈</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-02 12:11 ET</div>
 </div>
 
 </div>
@@ -232,7 +243,7 @@ const STATS = {
   "props_analyzed": 0,
   "picks_qualified": 95,
   "tier_a_picks": 126,
-  "shadow_tracked": 5021,
+  "shadow_tracked": 5022,
   "slips_generated": 8342,
   "outcomes_graded": 65,
   "sessions_run": 6,
@@ -241,6 +252,7 @@ const STATS = {
   "last_run": "2026-04-02",
   "win_rate": 0.4,
   "wins": 26,
+  "rolling_pace": 42.0,
   "platforms_active": [
     "prizepicks",
     "underdog"
@@ -266,9 +278,7 @@ const STATS = {
   },
   "tier_b": 150,
   "tier_c": 4390,
-  "tier_d": 355,
-  "rolling_pace": 42.0,
-  "picks_per_day_projected": 150
+  "tier_d": 356
 };
 
 function fmt(n){if(!n||n===0)return '—';return n.toLocaleString();}
@@ -279,13 +289,14 @@ setEl('c-fetched',  fmt(STATS.props_fetched || STATS.shadow_tracked));
 setEl('c-shadow',   fmt(STATS.shadow_tracked));
 setEl('c-slips',    fmt(STATS.slips_generated));
 setEl('c-graded',   fmt(STATS.outcomes_graded));
-        setEl('c-sessions', fmt(STATS.sessions_run));
-        setEl('c-platforms', (STATS.platforms_active || ['PrizePicks','Underdog']).length || 2);
+setEl('c-sessions', fmt(STATS.sessions_run));
+        var _bp=STATS.by_platform||{}; var _ud=_bp.underdog||{}; setEl('c-ud-fetched',fmt(_ud.fetched||0));
+setEl('c-platforms', (STATS.platforms_active || ['PrizePicks','Underdog']).length || 2);
 setEl('c-days',     fmt(STATS.days_active));
 
 // Power level
 var pc = STATS.tier_a_picks || 0;
-setEl('s-num', pc > 0 ? pc.toLocaleString() : '0');
+setEl('powerNum', pc > 0 ? pc.toLocaleString() : '0');
 
 var LV = [[0,'RADITZ (BASE FORM)'],[25,'SAIYAN'],[50,'SUPER SAIYAN 1 ⚡'],
   [100,'SUPER SAIYAN 2 ⚡⚡'],[200,'SUPER SAIYAN 3 ⚡⚡⚡'],
@@ -365,86 +376,7 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
     }
   }
 })();
-
-        // === PRIZM DYNAMIC CALCULATIONS ==========================================
-        (function(){
-          var ta   = STATS.tier_a_picks || 0;
-          var days = Math.max(STATS.days_active || 1, 1);
-          var pace = ta / days;
-          var now_day = days;
-          // ── ETA column in power scale table ────────────────────────────────
-          var LVLS = [25,50,100,200,500,750,1000,2500,5000,10000,25000];
-          LVLS.forEach(function(t){
-            var el = document.getElementById('eta-'+t);
-            if(!el) return;
-            var rem = Math.max(0, t - ta);
-            if(rem===0){
-              el.textContent='✅ REACHED';
-              el.style.color='#00c864';
-              el.style.fontWeight='800';
-            } else if(pace>0){
-              var ed = rem/pace;
-              if(ed<0.5)      el.textContent='Today';
-              else if(ed<1.5) el.textContent='Tomorrow';
-              else            el.textContent='Day '+Math.round(now_day+ed);
-            } else { el.textContent='—'; }
-          });
-          // ── Scouter Reading — live power level ─────────────────────────────
-          var sn = document.getElementById('s-num');
-          if(sn) sn.textContent = ta.toLocaleString();
-          // Level name — uses levelName id (existing element)
-          var sl = document.getElementById('levelName') || document.getElementById('s-level');
-          if(sl){
-            var n='Raditz (Base)';
-            if(ta>=25000)      n='✦✦✦ ZENO — OMNI-KING';
-            else if(ta>=10000) n='Grand Priest ◎';
-            else if(ta>=5000)  n='Angel (Whis) ☁';
-            else if(ta>=2500)  n='True Ultra Instinct';
-            else if(ta>=1000)  n='Ultra Instinct ✦';
-            else if(ta>=750)   n='Super Saiyan Blue';
-            else if(ta>=500)   n='Super Saiyan God';
-            else if(ta>=200)   n='Super Saiyan 3';
-            else if(ta>=100)   n='Super Saiyan 2';
-            else if(ta>=50)    n='⚡ SUPER SAIYAN 1';
-            else if(ta>=25)    n='Saiyan';
-            sl.textContent=n;
-          }
-          // Pace
-          var sp = document.getElementById('paceLabel') || document.getElementById('s-pace');
-          if(sp) sp.textContent = pace.toFixed(1)+' qualified picks/day';
-          // ── Win rate in scouter ─────────────────────────────────────────────
-          var wr_el = document.getElementById('winRateLabel') || document.getElementById('s-wr');
-          if(wr_el){
-            var wr = STATS.win_rate || 0;
-            wr_el.textContent = (wr*100).toFixed(1)+'%';
-          }
-          // ── Platform breakdown ──────────────────────────────────────────────
-          var _bp = STATS.by_platform || {};
-          var _pp = _bp.prizepicks || {};
-          var _ud = _bp.underdog   || {};
-          function _wr2(g,h){ return (g>0) ? (h/g*100).toFixed(1)+'%' : '—'; }
-          function _set(id,v){ var e=document.getElementById(id); if(e) e.textContent=v; }
-          // PP counters
-          _set('pp-fetched',   ((_pp.fetched||0)).toLocaleString());
-          _set('pp-analyzed',  ((_pp.analyzed||0)).toLocaleString());
-          _set('pp-qualified', ((_pp.qualified||0)).toLocaleString());
-          _set('pp-shadow',    ((_pp.shadow||0)).toLocaleString());
-          _set('pp-graded',    ((_pp.graded||0)).toLocaleString());
-          _set('pp-winrate',   _wr2(_pp.graded||0, _pp.hits||0));
-          // UD counters
-          _set('ud-fetched',   ((_ud.fetched||0)).toLocaleString());
-          _set('ud-analyzed',  ((_ud.analyzed||0)).toLocaleString());
-          _set('ud-qualified', ((_ud.qualified||0)).toLocaleString());
-          _set('ud-shadow',    ((_ud.shadow||0)).toLocaleString());
-          _set('ud-graded',    ((_ud.graded||0)).toLocaleString());
-          _set('ud-winrate',   _wr2(_ud.graded||0, _ud.hits||0));
-          // UD status badge
-          var udb = document.getElementById('ud-badge');
-          if(udb && _ud.fetched>0){ udb.textContent='ACTIVE'; udb.style.color='#00c864'; }
-          else if(udb){ udb.textContent='COLLECTING'; udb.style.color='#ffa500'; }
-        })();
-        // =========================================================================
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 02, 2026 at 11:57 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 02, 2026 at 12:12 PM ET</div>
 </body>
 </html>
