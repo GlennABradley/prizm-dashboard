@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-04-03T17:38:53.197745+00:00",
+  "generated_at": "2026-04-03T21:59:57.157898+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 157,
-    "tier_b": 611,
-    "tier_c": 23514,
-    "tier_d": 669,
+    "tier_a": 163,
+    "tier_b": 1817,
+    "tier_c": 34843,
+    "tier_d": 869,
     "level_name": "SUPER SAIYAN 2 \u26a1\u26a1",
-    "shadow_total": 24951
+    "shadow_total": 37692
   },
   "alltime": {
-    "props_fetched": 3804,
-    "pp_fetched": 3804,
-    "ud_fetched": 2160,
+    "props_fetched": 0,
+    "pp_fetched": 0,
+    "ud_fetched": 0,
     "analyzed": 0,
-    "qualified": 157,
+    "qualified": 163,
     "slips_generated": 11465,
     "outcomes_graded": 0,
     "sessions": 0,
-    "api_spend": 3.55
+    "api_spend": 0.62
   },
   "today": {
     "date": "2026-04-03",
-    "pp_fetched": 1644,
-    "ud_fetched": 2160,
-    "total_fetched": 3804,
-    "sessions": 1,
+    "pp_fetched": 0,
+    "ud_fetched": 0,
+    "total_fetched": 0,
+    "sessions": 0,
     "qualified": 0,
     "api_cost": 0.0
   },
