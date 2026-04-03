@@ -418,10 +418,129 @@ const STATS = {
   "tier_d": 469
 };
 
-function fmt(n){if(!n||n===0)return '—';return n.toLocaleString();}
-function setEl(id,v){var e=document.getElementById(id);if(e)e.textContent=v;}
+// ── Runtime stats.json fetch — overrides hardcoded STATS with live data ──────
+// Fetches stats.json from GitHub Pages at load time + every 5 min.
+// Falls back to hardcoded STATS (above) if fetch fails — dashboard never breaks.
+// localStorage cache (2hr TTL) ensures instant display on repeat visits.
+(function(){
+  var STATS_URL = 'https://glennabradley.github.io/prizm-dashboard/stats.json';
+  var CACHE_KEY = 'prizm_stats_v3_live';
+  var CACHE_TTL = 2 * 60 * 60 * 1000; // 2 hours
 
-// Inject stats — logical hierarchy: Fetched → Tracked → Graded → Qualified
+  function applyLiveStats(s) {
+    // Merge stats.json values into existing STATS object
+    var p = s.power || {}, a = s.alltime || {}, t = s.today || {}, m = s.meta || {};
+    if (p.tier_a)      STATS.tier_a_picks    = p.tier_a;
+    if (p.shadow_total)STATS.shadow_tracked  = p.shadow_total;
+    if (a.props_fetched)STATS.props_fetched  = a.props_fetched;
+    if (a.slips_generated)STATS.slips_generated = a.slips_generated;
+    if (a.outcomes_graded)STATS.outcomes_graded = a.outcomes_graded;
+    if (a.sessions)    STATS.sessions_run    = a.sessions;
+    if (a.api_spend)   STATS.api_spend       = a.api_spend;
+    if (m.days_active) STATS.days_active     = m.days_active;
+    if (m.last_run)    STATS.last_run        = m.last_run;
+    // Bankroll — merge live values so renderStats() can update the display
+    var bk = s.bankroll || {};
+    if (bk.current)    STATS.bankroll_current = bk.current;
+    if (bk.roi_str)    STATS.bankroll_roi     = bk.roi_str;
+    if (bk.last5)      STATS.bankroll_last5   = bk.last5;
+    if (bk.streak)     STATS.bankroll_streak  = bk.streak;
+    if (bk.wins !== undefined) STATS.bankroll_wins   = bk.wins;
+    if (bk.losses !== undefined) STATS.bankroll_losses = bk.losses;
+    if (bk.win_rate !== undefined) STATS.bankroll_winrate = bk.win_rate;
+    // Platform today stats
+    if (t.pp_fetched !== undefined) {
+      if (!STATS.by_platform) STATS.by_platform = {};
+      if (!STATS.by_platform.prizepicks) STATS.by_platform.prizepicks = {};
+      if (!STATS.by_platform.underdog)   STATS.by_platform.underdog   = {};
+      STATS.by_platform.prizepicks.fetched_today = t.pp_fetched;
+      STATS.by_platform.underdog.fetched_today   = t.ud_fetched;
+    }
+    // Re-run all render calls with live data
+    renderStats();
+    // Update live badge
+    var badge = document.getElementById('liveBadge');
+    if (badge) {
+      var ago = s.generated_at ? timeAgoStr(s.generated_at) : '';
+      badge.textContent = '🟢 LIVE' + (ago ? ' · ' + ago : '');
+      badge.title = 'Click to refresh';
+    }
+  }
+
+  function timeAgoStr(iso) {
+    try {
+      var diff = (Date.now() - new Date(iso).getTime()) / 1000;
+      if (diff < 60)    return Math.round(diff) + 's ago';
+      if (diff < 3600)  return Math.round(diff/60) + 'm ago';
+      if (diff < 86400) return Math.round(diff/3600) + 'h ago';
+      return Math.round(diff/86400) + 'd ago';
+    } catch(e) { return ''; }
+  }
+
+  function loadCache() {
+    try {
+      var raw = localStorage.getItem(CACHE_KEY);
+      if (!raw) return null;
+      var obj = JSON.parse(raw);
+      if (Date.now() - obj.ts > CACHE_TTL) return null;
+      return obj.data;
+    } catch(e) { return null; }
+  }
+
+  function saveCache(data) {
+    try { localStorage.setItem(CACHE_KEY, JSON.stringify({ts: Date.now(), data: data})); }
+    catch(e) {}
+  }
+
+  function fetchStats(attempt) {
+    attempt = attempt || 1;
+    fetch(STATS_URL + '?t=' + Date.now(), {cache: 'no-store'})
+      .then(function(r) {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(function(data) {
+        saveCache(data);
+        applyLiveStats(data);
+        // Auto-refresh every 5 min
+        setTimeout(fetchStats, 5 * 60 * 1000);
+      })
+      .catch(function(err) {
+        if (attempt < 3) {
+          setTimeout(function(){ fetchStats(attempt + 1); }, 3000);
+        } else {
+          // Try cache before giving up
+          var cached = loadCache();
+          if (cached) applyLiveStats(cached);
+          setTimeout(fetchStats, 2 * 60 * 1000);
+        }
+      });
+  }
+
+  // Show cached data instantly while fetching
+  var cached = loadCache();
+  if (cached) applyLiveStats(cached);
+
+  // Fetch live on load
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', fetchStats);
+  } else {
+    fetchStats();
+  }
+
+  // Re-fetch when tab becomes visible after being hidden
+  document.addEventListener('visibilitychange', function() {
+    if (document.visibilityState === 'visible') {
+      var c = loadCache();
+      if (!c || Date.now() - JSON.parse(localStorage.getItem(CACHE_KEY)||'{}').ts > 10*60*1000) {
+        fetchStats();
+      }
+    }
+  });
+})();
+
+function renderStats() {
+// All-time counters
 setEl('c-fetched',  fmt(STATS.props_fetched || STATS.shadow_tracked));
 setEl('c-shadow',   fmt(STATS.shadow_tracked));
 setEl('c-slips',    fmt(STATS.slips_generated));
@@ -429,6 +548,15 @@ setEl('c-graded',   fmt(STATS.outcomes_graded));
 setEl('c-sessions', fmt(STATS.sessions_run));
         var _bp=STATS.by_platform||{}; var _ud=_bp.underdog||{}; setEl('c-platforms', (STATS.platforms_active || ['PrizePicks','Underdog']).length || 2);
 setEl('c-days',     fmt(STATS.days_active));
+// Platform today stats — read from daily_fetched via STATS
+if(STATS.by_platform && STATS.by_platform.prizepicks) {
+  var _ppf = STATS.by_platform.prizepicks.fetched_today;
+  if(_ppf !== undefined) setEl('pp-fetched', fmt(_ppf));
+}
+if(STATS.by_platform && STATS.by_platform.underdog) {
+  var _udf2 = STATS.by_platform.underdog.fetched_today;
+  if(_udf2 !== undefined) setEl('ud-fetched', fmt(_udf2));
+}
 
 // Power level
 var pc = STATS.tier_a_picks || 0;
@@ -460,6 +588,21 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
   var luEl = document.getElementById('last-updated-line');
   if(luEl) luEl.textContent = '◈ LAST ANALYSIS: ' + STATS.last_run + ' ◈';
 }
+
+// Bankroll section — synced from live bankroll data
+var _bkRoi = STATS.bankroll_roi || '';
+var _bkCurrent = STATS.bankroll_current || 0;
+if(_bkCurrent > 0) {
+  setEl('bk-current', '$' + _bkCurrent.toFixed(2));
+  var _roiEl = document.getElementById('bk-roi');
+  if(_roiEl) {
+    _roiEl.textContent = _bkRoi || ((((_bkCurrent - 100)/100)*100).toFixed(1) + '%');
+    _roiEl.style.color = _bkCurrent >= 100 ? 'var(--green)' : 'var(--red, #ff4060)';
+  }
+}
+if(STATS.bankroll_last5) setEl('bk-last5', STATS.bankroll_last5);
+if(STATS.bankroll_streak) setEl('bk-streak', STATS.bankroll_streak);
+} // end renderStats()
 
 // CRON SCHEDULE — dynamic status based on current ET time
 (function(){
@@ -613,6 +756,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 // ─────────────────────────────────────────────────────────────────────────────
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 03, 2026 at 07:23 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 03, 2026 at 07:39 AM ET</div>
 </body>
 </html>
