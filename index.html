@@ -404,7 +404,7 @@ body{
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">multi-season players</div>
   </div>
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">$0.54</span>
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">$0.56</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Total API Spend</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">all-time</div>
   </div>
@@ -422,7 +422,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-03 23:37 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-03 23:59 ET</div>
 </div>
 
 </div>
@@ -431,14 +431,14 @@ body{
 // PRIZM Public Dashboard — Stats injected by prizm_dashboard.py
 const STATS = {
   "props_fetched": 43706,
-  "props_analyzed": 96,
-  "picks_qualified": 4,
+  "props_analyzed": 112,
+  "picks_qualified": 6,
   "tier_a_picks": 166,
   "shadow_tracked": 40720,
   "slips_generated": 11466,
   "outcomes_graded": 89,
   "sessions_run": 26,
-  "api_spend": 0.54,
+  "api_spend": 0.56,
   "days_active": 5,
   "last_run": "2026-04-03",
   "win_rate": 0.3933,
@@ -449,7 +449,7 @@ const STATS = {
   ],
   "by_platform": {
     "underdog": {
-      "fetched": 1050,
+      "fetched": 1150,
       "analyzed": 23940,
       "qualified": 55,
       "shadow": 23940,
@@ -459,19 +459,8 @@ const STATS = {
       "hits": 0,
       "win_rate_pct": 0.0
     },
-    "draftkings_dfs": {
-      "fetched": 1050,
-      "analyzed": 0,
-      "qualified": 0,
-      "shadow": 0,
-      "tier_a": 0,
-      "picks_logged": 0,
-      "graded": 0,
-      "hits": 0,
-      "win_rate_pct": 0.0
-    },
     "prizepicks": {
-      "fetched": 2098,
+      "fetched": 2298,
       "analyzed": 16780,
       "qualified": 111,
       "shadow": 16780,
@@ -480,6 +469,17 @@ const STATS = {
       "graded": 86,
       "hits": 35,
       "win_rate_pct": 40.7
+    },
+    "draftkings_dfs": {
+      "fetched": 1150,
+      "analyzed": 0,
+      "qualified": 0,
+      "shadow": 0,
+      "tier_a": 0,
+      "picks_logged": 0,
+      "graded": 0,
+      "hits": 0,
+      "win_rate_pct": 0.0
     }
   },
   "tier_b": 2178,
@@ -682,5 +682,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 // ─────────────────────────────────────────────────────────────────────────────
 
 </script>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 03, 2026 at 11:59 PM ET</div>
 </body>
 </html>
