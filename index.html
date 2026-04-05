@@ -319,9 +319,9 @@ body{
 <tr data-sched-h="8" data-sched-m="7"><td>8:07 AM</td><td>📬 Morning Brief</td><td class="status-up" id="s-briefing">Scheduled 8:07 AM</td></tr>
 <tr data-sched-h="9" data-sched-m="0"><td>9:00 AM</td><td>✅ Data Validator</td><td class="status-up" id="s-validator">Scheduled 9:00 AM</td></tr>
 <tr data-sched-h="10" data-sched-m="0"><td>10:00 AM</td><td>⚡ Morning Picks</td><td class="status-up" id="s-morning">Scheduled 10:00 AM</td></tr>
-<tr data-sched-h="13" data-sched-m="0"><td>1:00 PM</td><td>⚡ Afternoon Picks</td><td class="status-up" id="s-afternoon">⏱ in 1h 45m</td></tr>
-<tr data-sched-h="18" data-sched-m="0"><td>6:00 PM</td><td>⚡ Evening Picks</td><td class="status-up" id="s-evening">⏱ in 6h 45m</td></tr>
-<tr data-sched-h="23" data-sched-m="30"><td>11:30 PM</td><td>🌙 Late Grade</td><td class="status-up" id="s-lategrade">⏱ in 12h 15m</td></tr>
+<tr data-sched-h="13" data-sched-m="0"><td>1:00 PM</td><td>⚡ Afternoon Picks</td><td class="status-up" id="s-afternoon">Scheduled 1:00 PM</td></tr>
+<tr data-sched-h="18" data-sched-m="0"><td>6:00 PM</td><td>⚡ Evening Picks</td><td class="status-up" id="s-evening">⏱ in 13m</td></tr>
+<tr data-sched-h="23" data-sched-m="30"><td>11:30 PM</td><td>🌙 Late Grade</td><td class="status-up" id="s-lategrade">⏱ in 5h 43m</td></tr>
 <tr data-sched-h="9" data-sched-m="0"><td>Sunday 9AM</td><td>🚀 Calibration</td><td class="status-done" id="s-calibrate">✅ Complete (9:00 AM)</td></tr>
 </table>
 </div>
@@ -333,7 +333,7 @@ body{
   <div class="g3 mb3">
     <div class="c-cell"><span class="c-num" id="c-fetched">72,164</span><span class="c-lbl">Total Props Fetched (All-Time)</span></div>
     <div class="c-cell"><span class="c-num" id="c-shadow" title="Props that passed Gate 1 and entered analysis pipeline — cumulative all-time" style="color:var(--purple)">41,085</span><span class="c-lbl">Shadow Analyses (All-Time)</span></div>
-    <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">13,791</span><span class="c-lbl">Virtual Training Slips</span></div>
+    <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">15,569</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">89</span><span class="c-lbl">Outcomes Graded</span></div>
     <div class="c-cell"><span class="c-num" id="c-sessions">33</span><span class="c-lbl">Analysis Sessions Run</span></div>
     <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
@@ -473,7 +473,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-05 11:14 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-05 17:46 ET</div>
 </div>
 
 </div>
@@ -486,7 +486,7 @@ const STATS = {
   "picks_qualified": 0,
   "tier_a_picks": 246,
   "shadow_tracked": 41085,
-  "slips_generated": 13791,
+  "slips_generated": 15569,
   "outcomes_graded": 89,
   "sessions_run": 33,
   "api_spend": 0.1,
@@ -499,6 +499,17 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
+    "prizepicks": {
+      "fetched": 0,
+      "analyzed": 16943,
+      "qualified": 146,
+      "shadow": 16943,
+      "tier_a": 146,
+      "picks_logged": 94,
+      "graded": 86,
+      "hits": 35,
+      "win_rate_pct": 40.7
+    },
     "underdog": {
       "fetched": 0,
       "analyzed": 24142,
@@ -509,17 +520,6 @@ const STATS = {
       "graded": 3,
       "hits": 0,
       "win_rate_pct": 0.0
-    },
-    "prizepicks": {
-      "fetched": 0,
-      "analyzed": 16943,
-      "qualified": 146,
-      "shadow": 16943,
-      "tier_a": 146,
-      "picks_logged": 92,
-      "graded": 86,
-      "hits": 35,
-      "win_rate_pct": 40.7
     },
     "draftkings_dfs": {
       "fetched": 0,
