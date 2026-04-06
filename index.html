@@ -315,17 +315,15 @@ body{
   <div style="font-family:var(--mono);font-size:9px;color:var(--golddim);margin-bottom:12px;text-align:center;letter-spacing:2px">ALL TIMES ET · FULLY AUTOMATED · MAC MUST BE ON (DISPLAY CAN SLEEP)</div>
   <div class="cron-table-wrap"><table class="cron-table">
 <tr><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px">TIME</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">JOB</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">STATUS</td></tr>
-<tr data-sched-h="8" data-sched-m="0"><td>8:00 AM</td><td>📊 Auto-Grade</td><td class="status-up" id="s-autograde">⏱ in 4h 44m</td></tr>
-<tr data-sched-h="8" data-sched-m="5"><td>8:05 AM</td><td>🔬 Chamber Grade</td><td class="status-up" id="s-chamber">⏱ in 4h 49m</td></tr>
-<tr data-sched-h="8" data-sched-m="7"><td>8:07 AM</td><td>📬 Morning Brief</td><td class="status-up" id="s-briefing">⏱ in 4h 51m</td></tr>
-<tr data-sched-h="9" data-sched-m="0"><td>9:00 AM</td><td>✅ Validator + QA</td><td class="status-up" id="s-validator">⏱ in 5h 44m</td></tr>
-<tr data-sched-h="9" data-sched-m="30"><td>9:30 AM</td><td>💹 Odds Batch</td><td class="status-up" id="s-odds">⏱ in 6h 14m</td></tr>
-<tr data-sched-h="9" data-sched-m="55"><td>9:55 AM</td><td>🧪 Simulator Check</td><td class="status-up" id="s-simcheck">⏱ in 6h 39m</td></tr>
-<tr data-sched-h="10" data-sched-m="0"><td>10:00 AM</td><td>⚡ Morning Picks</td><td class="status-up" id="s-morning">⏱ in 6h 44m</td></tr>
-<tr data-sched-h="13" data-sched-m="0"><td>1:00 PM</td><td>⚡ Afternoon Picks</td><td class="status-up" id="s-afternoon">⏱ in 9h 44m</td></tr>
-<tr data-sched-h="18" data-sched-m="0"><td>6:00 PM</td><td>⚡ Evening Picks</td><td class="status-up" id="s-evening">⏱ in 14h 44m</td></tr>
-<tr data-sched-h="23" data-sched-m="30"><td>11:30 PM</td><td>🌙 Late Grade</td><td class="status-up" id="s-lategrade">⏱ in 20h 14m</td></tr>
-<tr data-sched-h="9" data-sched-m="0"><td>Sunday 9AM</td><td>🚀 Calibration</td><td class="status-up" id="s-calibrate">⏱ in 5h 44m</td></tr>
+<tr data-sched-h="8" data-sched-m="0"><td>8:00 AM</td><td>📊 Auto-Grade + Self-Improve Loop</td><td class="status-up" id="s-autograde">⏱ in 3h 45m</td></tr>
+<tr data-sched-h="8" data-sched-m="5"><td>8:05 AM</td><td>🔮 Hyperchamber — Slip Generation</td><td class="status-up" id="s-chamber">⏱ in 3h 50m</td></tr>
+<tr data-sched-h="8" data-sched-m="7"><td>8:07 AM</td><td>📬 Morning Intelligence Brief</td><td class="status-up" id="s-briefing">⏱ in 3h 52m</td></tr>
+<tr data-sched-h="9" data-sched-m="0"><td>9:00 AM</td><td>✅ System Validator (21 Checks)</td><td class="status-up" id="s-validator">⏱ in 4h 45m</td></tr>
+<tr data-sched-h="10" data-sched-m="0"><td>10:00 AM</td><td>⚡ Morning Full Run (~$5-6)</td><td class="status-up" id="s-morning">⏱ in 5h 45m</td></tr>
+<tr data-sched-h="13" data-sched-m="0"><td>1:00 PM</td><td>⚡ Afternoon Warm Run (~$0.50)</td><td class="status-up" id="s-afternoon">⏱ in 8h 45m</td></tr>
+<tr data-sched-h="18" data-sched-m="0"><td>6:00 PM</td><td>⚡ Evening Warm Run (~$0.50)</td><td class="status-up" id="s-evening">⏱ in 13h 45m</td></tr>
+<tr data-sched-h="23" data-sched-m="30"><td>11:30 PM</td><td>🌙 Late Grade + Self-Improve Loop</td><td class="status-up" id="s-lategrade">⏱ in 19h 15m</td></tr>
+<tr data-sched-h="9" data-sched-m="0"><td>Sunday 9AM</td><td>🚀 Weekly Calibration + XGBoost</td><td class="status-up" id="s-calibrate">⏱ in 4h 45m</td></tr>
 </table>
 </div>
 
@@ -470,13 +468,28 @@ body{
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Retry Queue</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">picks pending grade</div>
   </div>
+  <div style="text-align:center;padding:10px">
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">22</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Cal Profiles</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">stat·dir combos tracked</div>
+  </div>
+  <div style="text-align:center;padding:10px">
+    <span style="font-family:var(--orb);font-size:19px;font-weight:900;color:var(--green);display:block">NHL UNDER 🔥4W</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Hot Edge</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">streak segment</div>
+  </div>
+  <div style="text-align:center;padding:10px">
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">$0.00</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Daily Spend</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">of $7 cap</div>
+  </div>
 </div>
 <!-- FOOTER -->
 <div class="footer">
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-06 03:15 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-06 04:14 ET</div>
 </div>
 
 </div>
@@ -485,14 +498,14 @@ body{
 // PRIZM Public Dashboard — Stats injected by prizm_dashboard.py
 const STATS = {
   "props_fetched": 72164,
-  "props_analyzed": 216,
-  "picks_qualified": 27,
+  "props_analyzed": 248,
+  "picks_qualified": 31,
   "tier_a_picks": 246,
   "shadow_tracked": 41085,
   "slips_generated": 18679,
   "outcomes_graded": 132,
   "sessions_run": 34,
-  "api_spend": 0.37,
+  "api_spend": 0.41,
   "days_active": 8,
   "last_run": "2026-04-06",
   "win_rate": 0.4242,
@@ -502,19 +515,8 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
-    "draftkings_dfs": {
-      "fetched": 350,
-      "analyzed": 0,
-      "qualified": 0,
-      "shadow": 0,
-      "tier_a": 0,
-      "picks_logged": 0,
-      "graded": 0,
-      "hits": 0,
-      "win_rate_pct": 0.0
-    },
     "prizepicks": {
-      "fetched": 700,
+      "fetched": 1100,
       "analyzed": 16943,
       "qualified": 146,
       "shadow": 16943,
@@ -525,7 +527,7 @@ const STATS = {
       "win_rate_pct": 37.6
     },
     "underdog": {
-      "fetched": 350,
+      "fetched": 550,
       "analyzed": 24142,
       "qualified": 100,
       "shadow": 24142,
@@ -534,6 +536,17 @@ const STATS = {
       "graded": 31,
       "hits": 18,
       "win_rate_pct": 58.1
+    },
+    "draftkings_dfs": {
+      "fetched": 550,
+      "analyzed": 0,
+      "qualified": 0,
+      "shadow": 0,
+      "tier_a": 0,
+      "picks_logged": 0,
+      "graded": 0,
+      "hits": 0,
+      "win_rate_pct": 0.0
     }
   },
   "tier_b": 2208,
@@ -736,6 +749,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 // ─────────────────────────────────────────────────────────────────────────────
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 06, 2026 at 03:15 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 06, 2026 at 04:15 AM ET</div>
 </body>
 </html>
