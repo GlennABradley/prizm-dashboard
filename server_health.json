@@ -1,25 +1,24 @@
 {
-  "collected_at": "2026-04-07T03:30:01.805514+00:00",
+  "collected_at": "2026-04-07T03:35:01.938574+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "4h 58m",
+    "uptime": "5h 3m",
     "python": "3.12.3"
   },
   "health": {
     "status": "yellow",
     "alerts": [
-      "CPU 100.0%",
       "Cron fails: lategrade"
     ]
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 369,
+      "used_mb": 368,
       "total_mb": 961,
-      "pct": 38.4
+      "pct": 38.3
     },
     "disk": {
       "used_gb": 4.8,
@@ -61,6 +60,6 @@
   },
   "git": {
     "last_commit": "afe7556 fix: server health push order (pull before stage), h",
-    "last_pull": "Aborting"
+    "last_pull": "Already up to date."
   }
 }
