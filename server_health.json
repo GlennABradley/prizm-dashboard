@@ -1,25 +1,24 @@
 {
-  "collected_at": "2026-04-07T04:40:01.322727+00:00",
+  "collected_at": "2026-04-07T04:45:01.480088+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6h 8m",
+    "uptime": "6h 13m",
     "python": "3.12.3"
   },
   "health": {
     "status": "yellow",
     "alerts": [
-      "CPU 100.0%",
       "Cron fails: lategrade"
     ]
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 8.0,
     "ram": {
-      "used_mb": 334,
+      "used_mb": 351,
       "total_mb": 961,
-      "pct": 34.8
+      "pct": 36.5
     },
     "disk": {
       "used_gb": 4.8,
@@ -47,7 +46,7 @@
         "status": "never"
       },
       "lategrade": {
-        "last_run": "2026-04-07 03:30:01",
+        "last_run": "2026-04-07 04:40:35",
         "status": "fail"
       }
     }
@@ -60,7 +59,7 @@
     "last_run_date": "2026-04-06"
   },
   "git": {
-    "last_commit": "79eb691 v20: prizm_datetime (ET clock), debate workers 6\u219212,",
+    "last_commit": "a73dfeb auto-sync [post-grade 0graded]: 2026-04-07 04:41 | 2",
     "last_pull": "Updating 79eb691..5"
   }
 }
