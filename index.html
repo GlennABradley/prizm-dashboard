@@ -324,9 +324,9 @@ body{
   <div class="g3 mb3">
     <div class="c-cell"><span class="c-num" id="c-fetched">108,804</span><span class="c-lbl">Total Props Fetched (All-Time)</span></div>
     <div class="c-cell"><span class="c-num" id="c-shadow" title="Props that passed Gate 1 and entered analysis pipeline — cumulative all-time" style="color:var(--purple)">41,409</span><span class="c-lbl">Shadow Analyses (All-Time)</span></div>
-    <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">32,114</span><span class="c-lbl">Virtual Training Slips</span></div>
+    <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">32,925</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">242</span><span class="c-lbl">Outcomes Graded</span></div>
-    <div class="c-cell"><span class="c-num" id="c-sessions">43</span><span class="c-lbl">Analysis Sessions Run</span></div>
+    <div class="c-cell"><span class="c-num" id="c-sessions">44</span><span class="c-lbl">Analysis Sessions Run</span></div>
     <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
     <div class="c-cell" style="grid-column:1/-1;border-color:rgba(245,200,66,.3)"><span class="c-num" id="c-days" style="color:var(--gold)">8</span><span class="c-lbl">Days Active — PRIZM Has Been Running</span></div>
   </div>
@@ -470,12 +470,12 @@ body{
 
   <!-- Row 3: System health -->
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">~15-20m</span>
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">~7m</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Run Speed</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">SpeedCore v3 active</div>
   </div>
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">—%</span>
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">76%</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Free Kill Rate</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">props killed before STEAM</div>
   </div>
@@ -485,7 +485,7 @@ body{
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">picks pending grade</div>
   </div>
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">$1.52</span>
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">$0.00</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Daily Spend</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">of $7 cap</div>
   </div>
@@ -501,22 +501,22 @@ body{
     </div>
     <div>
       <div style="font-family:var(--mono);font-size:11px;color:var(--cyan)">192.241.241.102 &mdash; NYC2 &mdash; Ubuntu 24.04</div>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">1d 0h 48m</span> uptime</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">1d 1h 3m</span> uptime</div>
     </div>
   </div>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:14px">
     <!-- CPU -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-cpu" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">20.0%</span>
+      <span id="srv-cpu" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">11.1%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">CPU</span>
-      <div id="srv-cpu-bar" style="height:4px;border-radius:2px;background:linear-gradient(90deg,var(--cyan),var(--green));margin-top:6px;width:20.0%"></div>
+      <div id="srv-cpu-bar" style="height:4px;border-radius:2px;background:linear-gradient(90deg,var(--cyan),var(--green));margin-top:6px;width:11.1%"></div>
     </div>
     <!-- RAM -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">33.6%</span>
+      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">34.2%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">RAM</span>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">323</span>MB / 1024MB</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">329</span>MB / 1024MB</div>
     </div>
     <!-- Disk -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
@@ -545,7 +545,7 @@ body{
   </div>
 
   <div style="margin-top:12px;font-family:var(--mono);font-size:9px;color:var(--dim);text-align:right">
-    Health updated: <span id="srv-last-updated">2026-04-07 23:20</span> &nbsp;·&nbsp;
+    Health updated: <span id="srv-last-updated">2026-04-07 23:35</span> &nbsp;·&nbsp;
     Last git pull: <span id="srv-git-pull">HEAD is now at c</span> &nbsp;·&nbsp;
     <span id="srv-alerts" style="color:var(--warn)"></span>
   </div>
@@ -556,7 +556,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-07 19:24 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-07 19:37 ET</div>
 </div>
 
 </div>
@@ -565,14 +565,14 @@ body{
 // PRIZM Public Dashboard — Stats injected by prizm_dashboard.py
 const STATS = {
   "props_fetched": 108804,
-  "props_analyzed": 2306,
-  "picks_qualified": 12,
+  "props_analyzed": 2314,
+  "picks_qualified": 13,
   "tier_a_picks": 323,
   "shadow_tracked": 41409,
-  "slips_generated": 32114,
+  "slips_generated": 32925,
   "outcomes_graded": 242,
-  "sessions_run": 43,
-  "api_spend": 0.44,
+  "sessions_run": 44,
+  "api_spend": 0.45,
   "days_active": 8,
   "last_run": "2026-04-07",
   "win_rate": 0.438,
@@ -582,30 +582,19 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
-    "prizepicks": {
-      "fetched": 0,
-      "analyzed": 17021,
-      "qualified": 163,
-      "shadow": 17021,
-      "tier_a": 163,
-      "picks_logged": 217,
-      "graded": 194,
-      "hits": 79,
-      "win_rate_pct": 40.7
-    },
     "underdog": {
-      "fetched": 0,
+      "fetched": 50,
       "analyzed": 24388,
       "qualified": 160,
       "shadow": 24388,
       "tier_a": 160,
-      "picks_logged": 96,
+      "picks_logged": 107,
       "graded": 48,
       "hits": 27,
       "win_rate_pct": 56.2
     },
     "draftkings_dfs": {
-      "fetched": 0,
+      "fetched": 50,
       "analyzed": 0,
       "qualified": 0,
       "shadow": 0,
@@ -614,6 +603,17 @@ const STATS = {
       "graded": 0,
       "hits": 0,
       "win_rate_pct": 0.0
+    },
+    "prizepicks": {
+      "fetched": 100,
+      "analyzed": 17021,
+      "qualified": 163,
+      "shadow": 17021,
+      "tier_a": 163,
+      "picks_logged": 226,
+      "graded": 194,
+      "hits": 79,
+      "win_rate_pct": 40.7
     }
   },
   "tier_b": 2382,
@@ -763,6 +763,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 })();
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 07, 2026 at 07:24 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 07, 2026 at 07:37 PM ET</div>
 </body>
 </html>
