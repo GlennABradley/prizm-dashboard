@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-07T11:15:01.369664+00:00",
+  "collected_at": "2026-04-07T23:08:32.870969+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "12h 43m",
+    "uptime": "1d 0h 37m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,52 +12,117 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 310,
+      "used_mb": 320,
       "total_mb": 961,
-      "pct": 32.3
+      "pct": 33.3
     },
     "disk": {
       "used_gb": 5.1,
       "total_gb": 35.3,
-      "pct": 14.4
+      "pct": 14.5
     }
   },
   "cron": {
-    "jobs_installed": 11,
+    "jobs_installed": 1,
     "last_runs": {
       "dailyrun": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-07 22:37 UTC",
+        "status": "ok",
+        "duration": 702,
+        "summary": {
+          "picks_qualified": 22,
+          "api_spend": 2.79,
+          "pipeline_complete": true,
+          "run_time_sec": 702,
+          "sports": {
+            "mlb": 16,
+            "nhl": 6
+          },
+          "direction": "OVER:22"
+        }
       },
       "autograde": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-07 13:34 UTC",
+        "status": "ok",
+        "duration": 22,
+        "summary": {
+          "picks_graded": 7,
+          "hits": 4,
+          "misses": 3,
+          "win_rate": 57.1,
+          "no_data": 0,
+          "chamber_by_date": {
+            "2026-04-06": {
+              "slips": 24,
+              "hits": 7,
+              "wr_2pick": 31.6,
+              "wr_3pick": 25.0
+            }
+          },
+          "self_improvements": [
+            "NHL UNDER edge confirmed",
+            "NBA rebounds:OVER flagged as BLACKLIST"
+          ],
+          "gate_updates": {
+            "nba_OVER": "raised to 92 (WR=24.3%, n=37)"
+          },
+          "overall_wr": 43.8,
+          "total_graded": 242,
+          "brier": 0.362,
+          "top_edge_segment": "nhl:UNDER 71.4% (n=21)"
+        }
       },
       "morningbriefing": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-07 22:23 UTC",
+        "status": "ok",
+        "duration": 3,
+        "summary": {
+          "sent": true
+        }
       },
       "validator": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-07 22:23 UTC",
+        "status": "ok",
+        "duration": 38,
+        "summary": {
+          "passed": 141,
+          "total_checks": 141
+        }
       },
       "lategrade": {
-        "last_run": "2026-04-07 05:51:42",
-        "status": "ok"
+        "last_run": "2026-04-07 22:23 UTC",
+        "status": "ok",
+        "duration": 8,
+        "summary": {
+          "picks_graded": 0,
+          "hits": 0
+        }
+      },
+      "hyperchamber": {
+        "last_run": "2026-04-07 22:23 UTC",
+        "status": "ok",
+        "duration": 3,
+        "summary": {
+          "slips_generated": 0
+        }
+      },
+      "pp_push": {
+        "last_run": null,
+        "status": "never"
       }
     }
   },
   "prizm": {
-    "sessions_run": 37,
-    "picks_qualified": 66,
+    "sessions_run": 43,
+    "picks_qualified": 23,
     "budget_spent": 0,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-07"
   },
   "git": {
-    "last_commit": "b9e518e PP cache: 1419 props (MLB 572, NBA 771, NHL 76) fetc",
-    "last_pull": "Successfully rebase"
+    "last_commit": "fe91b8c Auto-sync 2026-04-07 19:07 | 7 files updated",
+    "last_pull": "HEAD is now at c477"
   }
 }
