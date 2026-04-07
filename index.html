@@ -314,17 +314,17 @@ body{
 <div class="panel mb6">
   <div style="font-family:var(--mono);font-size:9px;color:var(--golddim);margin-bottom:12px;text-align:center;letter-spacing:2px">ALL TIMES ET · FULLY AUTOMATED · RUNNING ON DIGITALOCEAN SERVER 24/7</div>
   <div class="cron-table-wrap"><table class="cron-table">
-<tr><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px">TIME</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">JOB</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan)">STATUS</td></tr>
-<tr data-sched-h="8" data-sched-m="0"><td>8:00 AM</td><td>📊 Auto-Grade + Self-Improve Loop</td><td class="status-up" id="s-autograde">Scheduled 8:00 AM</td></tr>
-<tr data-sched-h="8" data-sched-m="5"><td>8:05 AM</td><td>🔮 Hyperchamber — Slip Generation</td><td class="status-up" id="s-chamber">Scheduled 8:05 AM</td></tr>
-<tr data-sched-h="8" data-sched-m="7"><td>8:07 AM</td><td>📬 Morning Intelligence Brief</td><td class="status-up" id="s-briefing">Scheduled 8:07 AM</td></tr>
-<tr data-sched-h="9" data-sched-m="0"><td>9:00 AM</td><td>✅ System Validator (21 Checks)</td><td class="status-up" id="s-validator">Scheduled 9:00 AM</td></tr>
-<tr data-sched-h="9" data-sched-m="30"><td>9:30 AM</td><td>📈 Odds Batch — Market Intel</td><td class="status-up" id="s-odds">Scheduled 9:30 AM</td></tr>
-<tr data-sched-h="10" data-sched-m="0"><td>10:00 AM</td><td>⚡ Morning Full Run — Picks + Debate</td><td class="status-up" id="s-morning">⏱ in 21m</td></tr>
-<tr data-sched-h="13" data-sched-m="0"><td>1:00 PM</td><td>⚡ Afternoon Warm Run — Cache Reuse</td><td class="status-up" id="s-afternoon">⏱ in 3h 21m</td></tr>
-<tr data-sched-h="18" data-sched-m="0"><td>6:00 PM</td><td>⚡ Evening Warm Run — Cache Reuse</td><td class="status-up" id="s-evening">⏱ in 8h 21m</td></tr>
-<tr data-sched-h="23" data-sched-m="30"><td>11:30 PM</td><td>🌙 Late Grade + Self-Improve Loop</td><td class="status-done" id="s-lategrade">✅ Complete (12:08 AM)</td></tr>
-<tr data-sched-h="9" data-sched-m="0"><td>Sunday 9AM</td><td>🚀 Weekly Calibration + XGBoost + Isotonic</td><td class="status-up" id="s-calibrate">Scheduled 9:00 AM</td></tr>
+<tr><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px;padding:8px 10px">SCHEDULE</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px;padding:8px 10px">JOB</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px;padding:8px 10px">LAST RAN</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px;padding:8px 10px">DURATION</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px;padding:8px 10px">RESULT</td><td style="font-family:var(--orb);font-size:8px;color:var(--cyan);letter-spacing:2px;padding:8px 10px">STATUS</td></tr>
+<tr id="s-autograde" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">8:00 AM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">📊 Auto-Grade + Self-Improve Loop</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">pending</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">— Pending</span></td></tr>
+<tr id="s-chamber" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">8:05 AM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">🔮 Hyperchamber — Slip Generation</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">pending</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">— Pending</span></td></tr>
+<tr id="s-briefing" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">8:07 AM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">📬 Morning Intelligence Brief</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">pending</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">— Pending</span></td></tr>
+<tr id="s-validator" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">9:00 AM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">✅ System Validator (21 Checks)</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">pending</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">— Pending</span></td></tr>
+<tr id="s-odds" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">9:30 AM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">📈 Odds Batch — Market Intel</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">pending</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">— Pending</span></td></tr>
+<tr id="s-morning" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">10:00 AM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">⚡ Morning Full Run — Picks + Debate</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">pending</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">— Pending</span></td></tr>
+<tr id="s-afternoon" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">1:00 PM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">⚡ Afternoon Warm Run — Cache Reuse</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">in 43m</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">⏱ Scheduled</span></td></tr>
+<tr id="s-evening" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">6:00 PM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">⚡ Evening Warm Run — Cache Reuse</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">in 5h 43m</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">⏱ Scheduled</span></td></tr>
+<tr id="s-lategrade" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">11:30 PM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">🌙 Late Grade + Self-Improve Loop</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">12:08 AM</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">3s</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">—</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--green);font-weight:700">✅ Done</span></td></tr>
+<tr id="s-calibrate" style="border-bottom:1px solid rgba(255,255,255,.05)"><td style="font-family:var(--mono);font-size:10px;color:var(--gold);white-space:nowrap;padding:8px 10px">Sunday 9AM</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px">🚀 Weekly Calibration + XGBoost + Isotonic</td><td style="font-family:var(--mono);font-size:10px;color:var(--cyan);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;color:var(--dim);padding:8px 10px;white-space:nowrap">—</td><td style="font-family:var(--mono);font-size:10px;padding:8px 10px"><span style="color:var(--dim)">pending</span></td><td style="font-size:10px;padding:8px 10px;white-space:nowrap"><span style="color:var(--dim)">— Pending</span></td></tr>
 </table>
 </div>
 
@@ -333,11 +333,11 @@ body{
 <div class="c-board mb6">
   <span class="c-title">◈ SCANNING PRIZM INTELLIGENCE DATABASE ◈</span>
   <div class="g3 mb3">
-    <div class="c-cell"><span class="c-num" id="c-fetched">80,975</span><span class="c-lbl">Total Props Fetched (All-Time)</span></div>
+    <div class="c-cell"><span class="c-num" id="c-fetched">81,974</span><span class="c-lbl">Total Props Fetched (All-Time)</span></div>
     <div class="c-cell"><span class="c-num" id="c-shadow" title="Props that passed Gate 1 and entered analysis pipeline — cumulative all-time" style="color:var(--purple)">41,168</span><span class="c-lbl">Shadow Analyses (All-Time)</span></div>
     <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">21,789</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">242</span><span class="c-lbl">Outcomes Graded</span></div>
-    <div class="c-cell"><span class="c-num" id="c-sessions">37</span><span class="c-lbl">Analysis Sessions Run</span></div>
+    <div class="c-cell"><span class="c-num" id="c-sessions">36</span><span class="c-lbl">Analysis Sessions Run</span></div>
     <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
     <div class="c-cell" style="grid-column:1/-1;border-color:rgba(245,200,66,.3)"><span class="c-num" id="c-days" style="color:var(--gold)">9</span><span class="c-lbl">Days Active — PRIZM Has Been Running</span></div>
   </div>
@@ -434,30 +434,56 @@ body{
   </div>
 </div>
 <div class="panel mb6 intel-panel" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px">
+
+  <!-- Row 1: Core accuracy metrics -->
+  <div style="text-align:center;padding:10px">
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">43.8%</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Overall Win Rate</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">break-even 52.4% · n=242</div>
+  </div>
+  <div style="text-align:center;padding:10px">
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">71.4%</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">NHL UNDER WR</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">🔥 Top segment · n=21</div>
+  </div>
+  <div style="text-align:center;padding:10px">
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">57.1%</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">NHL Overall WR</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">Only sport above edge · n=77</div>
+  </div>
   <div style="text-align:center;padding:10px">
     <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">0.3562</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Brier Score</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">target &lt;0.20</div>
   </div>
+
+  <!-- Row 2: Calibration & model health -->
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">43.8%</span>
-    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Tier A Win Rate</span>
-    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">break-even 52.4%</div>
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">+29pp</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Overconf Gap</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">STEAM stated vs actual</div>
   </div>
   <div style="text-align:center;padding:10px">
     <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">⚠ CAL</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Model Status</span>
-    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">781 picks to target</div>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">781 to profitability</div>
   </div>
+  <div style="text-align:center;padding:10px">
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">18</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Stat Profiles</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">stat·dir combos tracked</div>
+  </div>
+  <div style="text-align:center;padding:10px">
+    <span style="font-family:var(--orb);font-size:19px;font-weight:900;color:var(--green);display:block">NHL UNDER 🔥5W</span>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Top Edge</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">strongest segment today</div>
+  </div>
+
+  <!-- Row 3: System health -->
   <div style="text-align:center;padding:10px">
     <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">~27m</span>
-    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Est. Run Time</span>
-    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">SpeedCore active</div>
-  </div>
-  <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--purple);display:block">870</span>
-    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Historical Cache</span>
-    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">multi-season players</div>
+    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Run Speed</span>
+    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">SpeedCore v3 active</div>
   </div>
   <div style="text-align:center;padding:10px">
     <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">98%</span>
@@ -470,20 +496,11 @@ body{
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">picks pending grade</div>
   </div>
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">11</span>
-    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Cal Profiles</span>
-    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">stat·dir combos tracked</div>
-  </div>
-  <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:19px;font-weight:900;color:var(--green);display:block">NHL UNDER 🔥5W</span>
-    <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Hot Edge</span>
-    <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">streak segment</div>
-  </div>
-  <div style="text-align:center;padding:10px">
     <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">$0.00</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Daily Spend</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">of $7 cap</div>
   </div>
+
 </div>
 <!-- SERVER HEALTH -->
 <div class="sec mb3">🖥️ SERVER HEALTH — DIGITALOCEAN NYC2</div>
@@ -550,7 +567,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-07 09:38 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-07 12:16 ET</div>
 </div>
 
 </div>
@@ -558,15 +575,15 @@ body{
 <script>
 // PRIZM Public Dashboard — Stats injected by prizm_dashboard.py
 const STATS = {
-  "props_fetched": 80975,
-  "props_analyzed": 2822,
-  "picks_qualified": 69,
+  "props_fetched": 81974,
+  "props_analyzed": 2838,
+  "picks_qualified": 71,
   "tier_a_picks": 297,
   "shadow_tracked": 41168,
   "slips_generated": 21789,
   "outcomes_graded": 242,
-  "sessions_run": 37,
-  "api_spend": 4.91,
+  "sessions_run": 36,
+  "api_spend": 4.93,
   "days_active": 9,
   "last_run": "2026-04-07",
   "win_rate": 0.438,
@@ -576,19 +593,8 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
-    "underdog": {
-      "fetched": 500,
-      "analyzed": 24205,
-      "qualified": 140,
-      "shadow": 24205,
-      "tier_a": 140,
-      "picks_logged": 48,
-      "graded": 48,
-      "hits": 27,
-      "win_rate_pct": 56.2
-    },
     "draftkings_dfs": {
-      "fetched": 500,
+      "fetched": 600,
       "analyzed": 0,
       "qualified": 0,
       "shadow": 0,
@@ -599,7 +605,7 @@ const STATS = {
       "win_rate_pct": 0.0
     },
     "prizepicks": {
-      "fetched": 1000,
+      "fetched": 1200,
       "analyzed": 16963,
       "qualified": 157,
       "shadow": 16963,
@@ -608,6 +614,17 @@ const STATS = {
       "graded": 194,
       "hits": 79,
       "win_rate_pct": 40.7
+    },
+    "underdog": {
+      "fetched": 600,
+      "analyzed": 24205,
+      "qualified": 140,
+      "shadow": 24205,
+      "tier_a": 140,
+      "picks_logged": 48,
+      "graded": 48,
+      "hits": 27,
+      "win_rate_pct": 56.2
     }
   },
   "tier_b": 2208,
@@ -810,6 +827,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 // ─────────────────────────────────────────────────────────────────────────────
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 07, 2026 at 09:38 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 07, 2026 at 12:17 PM ET</div>
 </body>
 </html>
