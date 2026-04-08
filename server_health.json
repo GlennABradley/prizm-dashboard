@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-08T18:03:01.542751+00:00",
+  "collected_at": "2026-04-08T18:04:01.136190+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "1d 19h 31m",
+    "uptime": "1d 19h 32m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 314,
+      "used_mb": 299,
       "total_mb": 961,
-      "pct": 32.7
+      "pct": 31.1
     },
     "disk": {
       "used_gb": 7.2,
@@ -115,14 +115,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 83,
-    "picks_qualified": 16,
-    "budget_spent": 2.97,
+    "sessions_run": 84,
+    "picks_qualified": 55,
+    "budget_spent": 7.0,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-08"
   },
   "git": {
-    "last_commit": "4e364a3 Auto-sync 2026-04-08 18:00 | 1 files updated",
+    "last_commit": "2c76e48 fix: micro_cal boosts applied pre-Gate3 (NHL+2 UNDER",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
