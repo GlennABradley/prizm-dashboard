@@ -79,5 +79,12 @@
     "summary": {
       "slips_generated": 0
     }
+  },
+  "preflight_failure": {
+    "ran_at": "2026-04-08T11:38:56.592306",
+    "errors": [
+      "\u274c ABORT: data/cache/pp_props.json missing. No PP props to analyze. Run pp_push manually: python3.11 prizm_pp_push.py"
+    ],
+    "warnings": []
   }
 }
