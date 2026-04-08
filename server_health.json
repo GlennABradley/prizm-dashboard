@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-08T16:37:01.889580+00:00",
+  "collected_at": "2026-04-08T16:38:02.025001+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "1d 18h 5m",
+    "uptime": "1d 18h 6m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 296,
+      "used_mb": 298,
       "total_mb": 961,
-      "pct": 30.8
+      "pct": 31.0
     },
     "disk": {
       "used_gb": 7.2,
@@ -115,14 +115,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 80,
-    "picks_qualified": 24,
-    "budget_spent": 0,
+    "sessions_run": 81,
+    "picks_qualified": 16,
+    "budget_spent": 4.57,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-08"
   },
   "git": {
-    "last_commit": "766fa07 Auto-sync 2026-04-08 16:35 | 1 files updated",
+    "last_commit": "8760661 fix: import Path and subprocess at module level in r",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
