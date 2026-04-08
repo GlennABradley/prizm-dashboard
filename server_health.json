@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-08T18:31:01.671811+00:00",
+  "collected_at": "2026-04-08T18:32:01.151742+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "1d 19h 59m",
+    "uptime": "1d 20h 0m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 330,
+      "used_mb": 284,
       "total_mb": 961,
-      "pct": 34.3
+      "pct": 29.6
     },
     "disk": {
       "used_gb": 7.2,
@@ -28,85 +28,28 @@
     "jobs_installed": 10,
     "last_runs": {
       "dailyrun": {
-        "last_run": "2026-04-07 22:37 UTC",
-        "status": "stale",
-        "duration": 702,
-        "summary": {
-          "picks_qualified": 22,
-          "api_spend": 2.79,
-          "pipeline_complete": true,
-          "run_time_sec": 702,
-          "sports": {
-            "mlb": 16,
-            "nhl": 6
-          },
-          "direction": "OVER:22"
-        }
+        "last_run": null,
+        "status": "never"
       },
       "autograde": {
-        "last_run": "2026-04-07 13:34 UTC",
-        "status": "stale",
-        "duration": 22,
-        "summary": {
-          "picks_graded": 7,
-          "hits": 4,
-          "misses": 3,
-          "win_rate": 57.1,
-          "no_data": 0,
-          "chamber_by_date": {
-            "2026-04-06": {
-              "slips": 24,
-              "hits": 7,
-              "wr_2pick": 31.6,
-              "wr_3pick": 25.0
-            }
-          },
-          "self_improvements": [
-            "NHL UNDER edge confirmed",
-            "NBA rebounds:OVER flagged as BLACKLIST"
-          ],
-          "gate_updates": {
-            "nba_OVER": "raised to 92 (WR=24.3%, n=37)"
-          },
-          "overall_wr": 43.8,
-          "total_graded": 242,
-          "brier": 0.362,
-          "top_edge_segment": "nhl:UNDER 71.4% (n=21)"
-        }
+        "last_run": null,
+        "status": "never"
       },
       "morningbriefing": {
-        "last_run": "2026-04-07 22:23 UTC",
-        "status": "stale",
-        "duration": 3,
-        "summary": {
-          "sent": true
-        }
+        "last_run": null,
+        "status": "never"
       },
       "validator": {
-        "last_run": "2026-04-07 22:23 UTC",
-        "status": "stale",
-        "duration": 38,
-        "summary": {
-          "passed": 141,
-          "total_checks": 141
-        }
+        "last_run": null,
+        "status": "never"
       },
       "lategrade": {
-        "last_run": "2026-04-07 22:23 UTC",
-        "status": "stale",
-        "duration": 8,
-        "summary": {
-          "picks_graded": 0,
-          "hits": 0
-        }
+        "last_run": null,
+        "status": "never"
       },
       "hyperchamber": {
-        "last_run": "2026-04-07 22:23 UTC",
-        "status": "stale",
-        "duration": 3,
-        "summary": {
-          "slips_generated": 0
-        }
+        "last_run": null,
+        "status": "never"
       },
       "pp_push": {
         "last_run": null,
@@ -122,7 +65,7 @@
     "last_run_date": "2026-04-08"
   },
   "git": {
-    "last_commit": "c2d1f69 Auto-sync 2026-04-08 18:30 | 2 files updated",
+    "last_commit": "c1ace45 fix: direction unconditional in analyze_prop, overco",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
