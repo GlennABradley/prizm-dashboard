@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T18:00:05.061400+00:00",
+  "generated_at": "2026-04-08T18:05:04.955686+00:00",
   "schema": 2,
   "power": {
     "tier_a": 382,
@@ -10,15 +10,15 @@
     "shadow_total": 41466
   },
   "alltime": {
-    "props_fetched": 50721,
-    "pp_fetched": 50721,
-    "ud_fetched": 1865,
-    "analyzed": 2792,
+    "props_fetched": 50835,
+    "pp_fetched": 50835,
+    "ud_fetched": 1799,
+    "analyzed": 2469,
     "qualified": 382,
     "slips_generated": 22389,
     "outcomes_graded": 332,
-    "sessions": 83,
-    "api_spend": 1.66
+    "sessions": 84,
+    "api_spend": 3.34
   },
   "today": {
     "date": "2026-04-08",
