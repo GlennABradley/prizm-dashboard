@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-08T21:11:01.558653+00:00",
+  "collected_at": "2026-04-08T21:12:01.592817+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "1d 22h 39m",
+    "uptime": "1d 22h 40m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 284,
+      "used_mb": 344,
       "total_mb": 961,
-      "pct": 29.6
+      "pct": 35.8
     },
     "disk": {
       "used_gb": 7.3,
@@ -65,7 +65,7 @@
     "last_run_date": "2026-04-08"
   },
   "git": {
-    "last_commit": "251ce01 Auto-sync 2026-04-08 21:10 | 2 files updated",
+    "last_commit": "5011ab6 fix: PP cookie auth in fetcher, SENDGRID_API_KEY + P",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }

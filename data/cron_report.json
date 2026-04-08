@@ -1,6 +1,6 @@
 {
   "preflight_failure": {
-    "ran_at": "2026-04-08T21:05:27.860049",
+    "ran_at": "2026-04-08T21:11:16.829585",
     "errors": [
       "\u274c ABORT: Budget exhausted. $12.00/$7.00 spent. Only $0.00 remaining \u2014 not enough for a meaningful run."
     ],
