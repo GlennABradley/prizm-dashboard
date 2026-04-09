@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-09T18:51:01.624703+00:00",
+  "collected_at": "2026-04-09T18:54:01.248425+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "2d 20h 19m",
+    "uptime": "2d 20h 22m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 307,
+      "used_mb": 278,
       "total_mb": 961,
-      "pct": 31.9
+      "pct": 28.9
     },
     "disk": {
       "used_gb": 7.3,
@@ -82,14 +82,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 9,
-    "picks_qualified": 70,
-    "budget_spent": 5.19,
-    "budget_cap": 7.0,
+    "sessions_run": 87,
+    "picks_qualified": 72,
+    "budget_spent": 0,
+    "budget_cap": 12.0,
     "last_run_date": "2026-04-09"
   },
   "git": {
-    "last_commit": "4d1eebd Auto-sync 2026-04-09 18:45 | 5 files updated",
+    "last_commit": "b25c249 merge: resolve dashboard conflict, keep server versi",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
