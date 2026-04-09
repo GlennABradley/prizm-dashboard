@@ -35,11 +35,13 @@
     "summary": {}
   },
   "validator": {
-    "ran_at": "2026-04-09 13:00 UTC",
-    "status": "error",
-    "duration_sec": 17.0,
+    "ran_at": "2026-04-09 16:47 UTC",
+    "status": "success",
+    "duration_sec": 28.1,
     "summary": {
-      "error": "QA failures \u2014 nba_api down, launchctl not found"
+      "passed": 14,
+      "warnings": 9,
+      "errors": 0
     }
   },
   "oddsbatch": {
@@ -67,11 +69,12 @@
     "summary": {}
   },
   "insights": {
-    "ran_at": "2026-04-09 12:30 UTC",
-    "status": "error",
-    "duration_sec": 0,
+    "ran_at": "2026-04-09 16:28 UTC",
+    "status": "success",
+    "duration_sec": 0.1,
     "summary": {
-      "error": "no COMPLETE logged \u2014 check cron_insights.log"
+      "trajectory": "IMPROVING",
+      "overall_wr": 0.44
     }
   },
   "pp_prefetch": {
@@ -86,7 +89,7 @@
     "duration_sec": 305.0,
     "summary": {
       "picks_qualified": 21,
-      "api_spend": 3.2
+      "api_spend": 6.999
     }
   }
 }
