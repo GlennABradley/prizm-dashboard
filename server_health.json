@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-09T02:15:01.903012+00:00",
+  "collected_at": "2026-04-09T02:16:01.677572+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "2d 3h 43m",
+    "uptime": "2d 3h 44m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 291,
+      "used_mb": 319,
       "total_mb": 961,
-      "pct": 30.3
+      "pct": 33.2
     },
     "disk": {
       "used_gb": 7.3,
@@ -67,7 +65,7 @@
     "last_run_date": "2026-04-08"
   },
   "git": {
-    "last_commit": "0fc4e15 feat: FOCUS MODE \u2014 Gate 0 stat-type filter, per-stat",
+    "last_commit": "f67281d Auto-sync 2026-04-09 02:15 | 2 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
