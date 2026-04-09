@@ -5,5 +5,13 @@
       "\u274c ABORT: Budget exhausted. $12.00/$7.00 spent. Only $0.00 remaining \u2014 not enough for a meaningful run."
     ],
     "warnings": []
+  },
+  "test_job": {
+    "ran_at": "2026-04-09 04:21 UTC",
+    "status": "success",
+    "duration_sec": 1.0,
+    "summary": {
+      "test": true
+    }
   }
 }
