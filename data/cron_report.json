@@ -84,12 +84,12 @@
     "summary": {}
   },
   "dailyrun": {
-    "ran_at": "2026-04-09 14:27 UTC",
+    "ran_at": "2026-04-09 17:00 UTC",
     "status": "success",
-    "duration_sec": 305.0,
+    "duration_sec": 1230.0,
     "summary": {
-      "picks_qualified": 21,
-      "api_spend": 6.999
+      "picks_qualified": 70,
+      "api_spend": 5.189
     }
   }
 }
