@@ -1,24 +1,25 @@
 {
-  "collected_at": "2026-04-09T16:27:01.662929+00:00",
+  "collected_at": "2026-04-09T16:30:02.060764+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "2d 17h 55m",
+    "uptime": "2d 17h 58m",
     "python": "3.12.3"
   },
   "health": {
     "status": "yellow",
     "alerts": [
+      "CPU 100.0%",
       "Cron fails: validator"
     ]
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 273,
+      "used_mb": 300,
       "total_mb": 961,
-      "pct": 28.4
+      "pct": 31.2
     },
     "disk": {
       "used_gb": 7.3,
@@ -83,13 +84,13 @@
   },
   "prizm": {
     "sessions_run": 9,
-    "picks_qualified": 150,
-    "budget_spent": 7.0,
-    "budget_cap": 7.0,
+    "picks_qualified": 132,
+    "budget_spent": 0,
+    "budget_cap": 12.0,
     "last_run_date": "2026-04-09"
   },
   "git": {
-    "last_commit": "a7cfb59 Auto-sync 2026-04-09 16:15 | 2 files updated",
+    "last_commit": "729e797 fix: insights wrong filename, validator NBA\u2192warning,",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
