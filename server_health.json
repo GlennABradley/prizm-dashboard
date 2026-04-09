@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-09T03:15:01.454305+00:00",
+  "collected_at": "2026-04-09T03:16:01.645126+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "2d 4h 43m",
+    "uptime": "2d 4h 44m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 334,
+      "used_mb": 279,
       "total_mb": 961,
-      "pct": 34.8
+      "pct": 29.0
     },
     "disk": {
       "used_gb": 7.3,
@@ -67,7 +65,7 @@
     "last_run_date": "2026-04-09"
   },
   "git": {
-    "last_commit": "73f301d Auto-sync 2026-04-09 03:10 | 1 files updated",
+    "last_commit": "ddd5631 Auto-sync 2026-04-09 03:15 | 3 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
