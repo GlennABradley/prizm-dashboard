@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-09T05:41:01.495310+00:00",
+  "collected_at": "2026-04-09T05:42:01.436147+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "2d 7h 9m",
+    "uptime": "2d 7h 10m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 16.7,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 305,
+      "used_mb": 275,
       "total_mb": 961,
-      "pct": 31.7
+      "pct": 28.6
     },
     "disk": {
       "used_gb": 7.3,
@@ -32,24 +32,41 @@
         "status": "never"
       },
       "autograde": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-08 12:00 UTC",
+        "status": "stale",
+        "duration": 42.0,
+        "summary": {
+          "picks_graded": 0
+        }
       },
       "morningbriefing": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-09 03:14 UTC",
+        "status": "ok",
+        "duration": 95.0,
+        "summary": {}
       },
       "validator": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-09 03:15 UTC",
+        "status": "ok",
+        "duration": 2.0,
+        "summary": {
+          "passed": 14
+        }
       },
       "lategrade": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-09 04:06 UTC",
+        "status": "ok",
+        "duration": 41.5,
+        "summary": {
+          "picks_graded": 83,
+          "hits": 46
+        }
       },
       "hyperchamber": {
-        "last_run": null,
-        "status": "never"
+        "last_run": "2026-04-09 03:12 UTC",
+        "status": "ok",
+        "duration": 18.0,
+        "summary": {}
       },
       "pp_push": {
         "last_run": null,
@@ -65,7 +82,7 @@
     "last_run_date": "2026-04-08"
   },
   "git": {
-    "last_commit": "4b47327 Auto-sync 2026-04-09 05:40 | 1 files updated",
+    "last_commit": "37f87b4 fix+enhance: focus set updated from 415 picks (RBI r",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
