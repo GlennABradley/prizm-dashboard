@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T23:55:05.416433+00:00",
+  "generated_at": "2026-04-09T00:00:05.482697+00:00",
   "schema": 2,
   "power": {
     "tier_a": 421,
@@ -21,7 +21,7 @@
     "api_spend": 1.06
   },
   "today": {
-    "date": "2026-04-08",
+    "date": "2026-04-09",
     "pp_fetched": 0,
     "ud_fetched": 0,
     "total_fetched": 0,
@@ -30,7 +30,7 @@
     "api_cost": 0.0
   },
   "meta": {
-    "days_active": 8,
+    "days_active": 9,
     "first_run": "2026-03-31",
     "last_run": "2026-04-08"
   },
