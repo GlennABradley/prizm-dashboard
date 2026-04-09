@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-09T22:39:01.168722+00:00",
+  "collected_at": "2026-04-09T22:42:01.606217+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "3d 0h 7m",
+    "uptime": "3d 0h 10m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 4.0,
     "ram": {
-      "used_mb": 269,
+      "used_mb": 290,
       "total_mb": 961,
-      "pct": 28.0
+      "pct": 30.2
     },
     "disk": {
       "used_gb": 7.4,
@@ -89,7 +89,7 @@
     "last_run_date": "2026-04-09"
   },
   "git": {
-    "last_commit": "d509d4b Auto-sync 2026-04-09 22:30 | 3 files updated",
+    "last_commit": "2fb60b7 fix: prizm_intel_html injected into email pick card ",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
