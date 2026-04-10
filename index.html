@@ -324,7 +324,7 @@ body{
   <div class="g3 mb3">
     <div class="c-cell"><span class="c-num" id="c-fetched">51,384</span><span class="c-lbl">Total Props Fetched (All-Time)</span></div>
     <div class="c-cell"><span class="c-num" id="c-shadow" title="Props that passed Gate 1 and entered analysis pipeline — cumulative all-time" style="color:var(--purple)">42,135</span><span class="c-lbl">Shadow Analyses (All-Time)</span></div>
-    <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">29,447</span><span class="c-lbl">Virtual Training Slips</span></div>
+    <div class="c-cell"><span class="c-num" id="c-slips" style="color:var(--purple)">30,447</span><span class="c-lbl">Virtual Training Slips</span></div>
     <div class="c-cell" style="border-color:rgba(0,255,153,.3)"><span class="c-num" id="c-graded" style="color:var(--green)">465</span><span class="c-lbl">Outcomes Graded</span></div>
     <div class="c-cell"><span class="c-num" id="c-sessions">11</span><span class="c-lbl">Analysis Sessions Run</span></div>
     <div class="c-cell" style="border-color:rgba(0,217,255,.3)"><span class="c-num" id="c-platforms" style="color:var(--blue)">2</span><span class="c-lbl">Platforms Active</span></div>
@@ -470,7 +470,7 @@ body{
 
   <!-- Row 3: System health -->
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">~15-20m</span>
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--green);display:block">~12m</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Run Speed</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">SpeedCore v3 active</div>
   </div>
@@ -569,7 +569,7 @@ const STATS = {
   "picks_qualified": 57,
   "tier_a_picks": 534,
   "shadow_tracked": 42135,
-  "slips_generated": 29447,
+  "slips_generated": 30447,
   "outcomes_graded": 465,
   "sessions_run": 11,
   "api_spend": 2.51,
@@ -582,17 +582,6 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
-    "underdog": {
-      "fetched": 0,
-      "analyzed": 25089,
-      "qualified": 474,
-      "shadow": 25089,
-      "tier_a": 474,
-      "picks_logged": 235,
-      "graded": 231,
-      "hits": 122,
-      "win_rate_pct": 52.8
-    },
     "draftkings_dfs": {
       "fetched": 0,
       "analyzed": 0,
@@ -610,10 +599,21 @@ const STATS = {
       "qualified": 195,
       "shadow": 17046,
       "tier_a": 195,
-      "picks_logged": 235,
+      "picks_logged": 252,
       "graded": 234,
       "hits": 94,
       "win_rate_pct": 40.2
+    },
+    "underdog": {
+      "fetched": 0,
+      "analyzed": 25089,
+      "qualified": 474,
+      "shadow": 25089,
+      "tier_a": 474,
+      "picks_logged": 238,
+      "graded": 231,
+      "hits": 122,
+      "win_rate_pct": 52.8
     }
   },
   "tier_b": 2268,
@@ -825,6 +825,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 })();
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 10, 2026 at 02:11 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 10, 2026 at 02:12 PM ET</div>
 </body>
 </html>
