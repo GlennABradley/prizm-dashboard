@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-10T17:33:01.977259+00:00",
+  "collected_at": "2026-04-10T17:36:01.827990+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "3d 19h 1m",
+    "uptime": "3d 19h 4m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 298,
+      "used_mb": 307,
       "total_mb": 961,
-      "pct": 31.0
+      "pct": 31.9
     },
     "disk": {
       "used_gb": 7.4,
@@ -89,7 +89,7 @@
     "last_run_date": "2026-04-10"
   },
   "git": {
-    "last_commit": "2a4fbd7 Auto-sync 2026-04-10 17:30 | 1 files updated",
+    "last_commit": "b905187 feat: sport-native intelligence system \u2014 NHL/MLB/NBA",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
