@@ -1,95 +1,51 @@
 {
-  "preflight_failure": {
-    "ran_at": "2026-04-08T21:11:16.829585",
-    "errors": [
-      "\u274c ABORT: Budget exhausted. $12.00/$7.00 spent. Only $0.00 remaining \u2014 not enough for a meaningful run."
-    ],
-    "warnings": []
-  },
-  "test_job": {
-    "ran_at": "2026-04-09 04:21 UTC",
-    "status": "success",
-    "duration_sec": 1.0,
-    "summary": {
-      "test": true
-    }
-  },
   "autograde": {
-    "ran_at": "2026-04-09 12:00 UTC",
     "status": "success",
-    "duration_sec": 3.0,
-    "summary": {
-      "picks_graded": 0
-    }
-  },
-  "hyperchamber": {
-    "ran_at": "2026-04-09 12:05 UTC",
-    "status": "success",
-    "duration_sec": 18.0,
+    "ran_at": "2026-04-10 12:00:08",
+    "duration_sec": 6.8,
     "summary": {}
   },
-  "morningbriefing": {
-    "ran_at": "2026-04-09 12:07 UTC",
+  "hyperchamber": {
     "status": "success",
-    "duration_sec": 136.0,
+    "ran_at": "2026-04-10 12:05:03",
+    "duration_sec": 2.1,
     "summary": {}
   },
   "validator": {
-    "ran_at": "2026-04-09 16:47 UTC",
     "status": "success",
-    "duration_sec": 28.1,
-    "summary": {
-      "passed": 14,
-      "warnings": 9,
-      "errors": 0
-    }
-  },
-  "oddsbatch": {
-    "ran_at": "2026-04-09 14:26 UTC",
-    "status": "success",
-    "duration_sec": 1.4,
-    "summary": {
-      "n_players": 147,
-      "credits": 19213
-    }
-  },
-  "lategrade": {
-    "ran_at": "2026-04-09 04:06 UTC",
-    "status": "success",
-    "duration_sec": 41.5,
-    "summary": {
-      "picks_graded": 83,
-      "hits": 46
-    }
-  },
-  "microcal": {
-    "ran_at": "2026-04-09 12:15 UTC",
-    "status": "success",
-    "duration_sec": 0.3,
-    "summary": {}
-  },
-  "insights": {
-    "ran_at": "2026-04-09 16:28 UTC",
-    "status": "success",
-    "duration_sec": 0.1,
-    "summary": {
-      "trajectory": "IMPROVING",
-      "overall_wr": 0.44
-    }
-  },
-  "pp_prefetch": {
-    "ran_at": "2026-04-09 13:40 UTC",
-    "status": "success",
-    "duration_sec": 5.0,
+    "ran_at": "2026-04-10 13:01:06",
+    "duration_sec": 64.7,
     "summary": {}
   },
   "dailyrun": {
-    "ran_at": "2026-04-09 17:00 UTC",
     "status": "success",
-    "duration_sec": 1230.0,
-    "summary": {
-      "picks_qualified": 70,
-      "api_spend": 5.189
-    }
-  }
+    "ran_at": "2026-04-10 22:04:56",
+    "duration_sec": 294.7,
+    "summary": {}
+  },
+  "lategrade": {
+    "status": "success",
+    "ran_at": "2026-04-10 03:30:33",
+    "duration_sec": 31.8,
+    "summary": {}
+  },
+  "morningbriefing": {
+    "status": "success",
+    "ran_at": "2026-04-10 12:09:18",
+    "duration_sec": 136.6,
+    "summary": {}
+  },
+  "oddsbatch": {
+    "status": "success",
+    "ran_at": "2026-04-10 13:30:04",
+    "duration_sec": 2.5,
+    "summary": {}
+  },
+  "pp_prefetch": {
+    "status": "success",
+    "ran_at": "2026-04-10 21:40:06",
+    "duration_sec": 4.7,
+    "summary": {}
+  },
+  "_generated_at": "2026-04-11T02:42:06.936715+00:00"
 }
