@@ -62,5 +62,11 @@
     "ran_at": "2026-04-11 12:15:02",
     "duration_sec": 0.3,
     "summary": {}
+  },
+  "insights": {
+    "status": "success",
+    "ran_at": "2026-04-11 12:30:02",
+    "duration_sec": 0.3,
+    "summary": {}
   }
 }
