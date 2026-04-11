@@ -45,8 +45,8 @@
   },
   "pp_prefetch": {
     "status": "success",
-    "ran_at": "2026-04-11 16:40:06",
-    "duration_sec": 5.0,
+    "ran_at": "2026-04-11 21:40:06",
+    "duration_sec": 4.9,
     "summary": {}
   },
   "_generated_at": "2026-04-11T02:42:06.936715+00:00",
