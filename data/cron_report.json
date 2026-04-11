@@ -39,8 +39,8 @@
   },
   "oddsbatch": {
     "status": "success",
-    "ran_at": "2026-04-11 13:30:03",
-    "duration_sec": 1.2,
+    "ran_at": "2026-04-11 14:35:04",
+    "duration_sec": 0.4,
     "summary": {}
   },
   "pp_prefetch": {
