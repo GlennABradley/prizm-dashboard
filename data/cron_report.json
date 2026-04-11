@@ -2,8 +2,10 @@
   "autograde": {
     "status": "success",
     "ran_at": "2026-04-11 13:17:12",
-    "duration_sec": 1.2,
-    "summary": {}
+    "duration_sec": 1.7,
+    "summary": {
+      "note": "8AM failed (RecursionError), 1:17PM succeeded after fix"
+    }
   },
   "hyperchamber": {
     "status": "success",
@@ -24,10 +26,12 @@
     "summary": {}
   },
   "lategrade": {
-    "status": "success",
-    "ran_at": "2026-04-10 03:30:33",
+    "status": "error",
+    "ran_at": "2026-04-11 03:38:35",
     "duration_sec": 31.8,
-    "summary": {}
+    "summary": {
+      "error": "RecursionError in grade_ungraded_picks (fixed in this session)"
+    }
   },
   "morningbriefing": {
     "status": "success",
@@ -54,7 +58,7 @@
     "duration_sec": 294.7,
     "summary": {}
   },
-  "_updated_at": "2026-04-11T12:12:08.889746+00:00",
+  "_updated_at": "2026-04-11T13:27:38.055768+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-11 12:15:02",
