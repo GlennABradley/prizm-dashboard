@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-11T14:33:01.570749+00:00",
+  "collected_at": "2026-04-11T14:36:01.748612+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "4d 16h 1m",
+    "uptime": "4d 16h 4m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,11 +14,11 @@
     ]
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 20.0,
     "ram": {
-      "used_mb": 356,
+      "used_mb": 490,
       "total_mb": 961,
-      "pct": 37.0
+      "pct": 51.0
     },
     "disk": {
       "used_gb": 7.4,
@@ -42,15 +42,15 @@
         "summary": {}
       },
       "morningbriefing": {
-        "last_run": "2026-04-11 14:21:16",
+        "last_run": "2026-04-11 14:33:54",
         "status": "ok",
-        "duration": 133.8,
+        "duration": 134.2,
         "summary": {}
       },
       "validator": {
-        "last_run": "2026-04-11 14:22:36",
+        "last_run": "2026-04-11 14:35:03",
         "status": "ok",
-        "duration": 74.3,
+        "duration": 63.6,
         "summary": {}
       },
       "lategrade": {
@@ -75,7 +75,7 @@
   },
   "prizm": {
     "sessions_run": 15,
-    "picks_qualified": 536,
+    "picks_qualified": 537,
     "budget_spent": 0,
     "budget_cap": 12.0,
     "last_run_date": "2026-04-11"
