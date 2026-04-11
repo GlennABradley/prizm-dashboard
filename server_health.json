@@ -1,24 +1,25 @@
 {
-  "collected_at": "2026-04-11T17:09:01.126912+00:00",
+  "collected_at": "2026-04-11T17:12:01.491351+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "4d 18h 37m",
+    "uptime": "4d 18h 40m",
     "python": "3.12.3"
   },
   "health": {
     "status": "yellow",
     "alerts": [
+      "CPU 100.0%",
       "Cron fails: lategrade"
     ]
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 698,
+      "used_mb": 666,
       "total_mb": 961,
-      "pct": 72.6
+      "pct": 69.3
     },
     "disk": {
       "used_gb": 7.4,
@@ -74,14 +75,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 0,
-    "picks_qualified": 0,
-    "budget_spent": 10.83,
+    "sessions_run": 17,
+    "picks_qualified": 52,
+    "budget_spent": 11.28,
     "budget_cap": 7.0,
-    "last_run_date": null
+    "last_run_date": "2026-04-11"
   },
   "git": {
-    "last_commit": "9338b98 feat: comprehensive PRIZM improvements",
+    "last_commit": "08e4a29 Auto-sync 2026-04-11 17:10 | 4 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
