@@ -19,8 +19,8 @@
   },
   "dailyrun": {
     "status": "success",
-    "ran_at": "2026-04-11 16:20:48",
-    "duration_sec": 805.3,
+    "ran_at": "2026-04-11 17:12:38",
+    "duration_sec": 756.3,
     "summary": {}
   },
   "lategrade": {
@@ -95,8 +95,8 @@
   },
   "dailyrun_1pm": {
     "status": "success",
-    "ran_at": "2026-04-11 16:20:48",
-    "duration_sec": 805.3,
+    "ran_at": "2026-04-11 17:12:38",
+    "duration_sec": 756.3,
     "summary": {}
   }
 }
