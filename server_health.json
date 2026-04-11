@@ -1,24 +1,25 @@
 {
-  "collected_at": "2026-04-11T19:42:01.549751+00:00",
+  "collected_at": "2026-04-11T19:45:01.605625+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "4d 21h 10m",
+    "uptime": "4d 21h 13m",
     "python": "3.12.3"
   },
   "health": {
     "status": "yellow",
     "alerts": [
+      "CPU 100.0%",
       "Cron fails: lategrade"
     ]
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 307,
+      "used_mb": 287,
       "total_mb": 961,
-      "pct": 31.9
+      "pct": 29.9
     },
     "disk": {
       "used_gb": 7.4,
@@ -81,7 +82,7 @@
     "last_run_date": "2026-04-11"
   },
   "git": {
-    "last_commit": "ebb1a3a Auto-sync 2026-04-11 19:30 | 8 files updated",
+    "last_commit": "98e22f8 fix: 98% QA \u2014 Python 3.11 f-string quotes, compute_t",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
