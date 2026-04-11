@@ -1,14 +1,16 @@
 {
   "autograde": {
-    "status": "success",
-    "ran_at": "2026-04-10 12:00:08",
-    "duration_sec": 6.8,
-    "summary": {}
+    "status": "error",
+    "ran_at": "2026-04-11 12:00:02",
+    "duration_sec": 10.0,
+    "summary": {
+      "error": "No MLB results found \u2014 API may be unavailable"
+    }
   },
   "hyperchamber": {
     "status": "success",
-    "ran_at": "2026-04-10 12:05:03",
-    "duration_sec": 2.1,
+    "ran_at": "2026-04-11 12:05:04",
+    "duration_sec": 2.7,
     "summary": {}
   },
   "validator": {
@@ -31,8 +33,8 @@
   },
   "morningbriefing": {
     "status": "success",
-    "ran_at": "2026-04-10 12:09:18",
-    "duration_sec": 136.6,
+    "ran_at": "2026-04-11 12:09:15",
+    "duration_sec": 134.2,
     "summary": {}
   },
   "oddsbatch": {
@@ -53,5 +55,6 @@
     "ran_at": "2026-04-10 22:04:56",
     "duration_sec": 294.7,
     "summary": {}
-  }
+  },
+  "_updated_at": "2026-04-11T12:12:08.889746+00:00"
 }
