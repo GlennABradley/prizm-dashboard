@@ -59,8 +59,8 @@
   "_updated_at": "2026-04-11T13:27:38.055768+00:00",
   "microcal": {
     "status": "success",
-    "ran_at": "2026-04-11 12:15:02",
-    "duration_sec": 0.3,
+    "ran_at": "2026-04-11 14:21:18",
+    "duration_sec": 0.1,
     "summary": {}
   },
   "insights": {
