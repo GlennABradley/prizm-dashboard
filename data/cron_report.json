@@ -1,102 +1,102 @@
 {
   "autograde": {
-    "ran_at": "2026-04-07 13:34 UTC",
     "status": "success",
-    "duration_sec": 22,
-    "summary": {
-      "picks_graded": 7,
-      "hits": 4,
-      "misses": 3,
-      "win_rate": 57.1,
-      "no_data": 0,
-      "chamber_by_date": {
-        "2026-04-06": {
-          "slips": 24,
-          "hits": 7,
-          "wr_2pick": 31.6,
-          "wr_3pick": 25.0
-        }
-      },
-      "self_improvements": [
-        "NHL UNDER edge confirmed",
-        "NBA rebounds:OVER flagged as BLACKLIST"
-      ],
-      "gate_updates": {
-        "nba_OVER": "raised to 92 (WR=24.3%, n=37)"
-      },
-      "overall_wr": 43.8,
-      "total_graded": 242,
-      "brier": 0.362,
-      "top_edge_segment": "nhl:UNDER 71.4% (n=21)"
-    }
+    "ran_at": "2026-04-11 14:31:37",
+    "duration_sec": 1.2,
+    "summary": {}
+  },
+  "hyperchamber": {
+    "status": "success",
+    "ran_at": "2026-04-11 14:31:39",
+    "duration_sec": 1.5,
+    "summary": {}
+  },
+  "validator": {
+    "status": "success",
+    "ran_at": "2026-04-11 14:35:03",
+    "duration_sec": 63.6,
+    "summary": {}
   },
   "dailyrun": {
-    "ran_at": "2026-04-07 22:37 UTC",
     "status": "success",
-    "duration_sec": 702,
-    "summary": {
-      "picks_qualified": 22,
-      "api_spend": 2.79,
-      "pipeline_complete": true,
-      "run_time_sec": 702,
-      "sports": {
-        "mlb": 16,
-        "nhl": 6
-      },
-      "direction": "OVER:22"
-    }
+    "ran_at": "2026-04-11 17:12:38",
+    "duration_sec": 756.3,
+    "summary": {}
   },
   "lategrade": {
-    "ran_at": "2026-04-07 22:23 UTC",
-    "status": "success",
-    "duration_sec": 8,
+    "status": "error",
+    "ran_at": "2026-04-11 03:38:35",
+    "duration_sec": 31.8,
     "summary": {
-      "picks_graded": 0,
-      "hits": 0
+      "error": "RecursionError in grade_ungraded_picks (fixed in this session)"
     }
   },
   "morningbriefing": {
-    "ran_at": "2026-04-07 22:23 UTC",
     "status": "success",
-    "duration_sec": 3,
-    "summary": {
-      "sent": true
-    }
-  },
-  "validator": {
-    "ran_at": "2026-04-07 22:23 UTC",
-    "status": "success",
-    "duration_sec": 38,
-    "summary": {
-      "passed": 141,
-      "total_checks": 141
-    }
-  },
-  "hyperchamber": {
-    "ran_at": "2026-04-07 22:23 UTC",
-    "status": "success",
-    "duration_sec": 3,
-    "summary": {
-      "slips_generated": 0
-    }
-  },
-  "preflight_failure": {
-    "ran_at": "2026-04-08T14:33:47.171164",
-    "errors": [
-      "\u274c ABORT: Budget exhausted. $7.00/$7.00 spent. Only $0.00 remaining \u2014 not enough for a meaningful run."
-    ],
-    "warnings": []
-  },
-  "insights": {
-    "status": "success",
-    "ran_at": "2026-04-11 12:30:00",
-    "duration_sec": 0.1,
+    "ran_at": "2026-04-11 14:33:54",
+    "duration_sec": 134.2,
     "summary": {}
   },
   "oddsbatch": {
     "status": "success",
-    "ran_at": "2026-04-11 13:30:02",
+    "ran_at": "2026-04-11 14:35:04",
     "duration_sec": 0.4,
+    "summary": {}
+  },
+  "pp_prefetch": {
+    "status": "success",
+    "ran_at": "2026-04-11 16:40:06",
+    "duration_sec": 5.0,
+    "summary": {}
+  },
+  "_generated_at": "2026-04-11T02:42:06.936715+00:00",
+  "dailyrun_6pm": {
+    "status": "success",
+    "ran_at": "2026-04-10 22:04:56",
+    "duration_sec": 294.7,
+    "summary": {}
+  },
+  "_updated_at": "2026-04-11T13:27:38.055768+00:00",
+  "microcal": {
+    "status": "success",
+    "ran_at": "2026-04-11 14:33:56",
+    "duration_sec": 0.1,
+    "summary": {}
+  },
+  "insights": {
+    "status": "success",
+    "ran_at": "2026-04-11 14:33:57",
+    "duration_sec": 0.1,
+    "summary": {}
+  },
+  "study": {
+    "status": "success",
+    "ran_at": "2026-04-11 14:33:57",
+    "duration_sec": 0.4,
+    "summary": {}
+  },
+  "prop_analyst": {
+    "status": "success",
+    "ran_at": "2026-04-11 14:33:58",
+    "duration_sec": 0.4,
+    "summary": {}
+  },
+  "feedback": {
+    "status": "success",
+    "ran_at": "2026-04-11 14:33:55",
+    "duration_sec": 0.4,
+    "summary": {}
+  },
+  "dailyrun_10am": {
+    "status": "success",
+    "ran_at": "2026-04-11 14:49:07",
+    "duration_sec": 830.2,
+    "summary": {}
+  },
+  "dailyrun_1pm": {
+    "status": "success",
+    "ran_at": "2026-04-11 17:12:38",
+    "duration_sec": 756.3,
     "summary": {}
   }
 }
