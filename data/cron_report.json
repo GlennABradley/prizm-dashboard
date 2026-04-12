@@ -54,7 +54,7 @@
     "duration_sec": 97.9,
     "summary": {}
   },
-  "_updated_at": "2026-04-12T14:06:45.237578+00:00",
+  "_updated_at": "2026-04-12T14:46:51.686158+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-12 12:15:01",
@@ -105,8 +105,8 @@
   },
   "calibrate": {
     "status": "success",
-    "ran_at": "2026-04-12 13:00:07",
-    "duration_sec": 5.6,
+    "ran_at": "2026-04-12 14:46:51",
+    "duration_sec": 0.1,
     "summary": {}
   }
 }
