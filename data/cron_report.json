@@ -24,12 +24,10 @@
     "summary": {}
   },
   "lategrade": {
-    "status": "error",
-    "ran_at": "2026-04-11 03:38:35",
-    "duration_sec": 31.8,
-    "summary": {
-      "error": "RecursionError in grade_ungraded_picks (fixed in this session)"
-    }
+    "status": "success",
+    "ran_at": "2026-04-12 03:30:11",
+    "duration_sec": 8.9,
+    "summary": {}
   },
   "morningbriefing": {
     "status": "success",
