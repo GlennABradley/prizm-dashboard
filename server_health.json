@@ -1,22 +1,24 @@
 {
-  "collected_at": "2026-04-12T22:57:01.063960+00:00",
+  "collected_at": "2026-04-12T23:00:02.053629+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6d 0h 25m",
+    "uptime": "6d 0h 28m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "green",
-    "alerts": []
+    "status": "yellow",
+    "alerts": [
+      "CPU 100.0%"
+    ]
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 277,
+      "used_mb": 292,
       "total_mb": 961,
-      "pct": 28.8
+      "pct": 30.4
     },
     "disk": {
       "used_gb": 7.5,
@@ -77,7 +79,7 @@
     "last_run_date": "2026-04-12"
   },
   "git": {
-    "last_commit": "7ea2a76 Auto-sync 2026-04-12 22:45 | 1 files updated",
+    "last_commit": "78940da fix: _parse_start_time ET timezone \u2014 PP naive dateti",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
