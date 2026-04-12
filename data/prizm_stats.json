@@ -167,13 +167,13 @@
   "mlb_over_wr": 0.4305,
   "nba_wr": 0.3962,
   "sessions_run": 19,
-  "props_fetched": 53354,
+  "props_fetched": 51537,
   "days_active": 13,
   "first_run_date": "2026-03-31",
-  "budget_today": 0.14,
-  "bankroll": 262089.67,
+  "budget_today": 0.0,
+  "bankroll": 84707.48,
   "power_level": 632,
   "power_level_name": "Super Saiyan Blue Evolved",
-  "generated_at": "2026-04-12T12:52:47.829067+00:00",
+  "generated_at": "2026-04-12T13:03:46.736117+00:00",
   "integrity_ok": true
 }
