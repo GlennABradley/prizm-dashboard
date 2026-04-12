@@ -1,12 +1,12 @@
 {
-  "tier_a_qualified": 590,
-  "tier_a_raw": 725,
-  "outcomes_graded": 439,
-  "ungraded": 200,
-  "overall_wr": 0.5421,
-  "overall_wr_pct": 54.2,
-  "hits": 238,
-  "misses": 201,
+  "tier_a_qualified": 632,
+  "tier_a_raw": 767,
+  "outcomes_graded": 626,
+  "ungraded": 13,
+  "overall_wr": 0.5288,
+  "overall_wr_pct": 52.9,
+  "hits": 331,
+  "misses": 295,
   "wr_by_sport": {
     "nba_OVER": {
       "n": 53,
@@ -14,9 +14,9 @@
       "wr": 0.3962
     },
     "nhl_UNDER": {
-      "n": 110,
-      "hits": 98,
-      "wr": 0.8909
+      "n": 126,
+      "hits": 113,
+      "wr": 0.8968
     },
     "nba_UNDER": {
       "n": 64,
@@ -24,41 +24,46 @@
       "wr": 0.375
     },
     "nhl_OVER": {
-      "n": 60,
-      "hits": 30,
-      "wr": 0.5
+      "n": 75,
+      "hits": 38,
+      "wr": 0.5067
     },
     "mlb_OVER": {
-      "n": 150,
-      "hits": 63,
-      "wr": 0.42
+      "n": 302,
+      "hits": 130,
+      "wr": 0.4305
+    },
+    "mlb_UNDER": {
+      "n": 6,
+      "hits": 5,
+      "wr": 0.8333
     }
   },
   "wr_by_stat": {
-    "nba:points": {
-      "n": 12,
-      "hits": 6,
-      "wr": 0.5
-    },
-    "nhl:time on ice": {
-      "n": 8,
-      "hits": 4,
-      "wr": 0.5
-    },
-    "nba:pts+rebs+asts": {
+    "nba:pts+asts": {
       "n": 23,
-      "hits": 9,
-      "wr": 0.3913
+      "hits": 12,
+      "wr": 0.5217
     },
     "nba:pts+rebs": {
       "n": 21,
       "hits": 9,
       "wr": 0.4286
     },
-    "nba:pts+asts": {
+    "nba:points": {
+      "n": 12,
+      "hits": 6,
+      "wr": 0.5
+    },
+    "nhl:time on ice": {
+      "n": 10,
+      "hits": 5,
+      "wr": 0.5
+    },
+    "nba:pts+rebs+asts": {
       "n": 23,
-      "hits": 12,
-      "wr": 0.5217
+      "hits": 9,
+      "wr": 0.3913
     },
     "nba:rebounds": {
       "n": 14,
@@ -85,20 +90,20 @@
       "hits": 2,
       "wr": 0.3333
     },
+    "nhl:shots on goal": {
+      "n": 38,
+      "hits": 20,
+      "wr": 0.5263
+    },
     "nhl:hits": {
       "n": 11,
       "hits": 6,
       "wr": 0.5455
     },
-    "nhl:shots on goal": {
-      "n": 24,
-      "hits": 12,
-      "wr": 0.5
-    },
     "mlb:hits+runs+rbis": {
-      "n": 36,
-      "hits": 16,
-      "wr": 0.4444
+      "n": 104,
+      "hits": 43,
+      "wr": 0.4135
     },
     "mlb:singles": {
       "n": 11,
@@ -106,32 +111,37 @@
       "wr": 0.1818
     },
     "mlb:hits": {
-      "n": 71,
-      "hits": 35,
-      "wr": 0.493
+      "n": 145,
+      "hits": 75,
+      "wr": 0.5172
     },
     "nhl:goals": {
-      "n": 97,
-      "hits": 90,
-      "wr": 0.9278
-    },
-    "mlb:total bases": {
-      "n": 11,
-      "hits": 2,
-      "wr": 0.1818
+      "n": 112,
+      "hits": 104,
+      "wr": 0.9286
     },
     "mlb:runs": {
-      "n": 10,
+      "n": 12,
       "hits": 5,
-      "wr": 0.5
+      "wr": 0.4167
     },
     "mlb:runs batted in": {
-      "n": 11,
+      "n": 18,
       "hits": 4,
-      "wr": 0.3636
+      "wr": 0.2222
+    },
+    "mlb:total bases": {
+      "n": 13,
+      "hits": 3,
+      "wr": 0.2308
     }
   },
   "wr_by_conviction": {
+    "60s": {
+      "n": 21,
+      "hits": 11,
+      "wr": 0.5238
+    },
     "90s": {
       "n": 29,
       "hits": 24,
@@ -147,28 +157,23 @@
       "hits": 110,
       "wr": 0.4527
     },
-    "60s": {
-      "n": 21,
-      "hits": 11,
-      "wr": 0.5238
-    },
     "0s": {
-      "n": 73,
-      "hits": 60,
-      "wr": 0.8219
+      "n": 260,
+      "hits": 153,
+      "wr": 0.5885
     }
   },
-  "nhl_under_wr": 0.8909,
-  "mlb_over_wr": 0.42,
+  "nhl_under_wr": 0.8968,
+  "mlb_over_wr": 0.4305,
   "nba_wr": 0.3962,
   "sessions_run": 19,
-  "props_fetched": 53354,
+  "props_fetched": 54810,
   "days_active": 13,
   "first_run_date": "2026-03-31",
-  "budget_today": 0.14,
-  "bankroll": 262089.67,
-  "power_level": 590,
+  "budget_today": 1.23,
+  "bankroll": 84707.48,
+  "power_level": 632,
   "power_level_name": "Super Saiyan Blue Evolved",
-  "generated_at": "2026-04-12T12:32:55.960539+00:00",
+  "generated_at": "2026-04-12T14:06:46.042233+00:00",
   "integrity_ok": true
 }
