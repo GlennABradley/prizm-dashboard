@@ -108,5 +108,12 @@
     "ran_at": "2026-04-12 14:46:51",
     "duration_sec": 0.1,
     "summary": {}
+  },
+  "preflight_failure": {
+    "ran_at": "2026-04-12T21:51:26.031498",
+    "errors": [
+      "\u274c ABORT: Stat-based direction logic missing from prizm_analyzer.py. All PP props will default to OVER \u2014 NHL UNDERs won't be analyzed."
+    ],
+    "warnings": []
   }
 }
