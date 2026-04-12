@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-12T23:00:02.053629+00:00",
+  "collected_at": "2026-04-12T23:03:01.786660+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6d 0h 28m",
+    "uptime": "6d 0h 31m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 292,
+      "used_mb": 318,
       "total_mb": 961,
-      "pct": 30.4
+      "pct": 33.1
     },
     "disk": {
       "used_gb": 7.5,
@@ -30,9 +28,9 @@
     "jobs_installed": 20,
     "last_runs": {
       "dailyrun": {
-        "last_run": "2026-04-12 22:19:50",
+        "last_run": "2026-04-12 23:02:55",
         "status": "ok",
-        "duration": 167.1,
+        "duration": 166.6,
         "summary": {}
       },
       "autograde": {
@@ -72,14 +70,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 27,
+    "sessions_run": 28,
     "picks_qualified": 4,
-    "budget_spent": 0.12,
+    "budget_spent": 0.25,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-12"
   },
   "git": {
-    "last_commit": "78940da fix: _parse_start_time ET timezone \u2014 PP naive dateti",
+    "last_commit": "d710f6d Auto-sync 2026-04-12 23:00 | 1 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
