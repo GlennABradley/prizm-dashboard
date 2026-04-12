@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-12T17:21:01.419383+00:00",
+  "collected_at": "2026-04-12T17:24:01.849517+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "5d 18h 49m",
+    "uptime": "5d 18h 52m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 312,
+      "used_mb": 285,
       "total_mb": 961,
-      "pct": 32.5
+      "pct": 29.7
     },
     "disk": {
       "used_gb": 7.5,
@@ -77,7 +77,7 @@
     "last_run_date": "2026-04-12"
   },
   "git": {
-    "last_commit": "15ff998 Auto-sync 2026-04-12 17:15 | 3 files updated",
+    "last_commit": "c3c59a2 fix: Gate 1h STRUCTURAL_EXPLOIT bypass in prescreene",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
