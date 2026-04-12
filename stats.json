@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-04-12T14:30:04.146618+00:00",
+  "generated_at": "2026-04-12T14:45:03.859721+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 632,
+    "tier_a": 639,
     "tier_b": 2274,
     "tier_c": 38251,
     "tier_d": 969,
     "level_name": "SUPER SAIYAN GOD \ud83d\udd34",
-    "shadow_total": 42261
+    "shadow_total": 42268
   },
   "alltime": {
     "props_fetched": 54810,
     "pp_fetched": 54810,
     "ud_fetched": 7702,
     "analyzed": 1900,
-    "qualified": 632,
+    "qualified": 639,
     "slips_generated": 40247,
     "outcomes_graded": 626,
     "sessions": 19,
