@@ -96,5 +96,11 @@
     "ran_at": "2026-04-11 17:12:38",
     "duration_sec": 756.3,
     "summary": {}
+  },
+  "shadow_grader": {
+    "status": "success",
+    "ran_at": "2026-04-12 03:52:50",
+    "duration_sec": 468.3,
+    "summary": {}
   }
 }
