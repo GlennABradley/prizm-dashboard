@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-12T16:24:01.431501+00:00",
+  "collected_at": "2026-04-12T16:27:01.464424+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "5d 17h 52m",
+    "uptime": "5d 17h 55m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 273,
+      "used_mb": 444,
       "total_mb": 961,
-      "pct": 28.4
+      "pct": 46.2
     },
     "disk": {
       "used_gb": 7.5,
@@ -70,14 +70,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 21,
+    "sessions_run": 22,
     "picks_qualified": 0,
     "budget_spent": 3.78,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-12"
   },
   "git": {
-    "last_commit": "09d61ba Auto-sync 2026-04-12 16:15 | 1 files updated",
+    "last_commit": "8b99d80 fix: Gate 1i \u2014 direction-aware threshold + STRUCTURA",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
