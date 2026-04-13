@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T23:00:03.641393+00:00",
+  "generated_at": "2026-04-13T23:15:02.806549+00:00",
   "schema": 2,
   "power": {
     "tier_a": 639,
@@ -27,7 +27,7 @@
     "total_fetched": 20260,
     "sessions": 6,
     "qualified": 25,
-    "api_cost": 0.822
+    "api_cost": 0.0
   },
   "meta": {
     "days_active": 13,
