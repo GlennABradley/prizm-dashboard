@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-13T21:06:01.271215+00:00",
+  "collected_at": "2026-04-13T21:09:01.906264+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6d 22h 34m",
+    "uptime": "6d 22h 37m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 629,
+      "used_mb": 632,
       "total_mb": 961,
-      "pct": 65.5
+      "pct": 65.8
     },
     "disk": {
       "used_gb": 7.6,
@@ -72,12 +72,12 @@
   "prizm": {
     "sessions_run": 40,
     "picks_qualified": 336,
-    "budget_spent": 0.31,
+    "budget_spent": 0.4,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-13"
   },
   "git": {
-    "last_commit": "31b3193 fix: edge screener direction inference + live stats ",
+    "last_commit": "b5c147b feat: WR-first scoring \u2014 historical WR now dominates",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
