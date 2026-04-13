@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-13T17:45:02.036428+00:00",
+  "collected_at": "2026-04-13T17:48:01.562845+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6d 19h 13m",
+    "uptime": "6d 19h 16m",
     "python": "3.12.3"
   },
   "health": {
@@ -16,14 +16,14 @@
   "resources": {
     "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 286,
+      "used_mb": 646,
       "total_mb": 961,
-      "pct": 29.8
+      "pct": 67.2
     },
     "disk": {
       "used_gb": 7.6,
       "total_gb": 35.3,
-      "pct": 21.6
+      "pct": 21.5
     }
   },
   "cron": {
@@ -79,7 +79,7 @@
     "last_run_date": "2026-04-13"
   },
   "git": {
-    "last_commit": "37666a6 fix: debate cap + split slot pools + THE LINE qualif",
+    "last_commit": "52d53b7 Auto-sync 2026-04-13 17:45 | 1 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
