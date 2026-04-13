@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T18:12:36.756688+00:00",
+  "generated_at": "2026-04-13T18:15:05.131370+00:00",
   "schema": 2,
   "power": {
     "tier_a": 639,
@@ -15,7 +15,7 @@
     "ud_fetched": 6247,
     "analyzed": 1896,
     "qualified": 639,
-    "slips_generated": 42811,
+    "slips_generated": 42812,
     "outcomes_graded": 626,
     "sessions": 37,
     "api_spend": 4.23
