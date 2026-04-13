@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-13T14:54:01.726020+00:00",
+  "collected_at": "2026-04-13T14:57:01.126680+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6d 16h 22m",
+    "uptime": "6d 16h 25m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 16.7,
     "ram": {
-      "used_mb": 320,
+      "used_mb": 484,
       "total_mb": 961,
-      "pct": 33.3
+      "pct": 50.4
     },
     "disk": {
       "used_gb": 7.6,
@@ -70,14 +70,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 34,
-    "picks_qualified": 4,
-    "budget_spent": 0.04,
-    "budget_cap": 7.0,
+    "sessions_run": 35,
+    "picks_qualified": 5,
+    "budget_spent": 0,
+    "budget_cap": 12.0,
     "last_run_date": "2026-04-13"
   },
   "git": {
-    "last_commit": "dc12326 Auto-sync 2026-04-13 14:45 | 1 files updated",
+    "last_commit": "25e6faf feat: adversarial-first architecture + parlay god en",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
