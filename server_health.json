@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-13T19:09:01.967051+00:00",
+  "collected_at": "2026-04-13T19:12:01.064874+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6d 20h 37m",
+    "uptime": "6d 20h 40m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 271,
+      "used_mb": 267,
       "total_mb": 961,
-      "pct": 28.2
+      "pct": 27.8
     },
     "disk": {
       "used_gb": 7.6,
@@ -77,7 +77,7 @@
     "last_run_date": "2026-04-13"
   },
   "git": {
-    "last_commit": "78bfede fix: edge screener + STEAM honest conviction",
+    "last_commit": "f47b773 fix: edge screener + debate pool \u2014 more picks, less ",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
