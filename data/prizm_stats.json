@@ -166,39 +166,39 @@
   "nhl_under_wr": 0.8968,
   "mlb_over_wr": 0.4305,
   "nba_wr": 0.3962,
-  "sessions_run": 33,
-  "props_fetched": 54776,
+  "sessions_run": 34,
+  "props_fetched": 57727,
   "days_active": 14,
   "first_run_date": "2026-03-31",
-  "budget_today": 0.0,
+  "budget_today": 0.04,
   "bankroll": 84707.48,
   "power_level": 639,
   "power_level_name": "Super Saiyan Blue Evolved",
-  "generated_at": "2026-04-13T05:09:06.704325+00:00",
+  "generated_at": "2026-04-13T14:07:48.716413+00:00",
   "integrity_ok": true,
   "tier_a_picks": 639,
-  "shadow_tracked": 42403,
-  "tier_b": 2410,
-  "tier_c": 38335,
+  "shadow_tracked": 42543,
+  "tier_b": 2548,
+  "tier_c": 38337,
   "tier_d": 1019,
-  "slips_generated": 41247,
-  "last_run": "2026-04-13 05:09",
-  "api_spend": 0.0,
+  "slips_generated": 41811,
+  "last_run": "2026-04-13 14:07",
+  "api_spend": 0.04,
   "by_platform": {
     "prizepicks": {
-      "analyzed": 147,
+      "analyzed": 266,
       "qualified": 0,
       "graded": 0,
       "hits": 0,
       "wr": 0
     },
     "underdog": {
-      "analyzed": 1453,
+      "analyzed": 2239,
       "qualified": 0,
       "graded": 0,
       "hits": 0,
       "wr": 0
     }
   },
-  "props_analyzed": 24
+  "props_analyzed": 32
 }
