@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-13T20:54:01.808049+00:00",
+  "collected_at": "2026-04-13T20:57:01.451183+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6d 22h 22m",
+    "uptime": "6d 22h 25m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 668,
+      "used_mb": 634,
       "total_mb": 961,
-      "pct": 69.5
+      "pct": 66.0
     },
     "disk": {
       "used_gb": 7.6,
@@ -70,14 +70,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 39,
-    "picks_qualified": 335,
-    "budget_spent": 0.54,
+    "sessions_run": 40,
+    "picks_qualified": 336,
+    "budget_spent": 0.02,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-13"
   },
   "git": {
-    "last_commit": "73c9dda feat: agent-first diversity \u2014 let STEAM/FADE/THE LIN",
+    "last_commit": "31b3193 fix: edge screener direction inference + live stats ",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
