@@ -1,22 +1,24 @@
 {
-  "collected_at": "2026-04-13T22:57:01.409647+00:00",
+  "collected_at": "2026-04-13T23:00:02.028078+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "7d 0h 25m",
+    "uptime": "7d 0h 28m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "green",
-    "alerts": []
+    "status": "yellow",
+    "alerts": [
+      "CPU 100.0%"
+    ]
   },
   "resources": {
-    "cpu_pct": 3.9,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 267,
+      "used_mb": 278,
       "total_mb": 961,
-      "pct": 27.8
+      "pct": 28.9
     },
     "disk": {
       "used_gb": 7.6,
@@ -25,7 +27,7 @@
     }
   },
   "cron": {
-    "jobs_installed": 20,
+    "jobs_installed": 22,
     "last_runs": {
       "dailyrun": {
         "last_run": "2026-04-13 22:03:55",
@@ -77,7 +79,7 @@
     "last_run_date": "2026-04-13"
   },
   "git": {
-    "last_commit": "8dfad86 fix: raise LINE cap 30\u219250, prevent good props gettin",
+    "last_commit": "f43ec6f feat: PRIZM Elite Intelligence Architecture v2.0",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
