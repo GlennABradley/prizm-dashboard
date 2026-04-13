@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-13T00:39:01.241093+00:00",
+  "collected_at": "2026-04-13T00:42:01.851069+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "6d 2h 7m",
+    "uptime": "6d 2h 10m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 594,
+      "used_mb": 298,
       "total_mb": 961,
-      "pct": 61.8
+      "pct": 31.0
     },
     "disk": {
       "used_gb": 7.5,
@@ -28,9 +28,9 @@
     "jobs_installed": 20,
     "last_runs": {
       "dailyrun": {
-        "last_run": "2026-04-13 00:17:09",
+        "last_run": "2026-04-13 00:39:31",
         "status": "ok",
-        "duration": 184.9,
+        "duration": 199.8,
         "summary": {}
       },
       "autograde": {
@@ -70,11 +70,11 @@
     }
   },
   "prizm": {
-    "sessions_run": 31,
-    "picks_qualified": 5,
-    "budget_spent": 0.28,
+    "sessions_run": 0,
+    "picks_qualified": 0,
+    "budget_spent": 0.39,
     "budget_cap": 7.0,
-    "last_run_date": "2026-04-12"
+    "last_run_date": null
   },
   "git": {
     "last_commit": "b926af3 fix: unlock picks \u2014 Gate 1i stat-specific thresholds",
