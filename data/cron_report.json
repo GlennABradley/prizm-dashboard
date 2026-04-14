@@ -37,8 +37,8 @@
   },
   "oddsbatch": {
     "status": "success",
-    "ran_at": "2026-04-13 13:30:02",
-    "duration_sec": 0.6,
+    "ran_at": "2026-04-14 13:30:02",
+    "duration_sec": 1.1,
     "summary": {}
   },
   "pp_prefetch": {
@@ -54,7 +54,7 @@
     "duration_sec": 233.9,
     "summary": {}
   },
-  "_updated_at": "2026-04-14T13:15:07.991203+00:00",
+  "_updated_at": "2026-04-14T13:30:02.924233+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-14 12:15:02",
