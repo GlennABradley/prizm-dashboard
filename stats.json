@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T13:00:05.851096+00:00",
+  "generated_at": "2026-04-14T13:15:05.136067+00:00",
   "schema": 2,
   "power": {
     "tier_a": 646,
@@ -10,39 +10,39 @@
     "shadow_total": 42685
   },
   "alltime": {
-    "props_fetched": 81106,
-    "pp_fetched": 81106,
+    "props_fetched": 73303,
+    "pp_fetched": 73303,
     "ud_fetched": 21830,
-    "analyzed": 3906,
+    "analyzed": 3914,
     "qualified": 646,
     "slips_generated": 42824,
     "outcomes_graded": 637,
-    "sessions": 41,
-    "api_spend": 5.15
+    "sessions": 42,
+    "api_spend": 5.16
   },
   "today": {
     "date": "2026-04-14",
-    "pp_fetched": 0,
-    "ud_fetched": 0,
-    "total_fetched": 0,
-    "sessions": 0,
+    "pp_fetched": 100,
+    "ud_fetched": 50,
+    "total_fetched": 150,
+    "sessions": 1,
     "qualified": 25,
     "api_cost": 0.0
   },
   "meta": {
     "days_active": 14,
     "first_run": "2026-03-31",
-    "last_run": "2026-04-13"
+    "last_run": "2026-04-14"
   },
   "bankroll": {
-    "current": 35607.18,
+    "current": 111553.13,
     "starting": 100.0,
-    "roi_str": "+35507.2%",
-    "wins": 331,
+    "roi_str": "+111453.1%",
+    "wins": 342,
     "losses": 295,
-    "win_rate": 52.9,
-    "summary": "$35607.18 (+35507.2% ROI) | 331/626 (53% win rate) | \ud83d\udd25 1-W streak",
-    "last5": "WWWLW",
-    "streak": "\ud83d\udd25 1-W streak"
+    "win_rate": 53.7,
+    "summary": "$111553.13 (+111453.1% ROI) | 342/637 (54% win rate) | \ud83d\udd25 2-W streak",
+    "last5": "WWLWW",
+    "streak": "\ud83d\udd25 2-W streak"
   }
 }
