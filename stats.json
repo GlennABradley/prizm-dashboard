@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-14T17:39:39.180138+00:00",
+  "generated_at": "2026-04-14T17:40:37.711086+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 683,
+    "tier_a": 540,
     "tier_b": 2548,
     "tier_c": 38337,
     "tier_d": 1019,
@@ -14,7 +14,7 @@
     "pp_fetched": 89644,
     "ud_fetched": 42824,
     "analyzed": 8709,
-    "qualified": 683,
+    "qualified": 540,
     "slips_generated": 45828,
     "outcomes_graded": 626,
     "sessions": 46,
