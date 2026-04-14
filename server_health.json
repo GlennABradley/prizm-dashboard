@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-14T16:36:01.502049+00:00",
+  "collected_at": "2026-04-14T16:39:01.119018+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "7d 18h 4m",
+    "uptime": "7d 18h 7m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 304,
+      "used_mb": 693,
       "total_mb": 961,
-      "pct": 31.6
+      "pct": 72.1
     },
     "disk": {
       "used_gb": 7.7,
@@ -72,12 +72,12 @@
   "prizm": {
     "sessions_run": 45,
     "picks_qualified": 401,
-    "budget_spent": 3.04,
+    "budget_spent": 3.06,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-14"
   },
   "git": {
-    "last_commit": "61966fb Auto-sync 2026-04-14 16:30 | 2 files updated",
+    "last_commit": "2c8ca40 fix: wl NameError \u2014 get_wl_stats() undefined before ",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
