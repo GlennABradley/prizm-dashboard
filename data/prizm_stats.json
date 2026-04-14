@@ -1,204 +1,54 @@
 {
-  "tier_a_qualified": 640,
-  "tier_a_raw": 775,
-  "outcomes_graded": 637,
-  "ungraded": 2,
-  "overall_wr": 0.5369,
-  "overall_wr_pct": 53.7,
-  "hits": 342,
-  "misses": 295,
-  "wr_by_sport": {
-    "nba_OVER": {
-      "n": 53,
-      "hits": 21,
-      "wr": 0.3962
-    },
-    "nhl_UNDER": {
-      "n": 135,
-      "hits": 122,
-      "wr": 0.9037
-    },
-    "nba_UNDER": {
-      "n": 66,
-      "hits": 26,
-      "wr": 0.3939
-    },
-    "nhl_OVER": {
-      "n": 75,
-      "hits": 38,
-      "wr": 0.5067
-    },
-    "mlb_OVER": {
-      "n": 302,
-      "hits": 130,
-      "wr": 0.4305
-    },
-    "mlb_UNDER": {
-      "n": 6,
-      "hits": 5,
-      "wr": 0.8333
-    }
-  },
-  "wr_by_stat": {
-    "nba:pts+asts": {
-      "n": 24,
-      "hits": 13,
-      "wr": 0.5417
-    },
-    "nba:pts+rebs": {
-      "n": 21,
-      "hits": 9,
-      "wr": 0.4286
-    },
-    "nba:points": {
-      "n": 12,
-      "hits": 6,
-      "wr": 0.5
-    },
-    "nhl:time on ice": {
-      "n": 10,
-      "hits": 5,
-      "wr": 0.5
-    },
-    "nba:pts+rebs+asts": {
-      "n": 23,
-      "hits": 9,
-      "wr": 0.3913
-    },
-    "nba:rebounds": {
-      "n": 14,
-      "hits": 3,
-      "wr": 0.2143
-    },
-    "nba:rebs+asts": {
-      "n": 9,
-      "hits": 2,
-      "wr": 0.2222
-    },
-    "nhl:blocked shots": {
-      "n": 16,
-      "hits": 9,
-      "wr": 0.5625
-    },
-    "nhl:faceoffs won": {
-      "n": 6,
-      "hits": 4,
-      "wr": 0.6667
-    },
-    "nba:assists": {
-      "n": 6,
-      "hits": 2,
-      "wr": 0.3333
-    },
-    "nhl:shots on goal": {
-      "n": 38,
-      "hits": 20,
-      "wr": 0.5263
-    },
-    "nhl:hits": {
-      "n": 11,
-      "hits": 6,
-      "wr": 0.5455
-    },
-    "mlb:hits+runs+rbis": {
-      "n": 104,
-      "hits": 43,
-      "wr": 0.4135
-    },
-    "mlb:singles": {
-      "n": 11,
-      "hits": 2,
-      "wr": 0.1818
-    },
-    "mlb:hits": {
-      "n": 145,
-      "hits": 75,
-      "wr": 0.5172
-    },
-    "nhl:goals": {
-      "n": 121,
-      "hits": 113,
-      "wr": 0.9339
-    },
-    "mlb:runs": {
-      "n": 12,
-      "hits": 5,
-      "wr": 0.4167
-    },
-    "mlb:runs batted in": {
-      "n": 18,
-      "hits": 4,
-      "wr": 0.2222
-    },
-    "mlb:total bases": {
-      "n": 13,
-      "hits": 3,
-      "wr": 0.2308
-    }
-  },
-  "wr_by_conviction": {
-    "60s": {
-      "n": 21,
-      "hits": 11,
-      "wr": 0.5238
-    },
-    "90s": {
-      "n": 29,
-      "hits": 24,
-      "wr": 0.8276
-    },
-    "80s": {
-      "n": 74,
-      "hits": 34,
-      "wr": 0.4595
-    },
-    "70s": {
-      "n": 243,
-      "hits": 110,
-      "wr": 0.4527
-    },
-    "0s": {
-      "n": 270,
-      "hits": 163,
-      "wr": 0.6037
-    }
-  },
-  "nhl_under_wr": 0.9037,
-  "mlb_over_wr": 0.4305,
-  "nba_wr": 0.3962,
-  "sessions_run": 41,
-  "props_fetched": 81106,
-  "days_active": 15,
-  "first_run_date": "2026-03-31",
-  "budget_today": 0.0,
-  "bankroll": 35607.18,
-  "power_level": 640,
+  "tier_a_qualified": 507,
+  "power_level": 507,
   "power_level_name": "Super Saiyan Blue Evolved",
-  "generated_at": "2026-04-14T12:09:39.092189+00:00",
-  "integrity_ok": true,
-  "tier_a_picks": 640,
-  "shadow_tracked": 42544,
-  "tier_b": 2548,
-  "tier_c": 38337,
-  "tier_d": 1019,
-  "slips_generated": 42824,
-  "last_run": "2026-04-13 14:07",
-  "api_spend": 0.0,
-  "by_platform": {
+  "outcomes_graded": 626,
+  "ungraded_count": 13,
+  "total_picks": 639,
+  "hits": 331,
+  "misses": 295,
+  "overall_wr": 0.5288,
+  "overall_wr_pct": "52.88%",
+  "nhl_under_wr": 0.9369,
+  "nhl_under_wr_pct": "93.7%",
+  "nhl_under_graded": 111,
+  "nhl_other_wr": 0.5222,
+  "mlb_wr": 0.4383,
+  "nba_wr": 0.3846,
+  "shadow_tracked": 42685,
+  "shadow_tier_a_raw": 781,
+  "shadow_tier_b": 2548,
+  "shadow_tier_c": 38337,
+  "shadow_tier_d": 1019,
+  "platform_stats": {
     "prizepicks": {
-      "analyzed": 907,
-      "qualified": 25,
-      "graded": 0,
-      "hits": 0,
-      "wr": 0
+      "qualified": 236,
+      "graded": 232,
+      "hits": 103,
+      "losses": 129,
+      "wr": 0.444,
+      "wr_pct": "44.4%"
     },
     "underdog": {
-      "analyzed": 5968,
-      "qualified": 311,
-      "graded": 0,
-      "hits": 0,
-      "wr": 0
+      "qualified": 403,
+      "graded": 394,
+      "hits": 228,
+      "losses": 166,
+      "wr": 0.5787,
+      "wr_pct": "57.9%"
     }
   },
-  "props_analyzed": 3906
+  "current_bankroll": 100.0,
+  "starting_bankroll": 100.0,
+  "bankroll_epoch": "v3_base_rate_2026-04-14",
+  "bankroll_picks": 0,
+  "bankroll_wins": 0,
+  "bankroll_losses": 0,
+  "bankroll_roi": 0.0,
+  "sessions_run": 42,
+  "days_active": 15,
+  "first_run_date": "2026-03-31",
+  "integrity_ok": true,
+  "generated_at": "2026-04-14T10:05:20.101165-04:00",
+  "generated_by": "prizm_stats_writer_v2"
 }
