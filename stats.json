@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-04-14T22:30:04.952922+00:00",
+  "generated_at": "2026-04-14T22:37:21.287955+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 540,
+    "tier_a": 545,
     "tier_b": 2548,
     "tier_c": 38337,
     "tier_d": 1019,
     "level_name": "SUPER SAIYAN GOD \ud83d\udd34",
-    "shadow_total": 42815
+    "shadow_total": 42816
   },
   "alltime": {
     "props_fetched": 93822,
     "pp_fetched": 93822,
     "ud_fetched": 45541,
     "analyzed": 8709,
-    "qualified": 540,
+    "qualified": 545,
     "slips_generated": 45828,
     "outcomes_graded": 626,
     "sessions": 46,
-    "api_spend": 7.53
+    "api_spend": 7.62
   },
   "today": {
     "date": "2026-04-14",
@@ -27,7 +27,7 @@
     "total_fetched": 20669,
     "sessions": 6,
     "qualified": 40,
-    "api_cost": 4.731
+    "api_cost": 4.941
   },
   "meta": {
     "days_active": 14,
