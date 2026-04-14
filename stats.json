@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T13:42:12.901504+00:00",
+  "generated_at": "2026-04-14T13:43:39.844027+00:00",
   "schema": 2,
   "power": {
     "tier_a": 646,
@@ -16,7 +16,7 @@
     "analyzed": 3914,
     "qualified": 646,
     "slips_generated": 42824,
-    "outcomes_graded": 637,
+    "outcomes_graded": 626,
     "sessions": 42,
     "api_spend": 5.16
   },
@@ -35,14 +35,14 @@
     "last_run": "2026-04-14"
   },
   "bankroll": {
-    "current": 111553.13,
+    "current": 35607.18,
     "starting": 100.0,
-    "roi_str": "+111453.1%",
-    "wins": 342,
+    "roi_str": "+35507.2%",
+    "wins": 331,
     "losses": 295,
-    "win_rate": 53.7,
-    "summary": "$111553.13 (+111453.1% ROI) | 342/637 (54% win rate) | \ud83d\udd25 2-W streak",
-    "last5": "WWLWW",
-    "streak": "\ud83d\udd25 2-W streak"
+    "win_rate": 52.9,
+    "summary": "$35607.18 (+35507.2% ROI) | 331/626 (53% win rate) | \ud83d\udd25 1-W streak",
+    "last5": "WWWLW",
+    "streak": "\ud83d\udd25 1-W streak"
   }
 }
