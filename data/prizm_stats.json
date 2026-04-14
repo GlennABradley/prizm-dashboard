@@ -1,11 +1,11 @@
 {
   "tier_a_qualified": 640,
   "tier_a_raw": 775,
-  "outcomes_graded": 626,
-  "ungraded": 13,
-  "overall_wr": 0.5288,
-  "overall_wr_pct": 52.9,
-  "hits": 331,
+  "outcomes_graded": 637,
+  "ungraded": 2,
+  "overall_wr": 0.5369,
+  "overall_wr_pct": 53.7,
+  "hits": 342,
   "misses": 295,
   "wr_by_sport": {
     "nba_OVER": {
@@ -14,14 +14,14 @@
       "wr": 0.3962
     },
     "nhl_UNDER": {
-      "n": 126,
-      "hits": 113,
-      "wr": 0.8968
+      "n": 135,
+      "hits": 122,
+      "wr": 0.9037
     },
     "nba_UNDER": {
-      "n": 64,
-      "hits": 24,
-      "wr": 0.375
+      "n": 66,
+      "hits": 26,
+      "wr": 0.3939
     },
     "nhl_OVER": {
       "n": 75,
@@ -41,9 +41,9 @@
   },
   "wr_by_stat": {
     "nba:pts+asts": {
-      "n": 23,
-      "hits": 12,
-      "wr": 0.5217
+      "n": 24,
+      "hits": 13,
+      "wr": 0.5417
     },
     "nba:pts+rebs": {
       "n": 21,
@@ -71,9 +71,9 @@
       "wr": 0.2143
     },
     "nba:rebs+asts": {
-      "n": 8,
-      "hits": 1,
-      "wr": 0.125
+      "n": 9,
+      "hits": 2,
+      "wr": 0.2222
     },
     "nhl:blocked shots": {
       "n": 16,
@@ -116,9 +116,9 @@
       "wr": 0.5172
     },
     "nhl:goals": {
-      "n": 112,
-      "hits": 104,
-      "wr": 0.9286
+      "n": 121,
+      "hits": 113,
+      "wr": 0.9339
     },
     "mlb:runs": {
       "n": 12,
@@ -148,9 +148,9 @@
       "wr": 0.8276
     },
     "80s": {
-      "n": 73,
-      "hits": 33,
-      "wr": 0.4521
+      "n": 74,
+      "hits": 34,
+      "wr": 0.4595
     },
     "70s": {
       "n": 243,
@@ -158,12 +158,12 @@
       "wr": 0.4527
     },
     "0s": {
-      "n": 260,
-      "hits": 153,
-      "wr": 0.5885
+      "n": 270,
+      "hits": 163,
+      "wr": 0.6037
     }
   },
-  "nhl_under_wr": 0.8968,
+  "nhl_under_wr": 0.9037,
   "mlb_over_wr": 0.4305,
   "nba_wr": 0.3962,
   "sessions_run": 41,
@@ -174,7 +174,7 @@
   "bankroll": 35607.18,
   "power_level": 640,
   "power_level_name": "Super Saiyan Blue Evolved",
-  "generated_at": "2026-04-14T12:00:12.475617+00:00",
+  "generated_at": "2026-04-14T12:04:41.148585+00:00",
   "integrity_ok": true,
   "tier_a_picks": 640,
   "shadow_tracked": 42544,
