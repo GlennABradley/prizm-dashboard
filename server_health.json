@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-14T15:15:01.334039+00:00",
+  "collected_at": "2026-04-14T15:18:01.173346+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "7d 16h 43m",
+    "uptime": "7d 16h 46m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 661,
+      "used_mb": 664,
       "total_mb": 961,
-      "pct": 68.8
+      "pct": 69.1
     },
     "disk": {
       "used_gb": 7.7,
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 43,
     "picks_qualified": 340,
-    "budget_spent": 1.16,
+    "budget_spent": 1.22,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-14"
   },
   "git": {
-    "last_commit": "afceb73 fix: Bearer token as Priority 1 for PP auth (replace",
+    "last_commit": "19a56e2 Auto-sync 2026-04-14 15:15 | 1 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
