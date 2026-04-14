@@ -37,13 +37,10 @@
     "summary": {}
   },
   "lategrade": {
-    "ran_at": "2026-04-07 22:23 UTC",
     "status": "success",
-    "duration_sec": 8,
-    "summary": {
-      "picks_graded": 0,
-      "hits": 0
-    }
+    "ran_at": "2026-04-14 03:30:41",
+    "duration_sec": 41.8,
+    "summary": {}
   },
   "morningbriefing": {
     "ran_at": "2026-04-07 22:23 UTC",
@@ -95,7 +92,7 @@
     "duration_sec": 0.0,
     "summary": {}
   },
-  "_updated_at": "2026-04-13T14:08:20.468837+00:00",
+  "_updated_at": "2026-04-14T03:30:41.938843+00:00",
   "calibrate": {
     "status": "success",
     "ran_at": "2026-04-12 13:00:01",
