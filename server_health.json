@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-14T14:39:01.703523+00:00",
+  "collected_at": "2026-04-14T14:42:01.976423+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "7d 16h 7m",
+    "uptime": "7d 16h 10m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 651,
+      "used_mb": 652,
       "total_mb": 961,
-      "pct": 67.7
+      "pct": 67.8
     },
     "disk": {
       "used_gb": 7.7,
@@ -72,12 +72,12 @@
   "prizm": {
     "sessions_run": 42,
     "picks_qualified": 337,
-    "budget_spent": 0.86,
+    "budget_spent": 0.95,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-14"
   },
   "git": {
-    "last_commit": "d3c5d10 Auto-sync 2026-04-14 14:30 | 1 files updated",
+    "last_commit": "492b8d3 fix: stats architecture \u2014 write_stats alias + dashbo",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
