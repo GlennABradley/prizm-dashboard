@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-15T18:30:01.798667+00:00",
+  "collected_at": "2026-04-15T18:33:01.139498+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "8d 19h 58m",
+    "uptime": "8d 20h 1m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 2.0,
     "ram": {
-      "used_mb": 716,
+      "used_mb": 675,
       "total_mb": 961,
-      "pct": 74.5
+      "pct": 70.2
     },
     "disk": {
       "used_gb": 7.7,
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 48,
     "picks_qualified": 512,
-    "budget_spent": 1.09,
+    "budget_spent": 1.16,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-15"
   },
   "git": {
-    "last_commit": "4440007 feat: bidirectional direction engine \u2014 PRIZM now sel",
+    "last_commit": "9ec60ff Auto-sync 2026-04-15 14:30 | 2 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
