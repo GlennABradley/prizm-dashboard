@@ -110,13 +110,11 @@
     "summary": {}
   },
   "preflight_failure": {
-    "ran_at": "2026-04-15T10:00:11.726158",
+    "ran_at": "2026-04-15T13:00:08.961694",
     "errors": [
-      "\u274c ABORT: Conviction threshold nba_OVER=98 is 13pp above base (85). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py",
-      "\u274c ABORT: Conviction threshold nba_UNDER=98 is 13pp above base (85). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py",
-      "\u274c ABORT: Conviction threshold nhl_OVER=83 is 11pp above base (72). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py",
-      "\u274c ABORT: Conviction threshold mlb_OVER=98 is 26pp above base (72). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py",
-      "\u274c ABORT: Conviction threshold mlb_UNDER=98 is 26pp above base (72). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py"
+      "\u274c ABORT: Conviction threshold nhl_OVER=78 is 6pp above base (72). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py",
+      "\u274c ABORT: Conviction threshold mlb_OVER=78 is 6pp above base (72). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py",
+      "\u274c ABORT: Conviction threshold mlb_UNDER=78 is 6pp above base (72). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py"
     ],
     "warnings": []
   },
