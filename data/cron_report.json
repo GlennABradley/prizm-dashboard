@@ -54,7 +54,7 @@
     "duration_sec": 2448.0,
     "summary": {}
   },
-  "_updated_at": "2026-04-15T21:40:06.719136+00:00",
+  "_updated_at": "2026-04-15T21:45:06.261212+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-15 12:15:01",
@@ -132,8 +132,8 @@
   },
   "steam_watch": {
     "status": "success",
-    "ran_at": "2026-04-15 21:30:08",
-    "duration_sec": 6.6,
+    "ran_at": "2026-04-15 21:45:06",
+    "duration_sec": 4.8,
     "summary": {}
   },
   "clv_close": {
