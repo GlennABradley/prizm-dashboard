@@ -501,7 +501,7 @@ body{
     </div>
     <div>
       <div style="font-family:var(--mono);font-size:11px;color:var(--cyan)">192.241.241.102 &mdash; NYC2 &mdash; Ubuntu 24.04</div>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">8d 2h 7m</span> uptime</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">8d 2h 22m</span> uptime</div>
     </div>
   </div>
 
@@ -514,13 +514,13 @@ body{
     </div>
     <!-- RAM -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">28.4%</span>
+      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">27.8%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">RAM</span>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">273</span>MB / 1024MB</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">267</span>MB / 1024MB</div>
     </div>
     <!-- Disk -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-disk-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--purple);display:block">21.7%</span>
+      <span id="srv-disk-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--purple);display:block">21.8%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">DISK</span>
       <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-disk-used">7.7</span>GB / 35GB</div>
     </div>
@@ -545,7 +545,7 @@ body{
   </div>
 
   <div style="margin-top:12px;font-family:var(--mono);font-size:9px;color:var(--dim);text-align:right">
-    Health updated: <span id="srv-last-updated">2026-04-15 00:39</span> &nbsp;·&nbsp;
+    Health updated: <span id="srv-last-updated">2026-04-15 00:54</span> &nbsp;·&nbsp;
     Last git pull: <span id="srv-git-pull">[15:30:03] ✅ Syn</span> &nbsp;·&nbsp;
     <span id="srv-alerts" style="color:var(--warn)"></span>
   </div>
@@ -556,7 +556,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-15 00:40 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-15 00:55 ET</div>
 </div>
 
 </div>
@@ -582,6 +582,18 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
+    "draftkings_dfs": {
+      "fetched": 0,
+      "analyzed": 0,
+      "qualified": 0,
+      "shadow": 0,
+      "tier_a": 0,
+      "picks_logged": 0,
+      "graded": 0,
+      "hits": 0,
+      "win_rate_pct": 0.0,
+      "win_rate": 0.0
+    },
     "underdog": {
       "fetched": 0,
       "analyzed": 25573,
@@ -605,18 +617,6 @@ const STATS = {
       "hits": 103,
       "win_rate_pct": 44.4,
       "win_rate": 0.444
-    },
-    "draftkings_dfs": {
-      "fetched": 0,
-      "analyzed": 0,
-      "qualified": 0,
-      "shadow": 0,
-      "tier_a": 0,
-      "picks_logged": 0,
-      "graded": 0,
-      "hits": 0,
-      "win_rate_pct": 0.0,
-      "win_rate": 0.0
     }
   },
   "tier_b": 2548,
@@ -900,6 +900,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 })();
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 14, 2026 at 8:45 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 14, 2026 at 9:00 PM ET</div>
 </body>
 </html>
