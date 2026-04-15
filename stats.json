@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-15T19:00:05.096280+00:00",
+  "generated_at": "2026-04-15T19:02:13.533893+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 565,
+    "tier_a": 573,
     "tier_b": 2548,
     "tier_c": 38337,
     "tier_d": 1019,
@@ -12,13 +12,13 @@
   "alltime": {
     "props_fetched": 97452,
     "pp_fetched": 97452,
-    "ud_fetched": 55230,
-    "analyzed": 10915,
-    "qualified": 565,
+    "ud_fetched": 57378,
+    "analyzed": 12065,
+    "qualified": 573,
     "slips_generated": 48074,
     "outcomes_graded": 680,
-    "sessions": 48,
-    "api_spend": 8.68
+    "sessions": 49,
+    "api_spend": 8.71
   },
   "today": {
     "date": "2026-04-15",
@@ -26,8 +26,8 @@
     "ud_fetched": 4610,
     "total_fetched": 7876,
     "sessions": 3,
-    "qualified": 51,
-    "api_cost": 1.964
+    "qualified": 56,
+    "api_cost": 2.003
   },
   "meta": {
     "days_active": 15,
