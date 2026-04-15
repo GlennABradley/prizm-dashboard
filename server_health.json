@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-15T14:45:01.347328+00:00",
+  "collected_at": "2026-04-15T14:48:01.675253+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "8d 16h 13m",
+    "uptime": "8d 16h 16m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 552,
+      "used_mb": 555,
       "total_mb": 961,
-      "pct": 57.4
+      "pct": 57.8
     },
     "disk": {
       "used_gb": 7.7,
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 47,
     "picks_qualified": 469,
-    "budget_spent": 0.48,
+    "budget_spent": 0.58,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-15"
   },
   "git": {
-    "last_commit": "576450b feat: shadow\u2192history unification + bearer-only 403 +",
+    "last_commit": "676045c Auto-sync 2026-04-15 10:45 | 2 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
