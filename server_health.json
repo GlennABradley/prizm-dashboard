@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-15T22:21:01.718096+00:00",
+  "collected_at": "2026-04-15T22:24:01.247835+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "8d 23h 49m",
+    "uptime": "8d 23h 52m",
     "python": "3.12.3"
   },
   "health": {
@@ -72,7 +72,7 @@
   "prizm": {
     "sessions_run": 49,
     "picks_qualified": 552,
-    "budget_spent": 2.55,
+    "budget_spent": 2.62,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-15"
   },
