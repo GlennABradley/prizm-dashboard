@@ -3,7 +3,7 @@
 Live dashboard for PRIZM Analytics.
 
 **Power Level:** 761 Tier A picks
-**Shadow Props:** 42,947
+**Shadow Props:** 42,963
 **Virtual Slips:** 51,910
 
 *Updated automatically after every PRIZM analysis run.*
