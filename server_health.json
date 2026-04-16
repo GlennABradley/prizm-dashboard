@@ -1,22 +1,24 @@
 {
-  "collected_at": "2026-04-16T03:57:01.465233+00:00",
+  "collected_at": "2026-04-16T04:00:01.656628+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "9d 5h 25m",
+    "uptime": "9d 5h 28m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "green",
-    "alerts": []
+    "status": "yellow",
+    "alerts": [
+      "CPU 100.0%"
+    ]
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 318,
+      "used_mb": 305,
       "total_mb": 961,
-      "pct": 33.1
+      "pct": 31.7
     },
     "disk": {
       "used_gb": 7.8,
@@ -29,37 +31,37 @@
     "last_runs": {
       "dailyrun": {
         "last_run": "2026-04-15 22:38:09",
-        "status": "ok",
+        "status": "stale",
         "duration": 2287.4,
         "summary": {}
       },
       "autograde": {
         "last_run": "2026-04-15 12:00:12",
-        "status": "ok",
+        "status": "stale",
         "duration": 11.0,
         "summary": {}
       },
       "morningbriefing": {
         "last_run": "2026-04-15 12:13:21",
-        "status": "ok",
+        "status": "stale",
         "duration": 379.9,
         "summary": {}
       },
       "validator": {
         "last_run": "2026-04-15 13:01:39",
-        "status": "ok",
+        "status": "stale",
         "duration": 97.9,
         "summary": {}
       },
       "lategrade": {
         "last_run": "2026-04-16 03:30:33",
-        "status": "stale",
+        "status": "ok",
         "duration": 31.6,
         "summary": {}
       },
       "hyperchamber": {
         "last_run": "2026-04-15 12:05:04",
-        "status": "ok",
+        "status": "stale",
         "duration": 2.7,
         "summary": {}
       },
