@@ -486,7 +486,7 @@ body{
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">picks pending grade</div>
   </div>
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">$0.70</span>
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">$0.76</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Daily Spend</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">of $12 cap</div>
   </div>
@@ -502,22 +502,22 @@ body{
     </div>
     <div>
       <div style="font-family:var(--mono);font-size:11px;color:var(--cyan)">192.241.241.102 &mdash; NYC2 &mdash; Ubuntu 24.04</div>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">9d 17h 19m</span> uptime</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">9d 17h 22m</span> uptime</div>
     </div>
   </div>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:14px">
     <!-- CPU -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-cpu" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">0.0%</span>
+      <span id="srv-cpu" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">9.1%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">CPU</span>
-      <div id="srv-cpu-bar" style="height:4px;border-radius:2px;background:linear-gradient(90deg,var(--cyan),var(--green));margin-top:6px;width:0.0%"></div>
+      <div id="srv-cpu-bar" style="height:4px;border-radius:2px;background:linear-gradient(90deg,var(--cyan),var(--green));margin-top:6px;width:9.1%"></div>
     </div>
     <!-- RAM -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">56.8%</span>
+      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">59.8%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">RAM</span>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">546</span>MB / 1024MB</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">575</span>MB / 1024MB</div>
     </div>
     <!-- Disk -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
@@ -546,7 +546,7 @@ body{
   </div>
 
   <div style="margin-top:12px;font-family:var(--mono);font-size:9px;color:var(--dim);text-align:right">
-    Health updated: <span id="srv-last-updated">2026-04-16 15:51</span> &nbsp;·&nbsp;
+    Health updated: <span id="srv-last-updated">2026-04-16 15:54</span> &nbsp;·&nbsp;
     Last git pull: <span id="srv-git-pull">[15:30:03] ✅ Syn</span> &nbsp;·&nbsp;
     <span id="srv-alerts" style="color:var(--warn)"></span>
   </div>
@@ -557,7 +557,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-16 15:53 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-16 11:55 ET</div>
 </div>
 
 </div>
@@ -573,7 +573,7 @@ const STATS = {
   "slips_generated": 52730,
   "outcomes_graded": 733,
   "sessions_run": 52,
-  "api_spend": 9.69,
+  "api_spend": 9.72,
   "days_active": 17,
   "last_run": "2026-04-16",
   "win_rate": 0.5334,
@@ -583,6 +583,18 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
+    "underdog": {
+      "fetched": 6413,
+      "analyzed": 25707,
+      "qualified": 614,
+      "shadow": 25707,
+      "tier_a": 811,
+      "picks_logged": 614,
+      "graded": 571,
+      "hits": 326,
+      "win_rate_pct": 57.1,
+      "win_rate": 0.5709
+    },
     "prizepicks": {
       "fetched": 5631,
       "analyzed": 17258,
@@ -606,18 +618,6 @@ const STATS = {
       "hits": 0,
       "win_rate_pct": 0.0,
       "win_rate": 0.0
-    },
-    "underdog": {
-      "fetched": 6413,
-      "analyzed": 25707,
-      "qualified": 614,
-      "shadow": 25707,
-      "tier_a": 811,
-      "picks_logged": 614,
-      "graded": 571,
-      "hits": 326,
-      "win_rate_pct": 57.1,
-      "win_rate": 0.5709
     }
   },
   "tier_b": 2548,
@@ -928,6 +928,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 })();
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 16, 2026 at 11:53 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 16, 2026 at 12:00 PM ET</div>
 </body>
 </html>
