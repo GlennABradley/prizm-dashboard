@@ -1,29 +1,27 @@
 {
-  "collected_at": "2026-04-16T02:00:01.334236+00:00",
+  "collected_at": "2026-04-16T02:03:01.557056+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "9d 3h 28m",
+    "uptime": "9d 3h 31m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 312,
+      "used_mb": 304,
       "total_mb": 961,
-      "pct": 32.5
+      "pct": 31.6
     },
     "disk": {
       "used_gb": 7.7,
       "total_gb": 35.3,
-      "pct": 21.9
+      "pct": 22.0
     }
   },
   "cron": {
@@ -79,7 +77,7 @@
     "last_run_date": "2026-04-16"
   },
   "git": {
-    "last_commit": "ee1fac4 feat: NBA normal distribution model + FORGE + TRIBUN",
+    "last_commit": "2204555 Auto-sync 2026-04-15 22:00 | 2 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
