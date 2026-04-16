@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T15:15:05.440331+00:00",
+  "generated_at": "2026-04-16T15:30:05.086262+00:00",
   "schema": 2,
   "power": {
     "tier_a": 577,
@@ -10,9 +10,9 @@
     "shadow_total": 42963
   },
   "alltime": {
-    "props_fetched": 104861,
-    "pp_fetched": 104861,
-    "ud_fetched": 69768,
+    "props_fetched": 108596,
+    "pp_fetched": 108596,
+    "ud_fetched": 71826,
     "analyzed": 15245,
     "qualified": 577,
     "slips_generated": 52730,
@@ -22,12 +22,12 @@
   },
   "today": {
     "date": "2026-04-16",
-    "pp_fetched": 3954,
-    "ud_fetched": 4355,
-    "total_fetched": 8309,
-    "sessions": 8,
+    "pp_fetched": 5631,
+    "ud_fetched": 6413,
+    "total_fetched": 12044,
+    "sessions": 9,
     "qualified": 60,
-    "api_cost": 0.0
+    "api_cost": 0.105
   },
   "meta": {
     "days_active": 16,
