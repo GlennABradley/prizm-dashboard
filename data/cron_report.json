@@ -54,7 +54,7 @@
     "duration_sec": 2435.2,
     "summary": {}
   },
-  "_updated_at": "2026-04-17T03:56:54.966634+00:00",
+  "_updated_at": "2026-04-17T10:00:11.402541+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-16 12:15:02",
@@ -120,8 +120,8 @@
   },
   "morning_scan": {
     "status": "success",
-    "ran_at": "2026-04-16 10:02:22",
-    "duration_sec": 140.1,
+    "ran_at": "2026-04-17 10:00:11",
+    "duration_sec": 9.3,
     "summary": {}
   },
   "lineup_scan": {
