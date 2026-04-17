@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-17T22:24:01.725518+00:00",
+  "collected_at": "2026-04-17T22:27:01.518844+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "10d 23h 52m",
+    "uptime": "10d 23h 55m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 558,
+      "used_mb": 546,
       "total_mb": 961,
-      "pct": 58.1
+      "pct": 56.8
     },
     "disk": {
       "used_gb": 8.5,
@@ -72,7 +72,7 @@
   "prizm": {
     "sessions_run": 59,
     "picks_qualified": 720,
-    "budget_spent": 4.4,
+    "budget_spent": 4.5,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-17"
   },
