@@ -3,8 +3,8 @@
   "power_level": 591,
   "power_level_name": "Super Saiyan Blue",
   "outcomes_graded": 754,
-  "ungraded_count": 40,
-  "total_picks": 794,
+  "ungraded_count": 76,
+  "total_picks": 830,
   "hits": 404,
   "misses": 350,
   "overall_wr": 0.5358,
@@ -22,7 +22,7 @@
   "shadow_tier_d": 1019,
   "platform_stats": {
     "prizepicks": {
-      "qualified": 289,
+      "qualified": 295,
       "graded": 259,
       "hits": 117,
       "losses": 142,
@@ -30,7 +30,7 @@
       "wr_pct": "45.2%"
     },
     "underdog": {
-      "qualified": 505,
+      "qualified": 535,
       "graded": 495,
       "hits": 287,
       "losses": 208,
@@ -49,6 +49,6 @@
   "days_active": 18,
   "first_run_date": "2026-03-31",
   "integrity_ok": true,
-  "generated_at": "2026-04-17T11:43:04.883402-04:00",
+  "generated_at": "2026-04-17T11:43:37.734394-04:00",
   "generated_by": "prizm_stats_writer_v2"
 }
