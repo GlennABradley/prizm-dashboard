@@ -486,7 +486,7 @@ body{
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">picks pending grade</div>
   </div>
   <div style="text-align:center;padding:10px">
-    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">$0.22</span>
+    <span style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">$0.62</span>
     <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Daily Spend</span>
     <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">of $12 cap</div>
   </div>
@@ -518,7 +518,7 @@ body{
       <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:2px">edge_pct 37% &gt; conviction 28%</div>
     </div>
     <div style="text-align:center">
-      <span style="font-family:var(--orb);font-size:16px;font-weight:900;color:var(--green);display:block">23m ago</span>
+      <span style="font-family:var(--orb);font-size:16px;font-weight:900;color:var(--green);display:block">38m ago</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">Last Retrain</span>
       <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:2px">nightly 3:45AM ET</div>
     </div>
@@ -573,7 +573,7 @@ body{
     </div>
     <div>
       <div style="font-family:var(--mono);font-size:11px;color:var(--cyan)">192.241.241.102 &mdash; NYC2 &mdash; Ubuntu 24.04</div>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">10d 15h 37m</span> uptime</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">10d 15h 52m</span> uptime</div>
     </div>
   </div>
 
@@ -586,9 +586,9 @@ body{
     </div>
     <!-- RAM -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">67.2%</span>
+      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">56.7%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">RAM</span>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">646</span>MB / 1024MB</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">545</span>MB / 1024MB</div>
     </div>
     <!-- Disk -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
@@ -617,7 +617,7 @@ body{
   </div>
 
   <div style="margin-top:12px;font-family:var(--mono);font-size:9px;color:var(--dim);text-align:right">
-    Health updated: <span id="srv-last-updated">2026-04-17 14:09</span> &nbsp;·&nbsp;
+    Health updated: <span id="srv-last-updated">2026-04-17 14:24</span> &nbsp;·&nbsp;
     Last git pull: <span id="srv-git-pull">[15:30:03] ✅ Syn</span> &nbsp;·&nbsp;
     <span id="srv-alerts" style="color:var(--warn)"></span>
   </div>
@@ -628,7 +628,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-17 10:10 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-17 10:25 ET</div>
 </div>
 
 </div>
@@ -644,7 +644,7 @@ const STATS = {
   "slips_generated": 53732,
   "outcomes_graded": 754,
   "sessions_run": 55,
-  "api_spend": 10.89,
+  "api_spend": 11.08,
   "days_active": 18,
   "last_run": "2026-04-17",
   "win_rate": 0.5358,
@@ -654,6 +654,18 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
+    "underdog": {
+      "fetched": 2532,
+      "analyzed": 25737,
+      "qualified": 622,
+      "shadow": 25737,
+      "tier_a": 841,
+      "picks_logged": 622,
+      "graded": 611,
+      "hits": 350,
+      "win_rate_pct": 57.3,
+      "win_rate": 0.5728
+    },
     "prizepicks": {
       "fetched": 2071,
       "analyzed": 17263,
@@ -677,18 +689,6 @@ const STATS = {
       "hits": 0,
       "win_rate_pct": 0.0,
       "win_rate": 0.0
-    },
-    "underdog": {
-      "fetched": 2532,
-      "analyzed": 25737,
-      "qualified": 622,
-      "shadow": 25737,
-      "tier_a": 841,
-      "picks_logged": 622,
-      "graded": 611,
-      "hits": 350,
-      "win_rate_pct": 57.3,
-      "win_rate": 0.5728
     }
   },
   "tier_b": 2548,
@@ -999,6 +999,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 })();
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 17, 2026 at 10:15 AM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 17, 2026 at 10:30 AM ET</div>
 </body>
 </html>
