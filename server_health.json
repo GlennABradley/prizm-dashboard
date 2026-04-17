@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-17T13:45:02.405248+00:00",
+  "collected_at": "2026-04-17T13:48:01.948014+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "10d 15h 13m",
+    "uptime": "10d 15h 16m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 375,
+      "used_mb": 333,
       "total_mb": 961,
-      "pct": 39.0
+      "pct": 34.7
     },
     "disk": {
       "used_gb": 8.4,
@@ -79,7 +77,7 @@
     "last_run_date": "2026-04-17"
   },
   "git": {
-    "last_commit": "a288c7a feat: THE INSTITUTE fully wired \u2014 predict_xgboost li",
+    "last_commit": "c69e853 fix: predict_xgboost() feature shape mismatch \u2014 use ",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
