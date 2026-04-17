@@ -1,22 +1,24 @@
 {
-  "collected_at": "2026-04-17T18:42:01.524822+00:00",
+  "collected_at": "2026-04-17T18:45:01.702962+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "10d 20h 10m",
+    "uptime": "10d 20h 13m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "green",
-    "alerts": []
+    "status": "yellow",
+    "alerts": [
+      "CPU 100.0%"
+    ]
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 312,
+      "used_mb": 307,
       "total_mb": 961,
-      "pct": 32.5
+      "pct": 31.9
     },
     "disk": {
       "used_gb": 8.4,
@@ -25,7 +27,7 @@
     }
   },
   "cron": {
-    "jobs_installed": 29,
+    "jobs_installed": 30,
     "last_runs": {
       "dailyrun": {
         "last_run": "2026-04-17 18:03:18",
@@ -77,7 +79,7 @@
     "last_run_date": "2026-04-17"
   },
   "git": {
-    "last_commit": "bb0a505 auto-sync [post-run 2026-04-17 14:30]: 1 files | pri",
+    "last_commit": "559f27f feat: prizm_game_props.py \u2014 game-level prop analysis",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
