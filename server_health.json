@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-17T17:09:01.375111+00:00",
+  "collected_at": "2026-04-17T17:12:01.774650+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "10d 18h 37m",
+    "uptime": "10d 18h 40m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 2.0,
     "ram": {
-      "used_mb": 653,
+      "used_mb": 661,
       "total_mb": 961,
-      "pct": 68.0
+      "pct": 68.8
     },
     "disk": {
       "used_gb": 8.4,
@@ -72,12 +72,12 @@
   "prizm": {
     "sessions_run": 57,
     "picks_qualified": 698,
-    "budget_spent": 2.27,
+    "budget_spent": 2.35,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-17"
   },
   "git": {
-    "last_commit": "406a8f7 auto-sync [post-run 2026-04-17 13:00]: 1 files | pri",
+    "last_commit": "b2c7aac fix: 3 debate quality issues from April 17 audit",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
