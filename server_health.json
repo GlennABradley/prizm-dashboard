@@ -1,29 +1,27 @@
 {
-  "collected_at": "2026-04-17T10:45:02.120811+00:00",
+  "collected_at": "2026-04-17T10:48:01.738214+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "10d 12h 13m",
+    "uptime": "10d 12h 16m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 287,
+      "used_mb": 318,
       "total_mb": 961,
-      "pct": 29.9
+      "pct": 33.1
     },
     "disk": {
       "used_gb": 8.4,
       "total_gb": 35.3,
-      "pct": 23.8
+      "pct": 23.9
     }
   },
   "cron": {
@@ -79,7 +77,7 @@
     "last_run_date": "2026-04-16"
   },
   "git": {
-    "last_commit": "9a886b4 fix: notifications SMTP -> SendGrid (was 64 failures",
+    "last_commit": "b21b72f Auto-sync 2026-04-17 06:45 | 1 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
