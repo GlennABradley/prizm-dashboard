@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-18T16:06:01.152101+00:00",
+  "collected_at": "2026-04-18T16:09:01.395996+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 17h 34m",
+    "uptime": "11d 17h 37m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 704,
+      "used_mb": 294,
       "total_mb": 961,
-      "pct": 73.3
+      "pct": 30.6
     },
     "disk": {
       "used_gb": 8.5,
@@ -72,12 +72,12 @@
   "prizm": {
     "sessions_run": 62,
     "picks_qualified": 770,
-    "budget_spent": 1.4,
+    "budget_spent": 1.49,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "7452a80 auto-sync [post-run 2026-04-18 12:00]: 2 files | cor",
+    "last_commit": "dbc5949 fix: re-untrack picks_history.jsonl (gitignored but ",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
