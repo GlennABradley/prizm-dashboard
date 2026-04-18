@@ -54,11 +54,11 @@
     "duration_sec": 2208.8,
     "summary": {}
   },
-  "_updated_at": "2026-04-18T12:07:42.724021+00:00",
+  "_updated_at": "2026-04-18T12:15:02.330971+00:00",
   "microcal": {
     "status": "success",
-    "ran_at": "2026-04-17 12:15:03",
-    "duration_sec": 0.8,
+    "ran_at": "2026-04-18 12:15:02",
+    "duration_sec": 0.5,
     "summary": {}
   },
   "insights": {
@@ -81,8 +81,8 @@
   },
   "feedback": {
     "status": "success",
-    "ran_at": "2026-04-17 12:12:02",
-    "duration_sec": 0.8,
+    "ran_at": "2026-04-18 12:12:02",
+    "duration_sec": 0.7,
     "summary": {}
   },
   "dailyrun_10am": {
