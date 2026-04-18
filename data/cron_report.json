@@ -54,7 +54,7 @@
     "duration_sec": 2208.8,
     "summary": {}
   },
-  "_updated_at": "2026-04-17T23:45:05.021349+00:00",
+  "_updated_at": "2026-04-18T03:00:22.480560+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-17 12:15:03",
@@ -144,8 +144,8 @@
   },
   "hist_backfill": {
     "status": "success",
-    "ran_at": "2026-04-17 03:00:42",
-    "duration_sec": 40.7,
+    "ran_at": "2026-04-18 03:00:22",
+    "duration_sec": 20.6,
     "summary": {}
   },
   "shadow_to_history": {
