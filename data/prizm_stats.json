@@ -1,6 +1,6 @@
 {
-  "tier_a_qualified": 635,
-  "power_level": 635,
+  "tier_a_qualified": 639,
+  "power_level": 639,
   "power_level_name": "Super Saiyan Blue",
   "outcomes_graded": 791,
   "ungraded_count": 74,
@@ -15,8 +15,8 @@
   "nhl_other_wr": 0.5269,
   "mlb_wr": 0.4556,
   "nba_wr": 0.4308,
-  "shadow_tracked": 43300,
-  "shadow_tier_a_raw": 1346,
+  "shadow_tracked": 43324,
+  "shadow_tier_a_raw": 1370,
   "shadow_tier_b": 2548,
   "shadow_tier_c": 38337,
   "shadow_tier_d": 1069,
@@ -45,10 +45,10 @@
   "bankroll_wins": 91,
   "bankroll_losses": 74,
   "bankroll_roi": 10.1169,
-  "sessions_run": 71,
+  "sessions_run": 72,
   "days_active": 19,
   "first_run_date": "2026-03-31",
   "integrity_ok": true,
-  "generated_at": "2026-04-18T15:30:28.029220-04:00",
+  "generated_at": "2026-04-18T16:58:10.463843-04:00",
   "generated_by": "prizm_stats_writer_v2"
 }
