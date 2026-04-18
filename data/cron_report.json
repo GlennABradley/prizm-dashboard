@@ -54,7 +54,7 @@
     "duration_sec": 2208.8,
     "summary": {}
   },
-  "_updated_at": "2026-04-18T12:25:01.583422+00:00",
+  "_updated_at": "2026-04-18T12:30:25.472449+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-18 12:15:02",
@@ -63,8 +63,8 @@
   },
   "insights": {
     "status": "success",
-    "ran_at": "2026-04-17 12:30:27",
-    "duration_sec": 25.5,
+    "ran_at": "2026-04-18 12:30:25",
+    "duration_sec": 23.7,
     "summary": {}
   },
   "study": {
