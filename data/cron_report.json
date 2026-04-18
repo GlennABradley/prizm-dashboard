@@ -19,8 +19,8 @@
   },
   "dailyrun": {
     "status": "success",
-    "ran_at": "2026-04-18 17:23:44",
-    "duration_sec": 214.2,
+    "ran_at": "2026-04-18 18:23:54",
+    "duration_sec": 2230.6,
     "summary": {}
   },
   "lategrade": {
@@ -54,7 +54,7 @@
     "duration_sec": 2208.8,
     "summary": {}
   },
-  "_updated_at": "2026-04-18T18:15:04.272548+00:00",
+  "_updated_at": "2026-04-18T18:23:54.471979+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-18 12:15:02",
@@ -93,8 +93,8 @@
   },
   "dailyrun_1pm": {
     "status": "success",
-    "ran_at": "2026-04-18 17:23:44",
-    "duration_sec": 214.2,
+    "ran_at": "2026-04-18 18:23:54",
+    "duration_sec": 2230.6,
     "summary": {}
   },
   "shadow_grader": {
