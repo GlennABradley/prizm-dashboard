@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-18T14:03:01.945988+00:00",
+  "collected_at": "2026-04-18T14:06:01.638899+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 15h 31m",
+    "uptime": "11d 15h 34m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 665,
+      "used_mb": 661,
       "total_mb": 961,
-      "pct": 69.2
+      "pct": 68.8
     },
     "disk": {
       "used_gb": 8.5,
@@ -79,7 +77,7 @@
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "3e0dfcc pp-cache: 2024 props @ 2026-04-18 09:45",
+    "last_commit": "5a08ff4 fix: untrack data/picks_history.jsonl from git",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
