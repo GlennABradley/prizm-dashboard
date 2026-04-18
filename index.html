@@ -573,22 +573,22 @@ body{
     </div>
     <div>
       <div style="font-family:var(--mono);font-size:11px;color:var(--cyan)">192.241.241.102 &mdash; NYC2 &mdash; Ubuntu 24.04</div>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">11d 21h 7m</span> uptime</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px">1 vCPU / 1GB RAM / 35GB NVMe &mdash; <span id="srv-uptime">11d 21h 22m</span> uptime</div>
     </div>
   </div>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:14px">
     <!-- CPU -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-cpu" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">0.0%</span>
+      <span id="srv-cpu" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--cyan);display:block">9.1%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">CPU</span>
-      <div id="srv-cpu-bar" style="height:4px;border-radius:2px;background:linear-gradient(90deg,var(--cyan),var(--green));margin-top:6px;width:0.0%"></div>
+      <div id="srv-cpu-bar" style="height:4px;border-radius:2px;background:linear-gradient(90deg,var(--cyan),var(--green));margin-top:6px;width:9.1%"></div>
     </div>
     <!-- RAM -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
-      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">29.0%</span>
+      <span id="srv-ram-pct" style="font-family:var(--orb);font-size:22px;font-weight:900;color:var(--gold);display:block">31.2%</span>
       <span style="font-family:var(--mono);font-size:8px;color:rgba(0,212,255,.5);text-transform:uppercase;letter-spacing:1px">RAM</span>
-      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">279</span>MB / 1024MB</div>
+      <div style="font-family:var(--mono);font-size:9px;color:var(--dim);margin-top:3px"><span id="srv-ram-used">300</span>MB / 1024MB</div>
     </div>
     <!-- Disk -->
     <div style="text-align:center;padding:10px;background:rgba(0,212,255,.04);border:1px solid var(--border2);border-radius:4px">
@@ -617,7 +617,7 @@ body{
   </div>
 
   <div style="margin-top:12px;font-family:var(--mono);font-size:9px;color:var(--dim);text-align:right">
-    Health updated: <span id="srv-last-updated">2026-04-18 19:39</span> &nbsp;·&nbsp;
+    Health updated: <span id="srv-last-updated">2026-04-18 19:54</span> &nbsp;·&nbsp;
     Last git pull: <span id="srv-git-pull">[15:30:03] ✅ Syn</span> &nbsp;·&nbsp;
     <span id="srv-alerts" style="color:var(--warn)"></span>
   </div>
@@ -628,7 +628,7 @@ body{
   <div class="ft-logo">◈ PRIZM</div>
   <div class="ft-sub">BY HUNCHO · THE HYPERBOLIC TIME CHAMBER · 2026</div>
   <div style="font-family:var(--mono);font-size:9px;color:rgba(245,200,66,.15);margin-top:8px;letter-spacing:2px">WE DON'T TRY · WE FIND THE EDGE · ALWAYS</div>
-  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-18 15:40 ET</div>
+  <div id="last-updated-line" style="margin-top:14px;font-family:var(--mono);font-size:9px;color:var(--dim);letter-spacing:1px">Updated 2026-04-18 15:55 ET</div>
 </div>
 
 </div>
@@ -654,17 +654,17 @@ const STATS = {
     "underdog"
   ],
   "by_platform": {
-    "draftkings_dfs": {
-      "fetched": 25483,
-      "analyzed": 0,
-      "qualified": 0,
-      "shadow": 0,
-      "tier_a": 0,
-      "picks_logged": 0,
-      "graded": 0,
-      "hits": 0,
-      "win_rate_pct": 0.0,
-      "win_rate": 0.0
+    "prizepicks": {
+      "fetched": 20640,
+      "analyzed": 17298,
+      "qualified": 319,
+      "shadow": 17298,
+      "tier_a": 278,
+      "picks_logged": 319,
+      "graded": 285,
+      "hits": 129,
+      "win_rate_pct": 45.3,
+      "win_rate": 0.4526
     },
     "underdog": {
       "fetched": 25483,
@@ -678,17 +678,17 @@ const STATS = {
       "win_rate_pct": 56.5,
       "win_rate": 0.5651
     },
-    "prizepicks": {
-      "fetched": 20640,
-      "analyzed": 17298,
-      "qualified": 319,
-      "shadow": 17298,
-      "tier_a": 278,
-      "picks_logged": 319,
-      "graded": 285,
-      "hits": 129,
-      "win_rate_pct": 45.3,
-      "win_rate": 0.4526
+    "draftkings_dfs": {
+      "fetched": 25483,
+      "analyzed": 0,
+      "qualified": 0,
+      "shadow": 0,
+      "tier_a": 0,
+      "picks_logged": 0,
+      "graded": 0,
+      "hits": 0,
+      "win_rate_pct": 0.0,
+      "win_rate": 0.0
     }
   },
   "tier_b": 2548,
@@ -999,6 +999,6 @@ if(STATS.last_run && STATS.last_run !== 'Training begins...') {
 })();
 
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 18, 2026 at 3:45 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 18, 2026 at 4:00 PM ET</div>
 </body>
 </html>
