@@ -1,29 +1,27 @@
 {
-  "collected_at": "2026-04-18T19:00:01.939670+00:00",
+  "collected_at": "2026-04-18T19:03:01.817818+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 20h 28m",
+    "uptime": "11d 20h 31m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 695,
+      "used_mb": 607,
       "total_mb": 961,
-      "pct": 72.3
+      "pct": 63.2
     },
     "disk": {
       "used_gb": 8.5,
       "total_gb": 35.3,
-      "pct": 24.2
+      "pct": 24.1
     }
   },
   "cron": {
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 70,
     "picks_qualified": 797,
-    "budget_spent": 3.82,
+    "budget_spent": 3.91,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "5869f73 fix: try_auto_qualify variable ordering \u2014 sport/stat",
+    "last_commit": "e32e60c auto-sync [post-run 2026-04-18 15:00]: 5 files | cor",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
