@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-18T18:30:02.354020+00:00",
+  "collected_at": "2026-04-18T18:33:01.532959+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 19h 58m",
+    "uptime": "11d 20h 1m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 727,
+      "used_mb": 672,
       "total_mb": 961,
-      "pct": 75.7
+      "pct": 69.9
     },
     "disk": {
       "used_gb": 8.5,
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 67,
     "picks_qualified": 797,
-    "budget_spent": 3.36,
+    "budget_spent": 3.44,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "2b475ac data: block proven losers + selective hit_rate gate ",
+    "last_commit": "e36e5f2 auto-sync [post-run 2026-04-18 14:30]: 2 files | cor",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
