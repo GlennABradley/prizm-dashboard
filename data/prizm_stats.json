@@ -45,10 +45,10 @@
   "bankroll_wins": 91,
   "bankroll_losses": 74,
   "bankroll_roi": 9.783,
-  "sessions_run": 60,
+  "sessions_run": 59,
   "days_active": 19,
   "first_run_date": "2026-03-31",
   "integrity_ok": true,
-  "generated_at": "2026-04-18T08:15:18.833627-04:00",
+  "generated_at": "2026-04-18T09:39:34.227492-04:00",
   "generated_by": "prizm_stats_writer_v2"
 }
