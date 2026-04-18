@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-18T15:30:02.097480+00:00",
+  "collected_at": "2026-04-18T15:33:01.076248+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 16h 58m",
+    "uptime": "11d 17h 1m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 719,
+      "used_mb": 603,
       "total_mb": 961,
-      "pct": 74.8
+      "pct": 62.7
     },
     "disk": {
       "used_gb": 8.5,
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 61,
     "picks_qualified": 770,
-    "budget_spent": 0.69,
+    "budget_spent": 0.77,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "1d63af9 fix: EdgeScreener diversity enforcement + v2 prop in",
+    "last_commit": "ae81b04 auto-sync [post-run 2026-04-18 11:30]: 6 files | bas",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
