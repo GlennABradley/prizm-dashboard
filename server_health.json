@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-18T19:15:01.599211+00:00",
+  "collected_at": "2026-04-18T19:18:01.611896+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 20h 43m",
+    "uptime": "11d 20h 46m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 577,
+      "used_mb": 579,
       "total_mb": 961,
-      "pct": 60.0
+      "pct": 60.2
     },
     "disk": {
       "used_gb": 8.5,
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 70,
     "picks_qualified": 797,
-    "budget_spent": 4.25,
+    "budget_spent": 4.33,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "e32e60c auto-sync [post-run 2026-04-18 15:00]: 5 files | cor",
+    "last_commit": "fbaa9f3 Auto-sync 2026-04-18 15:15 | 2 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
