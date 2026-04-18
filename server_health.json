@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-18T07:18:01.722650+00:00",
+  "collected_at": "2026-04-18T07:21:01.382818+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 8h 46m",
+    "uptime": "11d 8h 49m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 307,
+      "used_mb": 317,
       "total_mb": 961,
-      "pct": 31.9
+      "pct": 33.0
     },
     "disk": {
       "used_gb": 8.5,
