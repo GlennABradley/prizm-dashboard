@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-18T17:00:02.326546+00:00",
+  "collected_at": "2026-04-18T17:03:01.984954+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 18h 28m",
+    "uptime": "11d 18h 31m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 0.0,
     "ram": {
-      "used_mb": 729,
+      "used_mb": 706,
       "total_mb": 961,
-      "pct": 75.9
+      "pct": 73.5
     },
     "disk": {
       "used_gb": 8.5,
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 64,
     "picks_qualified": 770,
-    "budget_spent": 2.29,
+    "budget_spent": 2.36,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "9d6d411 fix: EdgeScreener live API \u2192 loaded_stats (zero API ",
+    "last_commit": "9c44503 auto-sync [post-run 2026-04-18 13:00]: 5 files | cor",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
