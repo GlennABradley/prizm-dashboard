@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-18T18:39:01.878790+00:00",
+  "collected_at": "2026-04-18T18:42:01.902936+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 20h 7m",
+    "uptime": "11d 20h 10m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 3.9,
     "ram": {
-      "used_mb": 307,
+      "used_mb": 679,
       "total_mb": 961,
-      "pct": 31.9
+      "pct": 70.7
     },
     "disk": {
       "used_gb": 8.5,
@@ -70,14 +70,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 67,
+    "sessions_run": 68,
     "picks_qualified": 797,
     "budget_spent": 3.58,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "e36e5f2 auto-sync [post-run 2026-04-18 14:30]: 2 files | cor",
+    "last_commit": "30389c8 data: restore NHL 80+ ceiling for all stats + expand",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
