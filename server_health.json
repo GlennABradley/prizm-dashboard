@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-18T14:15:01.869074+00:00",
+  "collected_at": "2026-04-18T14:18:02.000436+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "11d 15h 43m",
+    "uptime": "11d 15h 46m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 693,
+      "used_mb": 609,
       "total_mb": 961,
-      "pct": 72.1
+      "pct": 63.4
     },
     "disk": {
       "used_gb": 8.5,
@@ -74,12 +72,12 @@
   "prizm": {
     "sessions_run": 60,
     "picks_qualified": 746,
-    "budget_spent": 0.28,
+    "budget_spent": 0.38,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-18"
   },
   "git": {
-    "last_commit": "5a08ff4 fix: untrack data/picks_history.jsonl from git",
+    "last_commit": "db80d10 Auto-sync 2026-04-18 10:15 | 2 files updated",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
