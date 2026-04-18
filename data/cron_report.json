@@ -54,7 +54,7 @@
     "duration_sec": 2208.8,
     "summary": {}
   },
-  "_updated_at": "2026-04-18T13:45:04.747424+00:00",
+  "_updated_at": "2026-04-18T13:45:20.108216+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-18 12:15:02",
@@ -164,6 +164,12 @@
     "status": "success",
     "ran_at": "2026-04-18 03:45:10",
     "duration_sec": 8.9,
+    "summary": {}
+  },
+  "game_props": {
+    "status": "success",
+    "ran_at": "2026-04-18 13:45:20",
+    "duration_sec": 18.1,
     "summary": {}
   }
 }
