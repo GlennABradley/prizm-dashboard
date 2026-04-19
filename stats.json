@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-04-19T12:15:11.572619+00:00",
+  "generated_at": "2026-04-19T12:30:07.307957+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 1131,
-    "tier_b": 2548,
-    "tier_c": 38337,
-    "tier_d": 1069,
-    "level_name": "\u2726 ULTRA INSTINCT \u2726",
-    "shadow_total": 43364
+    "tier_a": 798,
+    "tier_b": 2402,
+    "tier_c": 37591,
+    "tier_d": 824,
+    "level_name": "SUPER SAIYAN BLUE \ud83d\udd35",
+    "shadow_total": 42130
   },
   "alltime": {
     "props_fetched": 194631,
     "pp_fetched": 194631,
     "ud_fetched": 143914,
     "analyzed": 30427,
-    "qualified": 1131,
-    "slips_generated": 64506,
-    "outcomes_graded": 973,
+    "qualified": 798,
+    "slips_generated": 59846,
+    "outcomes_graded": 0,
     "sessions": 74,
     "api_spend": 17.25
   },
@@ -35,14 +35,14 @@
     "last_run": "2026-04-19"
   },
   "bankroll": {
-    "current": 1183.62,
+    "current": 100.0,
     "starting": 100.0,
-    "roi_str": "+1083.6%",
-    "wins": 520,
-    "losses": 453,
-    "win_rate": 53.4,
-    "summary": "$1183.62 (+1083.6% ROI) | 520/973 (53% win rate) | \u2744\ufe0f 1-L streak",
-    "last5": "WWWWL",
-    "streak": "\u2744\ufe0f 1-L streak"
+    "roi_str": "+0.0%",
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0.0,
+    "summary": "$100.00 (+0.0% ROI) | 0/0 (0% win rate) | No picks yet",
+    "last5": "\u2014",
+    "streak": "No picks yet"
   }
 }
