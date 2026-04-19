@@ -284,25 +284,29 @@ body{
 // Load live stats from prizm_stats.json — only show non-sensitive counters
 async function loadStats() {
   try {
-    const r  = await fetch('prizm_stats.json?' + Date.now());
+    const r  = await fetch('stats.json?' + Date.now());
     const st = await r.json();
 
-    const props    = st.props_fetched_alltime || 0;
-    const sessions = st.sessions_run || 0;
-    const days     = st.days_active || 0;
-    const power    = st.power_level || 0;   // just the number, no WR%
+    // Map stats.json schema deployed by prizm_deploy.py
+    const props    = st.alltime?.props_fetched || st.props_fetched_alltime || 0;
+    const sessions = st.alltime?.sessions      || st.sessions_run || 0;
+    const days     = st.meta?.days_active      || st.days_active || 0;
+    const power    = st.power?.tier_a          || st.power_level || 0;
+    // Use level_name from stats.json directly — authoritative source
+    const lvlName  = st.power?.level_name || (() => {
+      const LEVELS = [
+        [25000,'ZENO — OMNI-KING'],[10000,'GRAND PRIEST'],
+        [5000,'ANGEL (WHIS)'],[2500,'TRUE ULTRA INSTINCT'],
+        [1000,'ULTRA INSTINCT'],[750,'SUPER SAIYAN BLUE'],
+        [500,'SUPER SAIYAN GOD'],[200,'SUPER SAIYAN 3'],
+        [100,'SUPER SAIYAN 2'],[50,'SUPER SAIYAN 1'],
+        [25,'SAIYAN'],[0,'RADITZ']
+      ];
+      for(let i=0;i<LEVELS.length;i++){if(power>=LEVELS[i][0])return LEVELS[i][1];}
+      return 'RADITZ';
+    })();
 
     // Level names — story labels only
-    const LEVELS = [
-      [0,'Rookie'],[25,'Saiyan'],[50,'Super Saiyan'],[100,'SS2'],
-      [200,'SS3'],[300,'SS God'],[500,'Ultra Instinct'],[1000,'PRIZM COMPLETE']
-    ];
-    let lvlName = 'Saiyan', nextMile = 50;
-    for (let i = LEVELS.length-1; i >= 0; i--) {
-      if (power >= LEVELS[i][0]) { lvlName = LEVELS[i][1]; nextMile = (LEVELS[i+1]||LEVELS[i])[0]; break; }
-    }
-
-    // Set counters
     document.getElementById('power-num').textContent = power.toLocaleString();
     document.getElementById('power-lvl').textContent = lvlName.toUpperCase();
     document.getElementById('c-props').textContent   = props > 1000 ? (props/1000).toFixed(0)+'K+' : props;
@@ -311,9 +315,9 @@ async function loadStats() {
 
     // Progress bars — relative to milestones, no WR data
     const pct = (v, lo, hi) => Math.min(100, Math.max(2, (v-lo)/(hi-lo)*100));
-    setBar('pg-ss',    pct(power, 200, 500));
-    setBar('pg-vol',   Math.min(100, props/500));
-    setBar('pg-edge',  Math.min(100, sessions * 3));
+    setBar('pg-ss',    Math.min(100, power / 10));   // toward 1000 (UI)
+    setBar('pg-vol',   Math.min(100, props/2000));
+    setBar('pg-edge',  Math.min(100, sessions * 1.5));
     setBar('pg-learn', Math.min(100, days * 5));
 
     // Update current level row
@@ -344,6 +348,6 @@ function handleWaitlist() {
 
 loadStats();
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 18, 2026 at 8:30 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 18, 2026 at 8:35 PM ET</div>
 </body>
 </html>
