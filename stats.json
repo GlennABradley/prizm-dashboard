@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T13:45:10.488253+00:00",
+  "generated_at": "2026-04-19T13:57:23.682804+00:00",
   "schema": 2,
   "power": {
     "tier_a": 1086,
@@ -13,7 +13,7 @@
     "props_fetched": 167774,
     "pp_fetched": 167774,
     "ud_fetched": 143914,
-    "analyzed": 30427,
+    "analyzed": 42130,
     "qualified": 1086,
     "slips_generated": 59846,
     "outcomes_graded": 973,
