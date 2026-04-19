@@ -135,11 +135,24 @@ body{
   font-family:var(--mono);font-size:9px;letter-spacing:2px;color:var(--dim)}
 
 @media(max-width:600px){
-  .logo{font-size:48px;letter-spacing:8px}
+  .logo{font-size:52px;letter-spacing:8px}
+  .tagline{font-size:12px;letter-spacing:2px}
   .g2,.g3{grid-template-columns:1fr}
   .power-number{font-size:48px}
+  .power-wrap{padding:16px}
+  .power-wrap>div{grid-template-columns:1fr!important;gap:16px}
+  .vl{display:none}
+  .s-cell{padding:14px 10px}
+  .s-num{font-size:22px}
+  .story-card{padding:16px}
   .wl-form{flex-direction:column;align-items:center}
-  .wl-input{width:100%;max-width:300px}
+  .wl-input{width:100%;max-width:320px}
+  .wl-btn{width:100%;max-width:320px}
+  .prog-lbl{font-size:7px;width:90px}
+  .sec{font-size:8px;letter-spacing:2px}
+  .lvl-table td{padding:8px 6px;font-size:10px}
+  .hdr{padding:32px 0 24px}
+  .page{padding:20px 14px 60px}
 }
 </style>
 <body>
@@ -250,11 +263,12 @@ body{
   <div class="sec mb5">The Journey</div>
   <div class="panel mb7">
     <table class="lvl-table">
-      <tr class="lvl-done"><td>✓ SS1</td><td style="color:var(--text2)">System Proven</td><td style="color:var(--dim);font-size:10px">Edge confirmed in live conditions</td></tr>
-      <tr class="lvl-done"><td>✓ SS2</td><td style="color:var(--text2)">Model Sharpening</td><td style="color:var(--dim);font-size:10px">Structural patterns identified</td></tr>
-      <tr class="lvl-current lvl-active"><td id="cur-lvl">● SS3</td><td style="color:var(--gold)">Intelligence Scaling</td><td style="color:var(--golddim);font-size:10px">Multi-sport edge expansion</td></tr>
-      <tr class="lvl-future"><td>○ SS God</td><td style="color:var(--dim)">Early Access Launch</td><td style="color:var(--dim);font-size:10px">First subscribers · $19.99/mo</td></tr>
-      <tr class="lvl-future"><td>○ Ultra</td><td style="color:var(--dim)">Full Platform</td><td style="color:var(--dim);font-size:10px">API access · advanced tools</td></tr>
+      <tr class="lvl-done"><td>✓ RADITZ</td><td style="color:var(--text2)">Training Begins</td><td style="color:var(--dim);font-size:10px">System initialized — first patterns emerge</td></tr>
+      <tr class="lvl-done"><td>✓ SS1–SS3</td><td style="color:var(--text2)">Edge Confirmed</td><td style="color:var(--dim);font-size:10px">Statistical edge validated across categories</td></tr>
+      <tr class="lvl-done"><td>✓ SS God</td><td style="color:var(--gold)">Calibration Active</td><td style="color:var(--golddim);font-size:10px">Full probability calibration — 500+ picks graded</td></tr>
+      <tr class="lvl-current lvl-active"><td id="cur-lvl">● SS Blue</td><td style="color:var(--cyan)">Self-Tuning</td><td style="color:rgba(0,212,255,.6);font-size:10px">Auto-threshold adjustment — system learns continuously</td></tr>
+      <tr class="lvl-future"><td>○ Ultra Instinct</td><td style="color:var(--dim)">Autonomous Operation</td><td style="color:var(--dim);font-size:10px">Self-improving system — validated edge at scale</td></tr>
+      <tr class="lvl-future"><td>○ ZENO</td><td style="color:var(--dim)">Market Intelligence</td><td style="color:var(--dim);font-size:10px">PRIZM becomes the sharp line</td></tr>
     </table>
   </div>
 
@@ -322,7 +336,6 @@ async function loadStats() {
 
     // Update current level row
     document.getElementById('cur-lvl').textContent = '● ' + lvlName.toUpperCase();
-
   } catch(e) { console.log('Stats not available'); }
 }
 
@@ -348,6 +361,6 @@ function handleWaitlist() {
 
 loadStats();
 </script>
-<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 18, 2026 at 10:00 PM ET</div>
+<div style="position:fixed;bottom:16px;right:16px;z-index:999;background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.4);border-radius:6px;padding:6px 14px;font-family:Courier New,monospace;font-size:9px;color:#00d4ff;letter-spacing:2px">🟢 UPDATED: April 18, 2026 at 10:09 PM ET</div>
 </body>
 </html>
