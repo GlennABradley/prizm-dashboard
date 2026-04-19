@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T14:15:10.360079+00:00",
+  "generated_at": "2026-04-19T14:30:09.753212+00:00",
   "schema": 2,
   "power": {
     "tier_a": 1086,
@@ -18,7 +18,7 @@
     "slips_generated": 59846,
     "outcomes_graded": 973,
     "sessions": 74,
-    "api_spend": 17.33
+    "api_spend": 17.48
   },
   "today": {
     "date": "2026-04-19",
@@ -27,7 +27,7 @@
     "total_fetched": 8115,
     "sessions": 2,
     "qualified": 97,
-    "api_cost": 1.32
+    "api_cost": 1.839
   },
   "meta": {
     "days_active": 19,
