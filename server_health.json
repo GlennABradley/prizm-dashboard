@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-19T14:45:01.439379+00:00",
+  "collected_at": "2026-04-19T14:48:01.762990+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "12d 16h 13m",
+    "uptime": "12d 16h 16m",
     "python": "3.12.3"
   },
   "health": {
@@ -16,14 +16,14 @@
   "resources": {
     "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 292,
+      "used_mb": 640,
       "total_mb": 961,
-      "pct": 30.4
+      "pct": 66.6
     },
     "disk": {
       "used_gb": 8.5,
       "total_gb": 35.3,
-      "pct": 24.1
+      "pct": 24.0
     }
   },
   "cron": {
@@ -72,7 +72,7 @@
     }
   },
   "prizm": {
-    "sessions_run": 74,
+    "sessions_run": 75,
     "picks_qualified": 1086,
     "outcomes_graded": 973,
     "win_rate": 53.4,
@@ -80,10 +80,10 @@
     "budget_spent": 1.93,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-19",
-    "props_analyzed": 172413
+    "props_analyzed": 177019
   },
   "git": {
-    "last_commit": "b4f890f fix: bypass CALIB GATE when n_debate < 20 (Sonnet 4 ",
+    "last_commit": "0a9f556 fix: bypass CALIB GATE when n_debate < 20 (Sonnet 4 ",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
