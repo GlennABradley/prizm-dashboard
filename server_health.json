@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-19T22:30:02.471677+00:00",
+  "collected_at": "2026-04-19T22:33:01.230938+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "12d 23h 58m",
+    "uptime": "13d 0h 1m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 23.1,
     "ram": {
-      "used_mb": 605,
+      "used_mb": 295,
       "total_mb": 961,
-      "pct": 63.0
+      "pct": 30.7
     },
     "disk": {
       "used_gb": 8.5,
@@ -30,9 +28,9 @@
     "jobs_installed": 32,
     "last_runs": {
       "dailyrun": {
-        "last_run": "2026-04-19 18:33:09",
+        "last_run": "2026-04-19 22:31:49",
         "status": "ok",
-        "duration": 1872.9,
+        "duration": 1907.3,
         "summary": {}
       },
       "autograde": {
@@ -72,12 +70,12 @@
     }
   },
   "prizm": {
-    "sessions_run": 79,
-    "picks_qualified": 1127,
+    "sessions_run": 80,
+    "picks_qualified": 1134,
     "outcomes_graded": 973,
     "win_rate": 53.4,
     "bankroll": 1183.62,
-    "budget_spent": 6.43,
+    "budget_spent": 6.44,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-19",
     "props_analyzed": 193885
