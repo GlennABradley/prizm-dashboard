@@ -15,8 +15,8 @@
   "nhl_other_wr": 0.5269,
   "mlb_wr": 0.457,
   "nba_wr": 0.4361,
-  "shadow_tracked": 42226,
-  "shadow_tier_a_raw": 1409,
+  "shadow_tracked": 42230,
+  "shadow_tier_a_raw": 1413,
   "shadow_tier_b": 2402,
   "shadow_tier_c": 37591,
   "shadow_tier_d": 824,
@@ -45,10 +45,10 @@
   "bankroll_wins": 100,
   "bankroll_losses": 77,
   "bankroll_roi": 10.8362,
-  "sessions_run": 79,
+  "sessions_run": 80,
   "days_active": 20,
   "first_run_date": "2026-03-31",
   "integrity_ok": false,
-  "generated_at": "2026-04-19T14:33:11.992526-04:00",
+  "generated_at": "2026-04-19T18:30:49.839591-04:00",
   "generated_by": "prizm_stats_writer_v2"
 }
