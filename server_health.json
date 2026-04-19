@@ -1,66 +1,68 @@
 {
-  "collected_at": "2026-04-19T00:09:02.005131+00:00",
+  "collected_at": "2026-04-14T12:00:01.951139+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "12d 1h 37m",
+    "uptime": "7d 13h 28m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "green",
-    "alerts": []
+    "status": "yellow",
+    "alerts": [
+      "CPU 100.0%"
+    ]
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 298,
+      "used_mb": 318,
       "total_mb": 961,
-      "pct": 31.0
+      "pct": 33.1
     },
     "disk": {
-      "used_gb": 8.5,
+      "used_gb": 7.6,
       "total_gb": 35.3,
-      "pct": 24.1
+      "pct": 21.7
     }
   },
   "cron": {
-    "jobs_installed": 30,
+    "jobs_installed": 22,
     "last_runs": {
       "dailyrun": {
-        "last_run": "2026-04-18 22:38:29",
-        "status": "ok",
-        "duration": 2307.0,
+        "last_run": "2026-04-13 22:03:55",
+        "status": "stale",
+        "duration": 233.9,
         "summary": {}
       },
       "autograde": {
-        "last_run": "2026-04-18 13:39:33",
-        "status": "ok",
-        "duration": 13.3,
+        "last_run": "2026-04-13 12:00:13",
+        "status": "stale",
+        "duration": 11.5,
         "summary": {}
       },
       "morningbriefing": {
-        "last_run": "2026-04-18 12:07:42",
-        "status": "ok",
-        "duration": 40.7,
+        "last_run": "2026-04-13 12:09:17",
+        "status": "stale",
+        "duration": 136.0,
         "summary": {}
       },
       "validator": {
-        "last_run": "2026-04-18 13:01:39",
-        "status": "ok",
-        "duration": 97.3,
+        "last_run": "2026-04-13 13:01:38",
+        "status": "stale",
+        "duration": 96.4,
         "summary": {}
       },
       "lategrade": {
-        "last_run": "2026-04-18 03:30:22",
+        "last_run": "2026-04-14 03:30:12",
         "status": "ok",
-        "duration": 20.1,
+        "duration": 11.2,
         "summary": {}
       },
       "hyperchamber": {
-        "last_run": "2026-04-18 12:05:05",
-        "status": "ok",
-        "duration": 3.7,
+        "last_run": "2026-04-13 12:05:04",
+        "status": "stale",
+        "duration": 2.6,
         "summary": {}
       },
       "pp_push": {
@@ -70,14 +72,14 @@
     }
   },
   "prizm": {
-    "sessions_run": 73,
-    "picks_qualified": 908,
-    "budget_spent": 6.62,
+    "sessions_run": 41,
+    "picks_qualified": 336,
+    "budget_spent": 0,
     "budget_cap": 7.0,
-    "last_run_date": "2026-04-18"
+    "last_run_date": "2026-04-13"
   },
   "git": {
-    "last_commit": "0c2cadf auto-sync [post-run 2026-04-18 20:00]: 1 files | pri",
+    "last_commit": "044d581 feat: MEGA SLIP parlay engine + universal sportsbook",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
