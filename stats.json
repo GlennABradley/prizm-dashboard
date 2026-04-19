@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-19T03:01:31.714180+00:00",
+  "generated_at": "2026-04-19T03:03:26.741593+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 648,
+    "tier_a": 1086,
     "tier_b": 2548,
     "tier_c": 38337,
     "tier_d": 1069,
-    "level_name": "SUPER SAIYAN GOD \ud83d\udd34",
+    "level_name": "\u2726 ULTRA INSTINCT \u2726",
     "shadow_total": 43364
   },
   "alltime": {
@@ -14,7 +14,7 @@
     "pp_fetched": 194631,
     "ud_fetched": 143914,
     "analyzed": 30427,
-    "qualified": 648,
+    "qualified": 1086,
     "slips_generated": 63506,
     "outcomes_graded": 973,
     "sessions": 74,
