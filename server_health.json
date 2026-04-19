@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-19T18:00:02.125010+00:00",
+  "collected_at": "2026-04-19T18:03:01.806356+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "12d 19h 28m",
+    "uptime": "12d 19h 31m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 41.7,
     "ram": {
-      "used_mb": 302,
+      "used_mb": 465,
       "total_mb": 961,
-      "pct": 31.4
+      "pct": 48.4
     },
     "disk": {
       "used_gb": 8.5,
@@ -80,10 +78,10 @@
     "budget_spent": 4.59,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-19",
-    "props_analyzed": 186387
+    "props_analyzed": 190653
   },
   "git": {
-    "last_commit": "37410e2 fix: NHL goals UNDER suspended + FADE gate applies d",
+    "last_commit": "49cee6f fix: structural picks bypass FADE gate; nhl_goals_un",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
