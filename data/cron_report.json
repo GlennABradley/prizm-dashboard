@@ -54,7 +54,7 @@
     "duration_sec": 2397.3,
     "summary": {}
   },
-  "_updated_at": "2026-04-19T13:00:02.991521+00:00",
+  "_updated_at": "2026-04-19T13:00:14.394810+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-19 12:15:03",
@@ -105,8 +105,8 @@
   },
   "calibrate": {
     "status": "success",
-    "ran_at": "2026-04-12 22:07:55",
-    "duration_sec": 0.1,
+    "ran_at": "2026-04-19 13:00:14",
+    "duration_sec": 12.3,
     "summary": {}
   },
   "preflight_failure": {
