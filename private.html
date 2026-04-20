@@ -620,63 +620,66 @@ body {
 
 </div>
 <script>
-const STATS = {
-  tier_a_picks: 1086,
-  outcomes_graded: 961,
-  picks_qualified: 1086,
-  win_rate: 53.2,
-  bankroll: 1111.69,
-  bankroll_roi: "+1011.7%",
-  props_fetched: 51719,
-  props_analyzed: 1124,
-  shadow_tracked: 42410,
-  slips_generated: 46269,
-  sessions_run: 89,
-  days_active: 19,
-  last_run: "2026-04-16",
-  level_name: "\u2726 ULTRA INSTINCT \u2726",
-  api_spend: 0.56,
-  tier_b: 2412,
-  tier_c: 38255,
-  tier_d: 969,
-};
+// PRIZM Private Dashboard — fully data-driven. No hardcoded stats ever.
+// Fetches stats.json on load + auto-refreshes every 5 min.
 function setEl(id,v){var e=document.getElementById(id);if(e)e.textContent=v;}
 function fmt(n){return n===undefined||n===null?'—':Number(n)>=1000?Number(n).toLocaleString():String(n);}
 function to12h(t){if(!t||typeof t!=='string')return t||'—';var dot=t.indexOf('·'),base=dot>=0?t.slice(0,dot).trim():t.trim(),suf=dot>=0?' '+t.slice(dot):'';var c=base.indexOf(':');if(c<0)return t;var h=parseInt(base.slice(0,c),10),m=base.slice(c+1,c+3);if(isNaN(h))return t;return(h%12||12)+':'+m+(h>=12?' PM':' AM')+suf;}
-setEl('powerNum',  fmt(STATS.tier_a_picks));
-setEl('levelName', STATS.level_name || '—');
-setEl('s-num',     fmt(STATS.tier_a_picks));
-setEl('badgePower', 'POWER LEVEL: ' + (STATS.level_name||'?') + ' · ' + fmt(STATS.tier_a_picks) + ' PICKS');
-(function(){var ta=STATS.tier_a_picks;var bars=[['bar-ss1',50,100],['bar-ss2',100,200],['bar-ss3',200,500],['bar-ssg',500,750],['bar-ssb',750,1000],['bar-ui',1000,2500]];bars.forEach(function(b){var el=document.getElementById(b[0]);if(!el)return;var pct=ta>=b[2]?100:ta<=b[1]?0:Math.round((ta-b[1])/(b[2]-b[1])*100);el.style.width=pct+'%';});})();
-setEl('c-fetched',   fmt(STATS.props_fetched));
-setEl('c-analyzed',  fmt(STATS.props_analyzed));
-setEl('c-qualified', fmt(STATS.picks_qualified));
-setEl('c-shadow',    fmt(STATS.shadow_tracked));
-setEl('c-slips',     fmt(STATS.slips_generated));
-setEl('c-graded',    fmt(STATS.outcomes_graded));
-setEl('c-sessions',  fmt(STATS.sessions_run));
-setEl('c-days',      fmt(STATS.days_active));
-setEl('ct-ts',       'Last run: ' + (STATS.last_run||'—') + ' · ' + STATS.outcomes_graded + ' outcomes graded');
-setEl('c-bankroll',  STATS.bankroll ? '$'+Number(STATS.bankroll).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})+(STATS.bankroll_roi?' ('+STATS.bankroll_roi+')':'') : '—');
-setEl('c-wr',        STATS.win_rate ? STATS.win_rate+'%' : '—');
-setEl('c-spend',     STATS.api_spend ? '$'+STATS.api_spend : '—');
-setEl('c-roi',       STATS.bankroll_roi || '—');
 
-// Highlight correct power level row
-(function(){
-  var lv=[
-    [25000,'lv-zn'],[10000,'lv-gp'],[5000,'lv-ang'],[2500,'lv-tui'],
-    [1000,'lv-ui'],[750,'lv-ssbe'],[500,'lv-ssg'],[200,'lv-ss3'],
-    [100,'lv-ss2'],[50,'lv-ss1'],[25,'lv1'],[0,'lv0']
-  ];
-  var ta=STATS.tier_a_picks,curCls=null;
-  for(var i=0;i<lv.length;i++){if(ta>=lv[i][0]){curCls=lv[i][1];break;}}
-  if(curCls){
-    document.querySelectorAll('.pw-table tr').forEach(function(tr){tr.classList.remove('cur-row');});
-    var rows=document.querySelectorAll('.'+curCls);
-    if(rows.length>0)rows[0].closest('tr').classList.add('cur-row');
-  }
-})();
+function applyStats(S) {
+  setEl('powerNum',  fmt(S.tier_a_picks));
+  setEl('levelName', S.level_name||'—');
+  setEl('s-num',     fmt(S.tier_a_picks));
+  setEl('badgePower','POWER LEVEL: '+(S.level_name||'?')+' · '+fmt(S.tier_a_picks)+' PICKS');
+  (function(){var ta=S.tier_a_picks,bars=[['bar-ss1',50,100],['bar-ss2',100,200],['bar-ss3',200,500],['bar-ssg',500,750],['bar-ssb',750,1000],['bar-ui',1000,2500]];bars.forEach(function(b){var el=document.getElementById(b[0]);if(!el)return;var pct=ta>=b[2]?100:ta<=b[1]?0:Math.round((ta-b[1])/(b[2]-b[1])*100);el.style.width=pct+'%';});})();
+  setEl('c-fetched',  fmt(S.props_fetched));
+  setEl('c-analyzed', fmt(S.props_analyzed));
+  setEl('c-qualified',fmt(S.picks_qualified));
+  setEl('c-shadow',   fmt(S.shadow_tracked));
+  setEl('c-slips',    fmt(S.slips_generated));
+  setEl('c-graded',   fmt(S.outcomes_graded));
+  setEl('c-sessions', fmt(S.sessions_run));
+  setEl('c-days',     fmt(S.days_active));
+  setEl('ct-ts','Last run: '+(S.last_run||'—')+' · '+S.outcomes_graded+' outcomes graded');
+  setEl('c-bankroll',S.bankroll?'$'+Number(S.bankroll).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2})+(S.bankroll_roi?' ('+S.bankroll_roi+')':''):'—');
+  setEl('c-wr',   S.win_rate?S.win_rate+'%':'—');
+  setEl('c-spend',S.api_spend?'$'+S.api_spend:'—');
+  setEl('c-roi',  S.bankroll_roi||'—');
+  setEl('bk-current',S.bankroll?'$'+Number(S.bankroll).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2}):'—');
+  setEl('bk-roi', S.bankroll_roi||'—');
+  (function(){var lv=[[25000,'lv-zn'],[10000,'lv-gp'],[5000,'lv-ang'],[2500,'lv-tui'],[1000,'lv-ui'],[750,'lv-ssbe'],[500,'lv-ssg'],[200,'lv-ss3'],[100,'lv-ss2'],[50,'lv-ss1'],[25,'lv1'],[0,'lv0']];var ta=S.tier_a_picks,c=null;for(var i=0;i<lv.length;i++){if(ta>=lv[i][0]){c=lv[i][1];break;}}if(c){document.querySelectorAll('.pw-table tr').forEach(function(r){r.classList.remove('cur-row');});var rows=document.querySelectorAll('.'+c);if(rows.length>0)rows[0].closest('tr').classList.add('cur-row');}})();
+  var ts=document.getElementById('last-refresh');if(ts)ts.textContent='Live · updated '+new Date().toLocaleTimeString();
+}
+
+function loadStats(){
+  fetch('stats.json?t='+Date.now())
+    .then(function(r){return r.json();})
+    .then(function(st){
+      applyStats({
+        tier_a_picks:   (st.power&&st.power.tier_a)||(st.alltime&&st.alltime.qualified)||0,
+        outcomes_graded:(st.alltime&&st.alltime.outcomes_graded)||0,
+        picks_qualified:(st.power&&st.power.tier_a)||(st.alltime&&st.alltime.qualified)||0,
+        win_rate:       (st.bankroll&&st.bankroll.win_rate)||0,
+        bankroll:       (st.bankroll&&st.bankroll.current)||0,
+        bankroll_roi:   (st.bankroll&&st.bankroll.roi_str)||'—',
+        props_fetched:  (st.alltime&&st.alltime.props_fetched)||0,
+        props_analyzed: (st.alltime&&st.alltime.analyzed)||0,
+        shadow_tracked: (st.power&&st.power.shadow_total)||0,
+        slips_generated:(st.alltime&&st.alltime.slips_generated)||0,
+        sessions_run:   (st.alltime&&st.alltime.sessions)||0,
+        days_active:    (st.meta&&st.meta.days_active)||0,
+        last_run:       (st.meta&&st.meta.last_run)||'—',
+        level_name:     (st.power&&st.power.level_name)||'—',
+        api_spend:      (st.alltime&&st.alltime.api_spend)||0,
+        tier_b:         (st.power&&st.power.tier_b)||0,
+        tier_c:         (st.power&&st.power.tier_c)||0,
+        tier_d:         (st.power&&st.power.tier_d)||0,
+      });
+    })
+    .catch(function(e){console.warn('PRIZM stats fetch failed:',e);});
+}
+document.addEventListener('DOMContentLoaded',loadStats);
+setInterval(loadStats,300000);
 </script>
 </body>
 </html>
