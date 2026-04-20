@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-20T11:45:10.772678+00:00",
+  "generated_at": "2026-04-20T12:00:13.684904+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 1134,
+    "tier_a": 479,
     "tier_b": 2402,
     "tier_c": 37591,
     "tier_d": 824,
-    "level_name": "\u2726 ULTRA INSTINCT \u2726",
+    "level_name": "SUPER SAIYAN 3 \u26a1\u26a1\u26a1",
     "shadow_total": 42230
   },
   "alltime": {
@@ -14,7 +14,7 @@
     "pp_fetched": 193885,
     "ud_fetched": 169233,
     "analyzed": 42230,
-    "qualified": 1134,
+    "qualified": 479,
     "slips_generated": 64846,
     "outcomes_graded": 1002,
     "sessions": 80,
