@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-20T02:54:01.080764+00:00",
+  "collected_at": "2026-04-20T02:57:01.409548+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "13d 4h 22m",
+    "uptime": "13d 4h 25m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 311,
+      "used_mb": 306,
       "total_mb": 961,
-      "pct": 32.4
+      "pct": 31.8
     },
     "disk": {
       "used_gb": 8.5,
@@ -81,7 +81,7 @@
     "props_analyzed": 193885
   },
   "git": {
-    "last_commit": "fcdf7cb feat: restore NHL goals UNDER edge (89% WR); add MAX",
+    "last_commit": "b92d653 feat: GOLD SIGNAL gate (FADE=PASS+conv60-69=94.7%WR)",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
