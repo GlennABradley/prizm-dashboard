@@ -13,8 +13,8 @@
   },
   "validator": {
     "status": "success",
-    "ran_at": "2026-04-19 13:01:47",
-    "duration_sec": 105.6,
+    "ran_at": "2026-04-20 13:01:47",
+    "duration_sec": 105.8,
     "summary": {}
   },
   "dailyrun": {
@@ -54,7 +54,7 @@
     "duration_sec": 1907.3,
     "summary": {}
   },
-  "_updated_at": "2026-04-20T13:00:08.022989+00:00",
+  "_updated_at": "2026-04-20T13:01:47.812276+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-20 12:15:03",
