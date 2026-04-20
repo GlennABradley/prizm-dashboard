@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-20T17:33:01.717227+00:00",
+  "collected_at": "2026-04-20T17:36:01.439612+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "13d 19h 1m",
+    "uptime": "13d 19h 4m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 6.0,
     "ram": {
-      "used_mb": 265,
+      "used_mb": 391,
       "total_mb": 961,
-      "pct": 27.6
+      "pct": 40.7
     },
     "disk": {
       "used_gb": 8.6,
@@ -75,13 +75,13 @@
     "outcomes_graded": 1040,
     "win_rate": 55.3,
     "bankroll": 1383.36,
-    "budget_spent": 3.06,
+    "budget_spent": 3.09,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-20",
     "props_analyzed": 206410
   },
   "git": {
-    "last_commit": "ad48a70 Auto-sync 2026-04-20 17:31 | 1 files updated",
+    "last_commit": "e8d7494 fix: MLB edge threshold 1.2\u21920.8, surface more game e",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
