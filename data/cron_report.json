@@ -54,7 +54,7 @@
     "duration_sec": 1907.3,
     "summary": {}
   },
-  "_updated_at": "2026-04-20T10:00:16.871080+00:00",
+  "_updated_at": "2026-04-20T12:00:02.271270+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-19 12:15:03",
@@ -174,8 +174,8 @@
   },
   "agent_score": {
     "status": "success",
-    "ran_at": "2026-04-19 13:21:32",
-    "duration_sec": 0.0,
+    "ran_at": "2026-04-20 12:00:02",
+    "duration_sec": 0.4,
     "summary": {}
   },
   "daily_learning": {
