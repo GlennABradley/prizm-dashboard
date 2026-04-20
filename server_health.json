@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-20T13:36:01.377000+00:00",
+  "collected_at": "2026-04-20T13:39:02.021761+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "13d 15h 4m",
+    "uptime": "13d 15h 7m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 2.0,
+    "cpu_pct": 16.7,
     "ram": {
-      "used_mb": 317,
+      "used_mb": 286,
       "total_mb": 961,
-      "pct": 33.0
+      "pct": 29.8
     },
     "disk": {
       "used_gb": 8.5,
@@ -81,7 +81,7 @@
     "props_analyzed": 194884
   },
   "git": {
-    "last_commit": "51055c3 Auto-sync 2026-04-20 13:30 | 1 files updated",
+    "last_commit": "1ece323 feat: ESPN retry/TTL cache, max_tokens 4k/5k, date g",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
