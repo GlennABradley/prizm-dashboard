@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-20T22:09:01.666762+00:00",
+  "collected_at": "2026-04-20T22:12:01.411352+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "13d 23h 37m",
+    "uptime": "13d 23h 40m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 657,
+      "used_mb": 672,
       "total_mb": 961,
-      "pct": 68.4
+      "pct": 69.9
     },
     "disk": {
       "used_gb": 8.6,
@@ -75,7 +75,7 @@
     "outcomes_graded": 1040,
     "win_rate": 55.3,
     "bankroll": 1383.36,
-    "budget_spent": 4.33,
+    "budget_spent": 4.41,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-20",
     "props_analyzed": 214338
