@@ -1,10 +1,10 @@
 {
-  "tier_a_qualified": 1221,
-  "power_level": 1221,
+  "tier_a_qualified": 1229,
+  "power_level": 1229,
   "power_level_name": "Ultra Instinct Sign",
   "outcomes_graded": 1040,
-  "ungraded_count": 181,
-  "total_picks": 998,
+  "ungraded_count": 189,
+  "total_picks": 1002,
   "hits": 575,
   "misses": 465,
   "overall_wr": 0.5529,
@@ -22,7 +22,7 @@
   "shadow_tier_d": 824,
   "platform_stats": {
     "prizepicks": {
-      "qualified": 350,
+      "qualified": 352,
       "graded": 287,
       "hits": 130,
       "losses": 157,
@@ -30,7 +30,7 @@
       "wr_pct": "45.3%"
     },
     "underdog": {
-      "qualified": 871,
+      "qualified": 877,
       "graded": 753,
       "hits": 445,
       "losses": 308,
@@ -49,6 +49,6 @@
   "days_active": 21,
   "first_run_date": "2026-03-31",
   "integrity_ok": true,
-  "generated_at": "2026-04-20T18:34:09.729744-04:00",
+  "generated_at": "2026-04-20T18:35:33.321228-04:00",
   "generated_by": "prizm_stats_writer_v2"
 }
