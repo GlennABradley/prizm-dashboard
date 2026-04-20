@@ -43,8 +43,8 @@
   },
   "pp_prefetch": {
     "status": "success",
-    "ran_at": "2026-04-20 16:40:11",
-    "duration_sec": 9.8,
+    "ran_at": "2026-04-20 21:40:11",
+    "duration_sec": 10.0,
     "summary": {}
   },
   "_generated_at": "2026-04-11T02:42:06.936715+00:00",
@@ -54,7 +54,7 @@
     "duration_sec": 1907.3,
     "summary": {}
   },
-  "_updated_at": "2026-04-20T21:30:09.400574+00:00",
+  "_updated_at": "2026-04-20T21:40:11.663178+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-20 12:15:03",
