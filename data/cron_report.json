@@ -54,7 +54,7 @@
     "duration_sec": 1907.3,
     "summary": {}
   },
-  "_updated_at": "2026-04-20T13:45:06.549537+00:00",
+  "_updated_at": "2026-04-20T13:45:29.010181+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-20 12:15:03",
@@ -168,8 +168,8 @@
   },
   "game_props": {
     "status": "success",
-    "ran_at": "2026-04-19 13:45:09",
-    "duration_sec": 7.5,
+    "ran_at": "2026-04-20 13:45:29",
+    "duration_sec": 27.0,
     "summary": {}
   },
   "agent_score": {
