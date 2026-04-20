@@ -1,10 +1,10 @@
 {
-  "tier_a_qualified": 1229,
-  "power_level": 1229,
+  "tier_a_qualified": 1221,
+  "power_level": 1221,
   "power_level_name": "Ultra Instinct Sign",
   "outcomes_graded": 1040,
-  "ungraded_count": 189,
-  "total_picks": 1002,
+  "ungraded_count": 181,
+  "total_picks": 998,
   "hits": 575,
   "misses": 465,
   "overall_wr": 0.5529,
@@ -15,14 +15,14 @@
   "nhl_other_wr": 0.5213,
   "mlb_wr": 0.4696,
   "nba_wr": 0.4444,
-  "shadow_tracked": 42330,
-  "shadow_tier_a_raw": 1513,
+  "shadow_tracked": 42307,
+  "shadow_tier_a_raw": 1490,
   "shadow_tier_b": 2402,
   "shadow_tier_c": 37591,
   "shadow_tier_d": 824,
   "platform_stats": {
     "prizepicks": {
-      "qualified": 352,
+      "qualified": 350,
       "graded": 287,
       "hits": 130,
       "losses": 157,
@@ -30,7 +30,7 @@
       "wr_pct": "45.3%"
     },
     "underdog": {
-      "qualified": 877,
+      "qualified": 871,
       "graded": 753,
       "hits": 445,
       "losses": 308,
@@ -45,10 +45,10 @@
   "bankroll_wins": 244,
   "bankroll_losses": 170,
   "bankroll_roi": 12.8336,
-  "sessions_run": 85,
+  "sessions_run": 84,
   "days_active": 21,
   "first_run_date": "2026-03-31",
   "integrity_ok": true,
-  "generated_at": "2026-04-20T18:35:33.321228-04:00",
+  "generated_at": "2026-04-20T14:51:25.047383-04:00",
   "generated_by": "prizm_stats_writer_v2"
 }
