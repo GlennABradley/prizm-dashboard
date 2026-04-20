@@ -1,22 +1,24 @@
 {
-  "collected_at": "2026-04-20T13:06:01.408527+00:00",
+  "collected_at": "2026-04-20T13:09:01.156424+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "13d 14h 34m",
+    "uptime": "13d 14h 37m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "green",
-    "alerts": []
+    "status": "yellow",
+    "alerts": [
+      "CPU 100.0%"
+    ]
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 311,
+      "used_mb": 332,
       "total_mb": 961,
-      "pct": 32.4
+      "pct": 34.5
     },
     "disk": {
       "used_gb": 8.5,
@@ -81,7 +83,7 @@
     "props_analyzed": 194884
   },
   "git": {
-    "last_commit": "b0f19d6 Auto-sync 2026-04-20 13:00 | 1 files updated",
+    "last_commit": "25d9184 fix: wire all 6 feedback loop gaps \u2014 autograder->sig",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
