@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-21T17:30:01.543943+00:00",
+  "collected_at": "2026-04-21T17:33:01.885268+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "14d 18h 58m",
+    "uptime": "14d 19h 1m",
     "python": "3.12.3"
   },
   "health": {
@@ -16,9 +16,9 @@
   "resources": {
     "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 647,
+      "used_mb": 610,
       "total_mb": 961,
-      "pct": 67.3
+      "pct": 63.5
     },
     "disk": {
       "used_gb": 8.4,
@@ -72,18 +72,18 @@
     }
   },
   "prizm": {
-    "sessions_run": 88,
+    "sessions_run": 89,
     "picks_qualified": 1265,
     "outcomes_graded": 1067,
     "win_rate": 56.1,
     "bankroll": 1624.16,
-    "budget_spent": 1.65,
+    "budget_spent": 1.7,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-21",
     "props_analyzed": 220086
   },
   "git": {
-    "last_commit": "d7d8fae Auto-sync 2026-04-21 17:15 | 1 files updated",
+    "last_commit": "840fc52 Auto-sync 2026-04-21 17:32 | 1 files updated",
     "last_pull": "Successfully rebase"
   }
 }
