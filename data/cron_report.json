@@ -1,203 +1,85 @@
 {
   "autograde": {
     "status": "success",
-    "ran_at": "2026-04-21 12:01:05",
-    "duration_sec": 62.6,
-    "summary": {}
-  },
-  "hyperchamber": {
-    "status": "success",
-    "ran_at": "2026-04-20 12:05:08",
-    "duration_sec": 6.9,
-    "summary": {}
-  },
-  "validator": {
-    "status": "success",
-    "ran_at": "2026-04-20 13:01:47",
-    "duration_sec": 105.8,
+    "ran_at": "2026-04-20 12:03:54",
+    "duration_sec": 232.9,
     "summary": {}
   },
   "dailyrun": {
     "status": "success",
-    "ran_at": "2026-04-20 22:35:30",
-    "duration_sec": 2127.8,
+    "ran_at": "2026-04-20 22:20:11",
+    "duration_sec": 1205.0,
     "summary": {}
   },
   "lategrade": {
     "status": "success",
-    "ran_at": "2026-04-21 03:31:44",
-    "duration_sec": 102.4,
+    "ran_at": "2026-04-21 03:32:27",
+    "duration_sec": 142.1,
     "summary": {}
   },
   "morningbriefing": {
     "status": "success",
-    "ran_at": "2026-04-19 12:07:42",
-    "duration_sec": 40.7,
+    "ran_at": "2026-04-19 12:08:19",
+    "duration_sec": 75.7,
+    "summary": {}
+  },
+  "validator": {
+    "ran_at": "2026-04-07 22:23 UTC",
+    "status": "success",
+    "duration_sec": 38,
+    "summary": {
+      "passed": 141,
+      "total_checks": 141
+    }
+  },
+  "hyperchamber": {
+    "status": "success",
+    "ran_at": "2026-04-20 12:05:04",
+    "duration_sec": 2.2,
+    "summary": {}
+  },
+  "preflight_failure": {
+    "ran_at": "2026-04-08T14:33:47.171164",
+    "errors": [
+      "\u274c ABORT: Budget exhausted. $7.00/$7.00 spent. Only $0.00 remaining \u2014 not enough for a meaningful run."
+    ],
+    "warnings": []
+  },
+  "insights": {
+    "status": "success",
+    "ran_at": "2026-04-13 12:30:05",
+    "duration_sec": 5.5,
     "summary": {}
   },
   "oddsbatch": {
     "status": "success",
-    "ran_at": "2026-04-20 13:30:05",
-    "duration_sec": 2.1,
+    "ran_at": "2026-04-13 13:30:00",
+    "duration_sec": 0.5,
     "summary": {}
   },
-  "pp_prefetch": {
+  "logrotate": {
     "status": "success",
-    "ran_at": "2026-04-20 21:40:11",
-    "duration_sec": 10.0,
+    "ran_at": "2026-04-13 08:00:01",
+    "duration_sec": 0.0,
     "summary": {}
   },
-  "_generated_at": "2026-04-11T02:42:06.936715+00:00",
-  "dailyrun_6pm": {
+  "_updated_at": "2026-04-21T03:32:27.350058+00:00",
+  "calibrate": {
     "status": "success",
-    "ran_at": "2026-04-20 22:35:30",
-    "duration_sec": 2127.8,
-    "summary": {}
-  },
-  "_updated_at": "2026-04-21T12:01:05.077954+00:00",
-  "microcal": {
-    "status": "success",
-    "ran_at": "2026-04-20 12:15:03",
-    "duration_sec": 1.1,
-    "summary": {}
-  },
-  "insights": {
-    "status": "success",
-    "ran_at": "2026-04-20 12:30:39",
-    "duration_sec": 37.2,
-    "summary": {}
-  },
-  "study": {
-    "status": "success",
-    "ran_at": "2026-04-20 12:35:03",
-    "duration_sec": 1.5,
-    "summary": {}
-  },
-  "prop_analyst": {
-    "status": "success",
-    "ran_at": "2026-04-20 12:45:04",
-    "duration_sec": 3.1,
-    "summary": {}
-  },
-  "feedback": {
-    "status": "success",
-    "ran_at": "2026-04-20 12:12:03",
-    "duration_sec": 1.5,
+    "ran_at": "2026-04-12 13:00:01",
+    "duration_sec": 0.2,
     "summary": {}
   },
   "dailyrun_10am": {
     "status": "success",
-    "ran_at": "2026-04-20 15:14:02",
-    "duration_sec": 1932.3,
+    "ran_at": "2026-04-13 14:08:20",
+    "duration_sec": 500.3,
     "summary": {}
   },
-  "dailyrun_1pm": {
+  "dailyrun_6pm": {
     "status": "success",
-    "ran_at": "2026-04-20 18:51:22",
-    "duration_sec": 1954.1,
-    "summary": {}
-  },
-  "shadow_grader": {
-    "status": "success",
-    "ran_at": "2026-04-21 04:06:48",
-    "duration_sec": 1306.0,
-    "summary": {}
-  },
-  "calibrate": {
-    "status": "success",
-    "ran_at": "2026-04-19 13:00:14",
-    "duration_sec": 12.3,
-    "summary": {}
-  },
-  "preflight_failure": {
-    "ran_at": "2026-04-20T14:00:17.831763",
-    "errors": [
-      "\u274c ABORT: Conviction threshold nhl_OVER=78 is 18pp above base (60). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py"
-    ],
-    "warnings": []
-  },
-  "morning_scan": {
-    "status": "success",
-    "ran_at": "2026-04-21 10:00:15",
-    "duration_sec": 12.7,
-    "summary": {}
-  },
-  "lineup_scan": {
-    "status": "success",
-    "ran_at": "2026-04-20 16:00:04",
-    "duration_sec": 2.5,
-    "summary": {}
-  },
-  "steam_watch": {
-    "status": "success",
-    "ran_at": "2026-04-20 23:45:08",
-    "duration_sec": 6.4,
-    "summary": {}
-  },
-  "clv_close": {
-    "status": "success",
-    "ran_at": "2026-04-20 22:40:02",
-    "duration_sec": 0.2,
-    "summary": {}
-  },
-  "hist_backfill": {
-    "status": "success",
-    "ran_at": "2026-04-21 03:00:40",
-    "duration_sec": 38.1,
-    "summary": {}
-  },
-  "shadow_to_history": {
-    "status": "success",
-    "ran_at": "2026-04-20 12:16:11",
-    "duration_sec": 69.5,
-    "summary": {}
-  },
-  "intelligence": {
-    "status": "success",
-    "ran_at": "2026-04-20 12:25:07",
-    "duration_sec": 6.3,
-    "summary": {}
-  },
-  "institute": {
-    "status": "success",
-    "ran_at": "2026-04-21 03:45:33",
-    "duration_sec": 31.4,
-    "summary": {}
-  },
-  "game_props": {
-    "status": "success",
-    "ran_at": "2026-04-20 13:45:29",
-    "duration_sec": 27.0,
-    "summary": {}
-  },
-  "agent_score": {
-    "status": "success",
-    "ran_at": "2026-04-21 12:00:02",
-    "duration_sec": 0.3,
-    "summary": {}
-  },
-  "daily_learning": {
-    "status": "success",
-    "ran_at": "2026-04-19 13:21:45",
-    "duration_sec": 10.9,
-    "summary": {}
-  },
-  "scratch_alert": {
-    "status": "success",
-    "ran_at": "2026-04-20 21:30:03",
-    "duration_sec": 1.4,
-    "summary": {}
-  },
-  "retrospective": {
-    "status": "success",
-    "ran_at": "2026-04-19 13:21:33",
-    "duration_sec": 0.7,
-    "summary": {}
-  },
-  "ev_scan": {
-    "status": "success",
-    "ran_at": "2026-04-20 22:15:03",
-    "duration_sec": 0.5,
+    "ran_at": "2026-04-20 22:20:11",
+    "duration_sec": 1205.0,
     "summary": {}
   }
 }

@@ -1,32 +1,32 @@
 {
-  "generated_at": "2026-04-21T12:00:13.220851+00:00",
+  "generated_at": "2026-04-21T12:01:52.123507+00:00",
   "schema": 2,
   "power": {
-    "tier_a": 1229,
-    "tier_b": 2402,
-    "tier_c": 37591,
-    "tier_d": 824,
+    "tier_a": 1134,
+    "tier_b": 2442,
+    "tier_c": 39074,
+    "tier_d": 1119,
     "level_name": "\u2726 ULTRA INSTINCT \u2726",
-    "shadow_total": 42330
+    "shadow_total": 44145
   },
   "alltime": {
-    "props_fetched": 210304,
-    "pp_fetched": 210304,
-    "ud_fetched": 191291,
-    "analyzed": 42330,
-    "qualified": 1229,
-    "slips_generated": 70822,
-    "outcomes_graded": 1058,
-    "sessions": 86,
-    "api_spend": 20.6
+    "props_fetched": 53835,
+    "pp_fetched": 53835,
+    "ud_fetched": 171616,
+    "analyzed": 44145,
+    "qualified": 1134,
+    "slips_generated": 48245,
+    "outcomes_graded": 1002,
+    "sessions": 94,
+    "api_spend": 19.07
   },
   "today": {
     "date": "2026-04-21",
-    "pp_fetched": 800,
-    "ud_fetched": 400,
-    "total_fetched": 1200,
-    "sessions": 8,
-    "qualified": 313,
+    "pp_fetched": 200,
+    "ud_fetched": 100,
+    "total_fetched": 300,
+    "sessions": 2,
+    "qualified": 207,
     "api_cost": 0.0
   },
   "meta": {
@@ -35,14 +35,14 @@
     "last_run": "2026-04-21"
   },
   "bankroll": {
-    "current": 1601.58,
+    "current": 1307.47,
     "starting": 100.0,
-    "roi_str": "+1501.6%",
-    "wins": 591,
-    "losses": 467,
-    "win_rate": 55.9,
-    "summary": "$1601.58 (+1501.6% ROI) | 591/1058 (56% win rate) | \ud83d\udd25 6-W streak",
-    "last5": "WWWWW",
-    "streak": "\ud83d\udd25 6-W streak"
+    "roi_str": "+1207.5%",
+    "wins": 543,
+    "losses": 459,
+    "win_rate": 54.2,
+    "summary": "$1307.47 (+1207.5% ROI) | 543/1002 (54% win rate) | \u2744\ufe0f 2-L streak",
+    "last5": "WWWLL",
+    "streak": "\u2744\ufe0f 2-L streak"
   }
 }
