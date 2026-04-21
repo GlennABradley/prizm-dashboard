@@ -25,8 +25,8 @@
   },
   "lategrade": {
     "status": "success",
-    "ran_at": "2026-04-20 03:31:23",
-    "duration_sec": 81.7,
+    "ran_at": "2026-04-21 03:31:44",
+    "duration_sec": 102.4,
     "summary": {}
   },
   "morningbriefing": {
@@ -54,7 +54,7 @@
     "duration_sec": 2127.8,
     "summary": {}
   },
-  "_updated_at": "2026-04-21T03:00:40.593898+00:00",
+  "_updated_at": "2026-04-21T03:31:44.741024+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-20 12:15:03",
