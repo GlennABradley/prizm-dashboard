@@ -54,7 +54,7 @@
     "duration_sec": 2127.8,
     "summary": {}
   },
-  "_updated_at": "2026-04-21T14:00:08.923033+00:00",
+  "_updated_at": "2026-04-21T14:15:02.280930+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-21 12:15:03",
@@ -196,7 +196,7 @@
   },
   "ev_scan": {
     "status": "success",
-    "ran_at": "2026-04-20 22:15:03",
+    "ran_at": "2026-04-21 14:15:02",
     "duration_sec": 0.5,
     "summary": {}
   }
