@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-21T03:57:02.289643+00:00",
+  "collected_at": "2026-04-21T04:00:02.785849+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "14d 5h 25m",
+    "uptime": "14d 5h 28m",
     "python": "3.12.3"
   },
   "health": {
@@ -16,9 +16,9 @@
   "resources": {
     "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 628,
+      "used_mb": 458,
       "total_mb": 961,
-      "pct": 65.3
+      "pct": 47.7
     },
     "disk": {
       "used_gb": 8.6,
@@ -72,7 +72,7 @@
     }
   },
   "prizm": {
-    "sessions_run": 84,
+    "sessions_run": 85,
     "picks_qualified": 1229,
     "outcomes_graded": 1058,
     "win_rate": 55.9,
@@ -80,7 +80,7 @@
     "budget_spent": 0.0,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-21",
-    "props_analyzed": 1
+    "props_analyzed": 208619
   },
   "git": {
     "last_commit": "283fc3f feat: implement all 7 Gemini brainstorm stages",
