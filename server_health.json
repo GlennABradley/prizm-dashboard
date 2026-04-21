@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-21T12:24:01.557478+00:00",
+  "collected_at": "2026-04-21T12:27:01.233087+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "14d 13h 52m",
+    "uptime": "14d 13h 55m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 0.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 279,
+      "used_mb": 295,
       "total_mb": 961,
-      "pct": 29.0
+      "pct": 30.7
     },
     "disk": {
       "used_gb": 8.6,
@@ -81,7 +81,7 @@
     "props_analyzed": 210304
   },
   "git": {
-    "last_commit": "4978006 Auto-sync 2026-04-21 12:15 | 2 files updated",
-    "last_pull": "[15:30:03] \u2705 Sync c"
+    "last_commit": "da8f719 feat: full season stats completeness + prop diversit",
+    "last_pull": "Successfully rebase"
   }
 }
