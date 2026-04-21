@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-21T22:36:01.650606+00:00",
+  "collected_at": "2026-04-21T22:39:01.153687+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "15d 0h 4m",
+    "uptime": "15d 0h 7m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,23 +14,23 @@
   "resources": {
     "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 617,
+      "used_mb": 272,
       "total_mb": 961,
-      "pct": 64.2
+      "pct": 28.3
     },
     "disk": {
       "used_gb": 8.4,
       "total_gb": 35.3,
-      "pct": 23.8
+      "pct": 23.9
     }
   },
   "cron": {
     "jobs_installed": 35,
     "last_runs": {
       "dailyrun": {
-        "last_run": "2026-04-21 17:33:33",
+        "last_run": "2026-04-21 22:36:29",
         "status": "ok",
-        "duration": 2010.4,
+        "duration": 2187.0,
         "summary": {}
       },
       "autograde": {
@@ -71,7 +71,7 @@
   },
   "prizm": {
     "sessions_run": 90,
-    "picks_qualified": 1278,
+    "picks_qualified": 1294,
     "outcomes_graded": 1067,
     "win_rate": 56.1,
     "bankroll": 1624.16,
@@ -81,7 +81,7 @@
     "props_analyzed": 224473
   },
   "git": {
-    "last_commit": "5a17fba Auto-sync 2026-04-21 22:35 | 1 files updated",
+    "last_commit": "b1d347a Auto-sync 2026-04-21 22:36 | 1 files updated",
     "last_pull": "Successfully rebase"
   }
 }
