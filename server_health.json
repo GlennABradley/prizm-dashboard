@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-21T02:51:01.281972+00:00",
+  "collected_at": "2026-04-21T02:54:01.881173+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "14d 4h 19m",
+    "uptime": "14d 4h 22m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 18.2,
     "ram": {
-      "used_mb": 312,
+      "used_mb": 285,
       "total_mb": 961,
-      "pct": 32.5
+      "pct": 29.7
     },
     "disk": {
       "used_gb": 8.6,
@@ -75,13 +75,13 @@
     "outcomes_graded": 1040,
     "win_rate": 55.3,
     "bankroll": 1383.36,
-    "budget_spent": 5.07,
+    "budget_spent": 0.0,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-20",
     "props_analyzed": 214338
   },
   "git": {
-    "last_commit": "afe73d8 feat(self-learning): signal attribution engine + meg",
+    "last_commit": "c3b326f fix: restore format_lineups function lost during lin",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
