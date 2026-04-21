@@ -1,22 +1,24 @@
 {
-  "collected_at": "2026-04-21T10:03:01.640318+00:00",
+  "collected_at": "2026-04-21T10:06:02.063624+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "14d 11h 31m",
+    "uptime": "14d 11h 34m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "green",
-    "alerts": []
+    "status": "yellow",
+    "alerts": [
+      "CPU 100.0%"
+    ]
   },
   "resources": {
-    "cpu_pct": 9.1,
+    "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 311,
+      "used_mb": 333,
       "total_mb": 961,
-      "pct": 32.4
+      "pct": 34.7
     },
     "disk": {
       "used_gb": 8.6,
@@ -70,7 +72,7 @@
     }
   },
   "prizm": {
-    "sessions_run": 85,
+    "sessions_run": 84,
     "picks_qualified": 1229,
     "outcomes_graded": 1058,
     "win_rate": 55.9,
@@ -78,10 +80,10 @@
     "budget_spent": 0.0,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-21",
-    "props_analyzed": 208619
+    "props_analyzed": 209618
   },
   "git": {
-    "last_commit": "eae9891 Auto-sync 2026-04-21 10:00 | 1 files updated",
+    "last_commit": "ec18d15 qa: expand suite 72\u2192183 tests \u2014 comprehensive failur",
     "last_pull": "[15:30:03] \u2705 Sync c"
   }
 }
