@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-21T10:09:02.084172+00:00",
+  "collected_at": "2026-04-21T10:12:01.583704+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "14d 11h 37m",
+    "uptime": "14d 11h 40m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 307,
+      "used_mb": 266,
       "total_mb": 961,
-      "pct": 31.9
+      "pct": 27.7
     },
     "disk": {
       "used_gb": 8.6,
@@ -72,7 +70,7 @@
     }
   },
   "prizm": {
-    "sessions_run": 85,
+    "sessions_run": 86,
     "picks_qualified": 1229,
     "outcomes_graded": 1058,
     "win_rate": 55.9,
@@ -80,7 +78,7 @@
     "budget_spent": 0.0,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-21",
-    "props_analyzed": 211303
+    "props_analyzed": 210304
   },
   "git": {
     "last_commit": "ec18d15 qa: expand suite 72\u2192183 tests \u2014 comprehensive failur",
