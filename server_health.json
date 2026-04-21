@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-21T14:33:01.762161+00:00",
+  "collected_at": "2026-04-21T14:36:01.376571+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "14d 16h 1m",
+    "uptime": "14d 16h 4m",
     "python": "3.12.3"
   },
   "health": {
@@ -12,11 +12,11 @@
     "alerts": []
   },
   "resources": {
-    "cpu_pct": 3.9,
+    "cpu_pct": 36.4,
     "ram": {
-      "used_mb": 521,
+      "used_mb": 619,
       "total_mb": 961,
-      "pct": 54.2
+      "pct": 64.4
     },
     "disk": {
       "used_gb": 8.4,
@@ -70,18 +70,18 @@
     }
   },
   "prizm": {
-    "sessions_run": 87,
+    "sessions_run": 88,
     "picks_qualified": 1242,
     "outcomes_graded": 1067,
     "win_rate": 56.1,
     "bankroll": 1624.16,
-    "budget_spent": 0.82,
+    "budget_spent": 0.87,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-21",
     "props_analyzed": 215695
   },
   "git": {
-    "last_commit": "d6061e0 Auto-sync 2026-04-21 14:30 | 1 files updated",
+    "last_commit": "4337225 Auto-sync 2026-04-21 14:35 | 1 files updated",
     "last_pull": "Successfully rebase"
   }
 }
