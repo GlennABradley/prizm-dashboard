@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-21T02:57:01.172870+00:00",
+  "collected_at": "2026-04-21T03:00:02.281172+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "14d 4h 25m",
+    "uptime": "14d 4h 28m",
     "python": "3.12.3"
   },
   "health": {
@@ -16,9 +16,9 @@
   "resources": {
     "cpu_pct": 100.0,
     "ram": {
-      "used_mb": 326,
+      "used_mb": 296,
       "total_mb": 961,
-      "pct": 33.9
+      "pct": 30.8
     },
     "disk": {
       "used_gb": 8.6,
@@ -72,15 +72,15 @@
     }
   },
   "prizm": {
-    "sessions_run": 84,
+    "sessions_run": 85,
     "picks_qualified": 1229,
     "outcomes_graded": 1040,
     "win_rate": 55.3,
     "bankroll": 1383.36,
     "budget_spent": 0.0,
     "budget_cap": 7.0,
-    "last_run_date": "2026-04-20",
-    "props_analyzed": 209618
+    "last_run_date": "2026-04-21",
+    "props_analyzed": 208619
   },
   "git": {
     "last_commit": "c3b326f fix: restore format_lineups function lost during lin",
