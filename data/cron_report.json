@@ -54,7 +54,7 @@
     "duration_sec": 2127.8,
     "summary": {}
   },
-  "_updated_at": "2026-04-21T17:33:33.347538+00:00",
+  "_updated_at": "2026-04-21T17:40:01.877211+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-21 12:15:03",
@@ -136,8 +136,8 @@
   },
   "clv_close": {
     "status": "success",
-    "ran_at": "2026-04-20 22:40:02",
-    "duration_sec": 0.2,
+    "ran_at": "2026-04-21 17:40:01",
+    "duration_sec": 0.3,
     "summary": {}
   },
   "hist_backfill": {
