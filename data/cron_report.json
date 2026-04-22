@@ -31,8 +31,8 @@
   },
   "morningbriefing": {
     "status": "success",
-    "ran_at": "2026-04-21 12:07:37",
-    "duration_sec": 35.6,
+    "ran_at": "2026-04-22 12:07:44",
+    "duration_sec": 42.7,
     "summary": {}
   },
   "oddsbatch": {
@@ -54,7 +54,7 @@
     "duration_sec": 2187.0,
     "summary": {}
   },
-  "_updated_at": "2026-04-22T12:05:08.347107+00:00",
+  "_updated_at": "2026-04-22T12:07:44.141709+00:00",
   "microcal": {
     "status": "success",
     "ran_at": "2026-04-21 12:15:03",
