@@ -38,17 +38,17 @@
       "wr_pct": "61.2%"
     }
   },
-  "current_bankroll": 1723.0500000000077,
+  "current_bankroll": 1792.0400000000159,
   "starting_bankroll": 100.0,
   "bankroll_epoch": "v3_base_rate_2026-04-14",
   "bankroll_picks": 479,
   "bankroll_wins": 304,
   "bankroll_losses": 175,
-  "bankroll_roi": 16.2305,
+  "bankroll_roi": 16.9204,
   "sessions_run": 90,
   "days_active": 23,
   "first_run_date": "2026-03-31",
   "integrity_ok": true,
-  "generated_at": "2026-04-21T23:31:44.493208-04:00",
+  "generated_at": "2026-04-21T23:32:10.487171-04:00",
   "generated_by": "prizm_stats_writer_v2"
 }
