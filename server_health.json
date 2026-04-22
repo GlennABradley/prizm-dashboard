@@ -1,10 +1,10 @@
 {
-  "collected_at": "2026-04-22T14:03:01.847849+00:00",
+  "collected_at": "2026-04-22T14:06:01.120330+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "15d 15h 31m",
+    "uptime": "15d 15h 34m",
     "python": "3.12.3"
   },
   "health": {
@@ -14,9 +14,9 @@
   "resources": {
     "cpu_pct": 9.1,
     "ram": {
-      "used_mb": 355,
+      "used_mb": 657,
       "total_mb": 961,
-      "pct": 36.9
+      "pct": 68.4
     },
     "disk": {
       "used_gb": 8.4,
@@ -78,7 +78,7 @@
     "budget_spent": 0.0,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-21",
-    "props_analyzed": 225472
+    "props_analyzed": 229854
   },
   "git": {
     "last_commit": "e596172 fix: odds daily cap bug, deploy race condition lock,",
