@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T12:16:06.529850+00:00",
+  "generated_at": "2026-04-22T12:30:13.347041+00:00",
   "schema": 2,
   "power": {
     "tier_a": 1301,
@@ -35,13 +35,13 @@
     "last_run": "2026-04-21"
   },
   "bankroll": {
-    "current": 1794.04,
+    "current": 1799.22,
     "starting": 100.0,
-    "roi_str": "+1694.0%",
-    "wins": 636,
+    "roi_str": "+1699.2%",
+    "wins": 637,
     "losses": 470,
     "win_rate": 57.5,
-    "summary": "$1794.04 (+1694.0% ROI) | 636/1106 (58% win rate) | \ud83d\udd25 14-W streak",
+    "summary": "$1799.22 (+1699.2% ROI) | 637/1107 (58% win rate) | \ud83d\udd25 14-W streak",
     "last5": "WWWWW",
     "streak": "\ud83d\udd25 14-W streak"
   }
