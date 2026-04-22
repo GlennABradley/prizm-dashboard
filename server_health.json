@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-22T12:00:01.607387+00:00",
+  "collected_at": "2026-04-22T12:03:01.417845+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "15d 13h 28m",
+    "uptime": "15d 13h 31m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 2.0,
     "ram": {
-      "used_mb": 333,
+      "used_mb": 281,
       "total_mb": 961,
-      "pct": 34.7
+      "pct": 29.2
     },
     "disk": {
       "used_gb": 8.4,
@@ -36,9 +34,9 @@
         "summary": {}
       },
       "autograde": {
-        "last_run": "2026-04-21 12:01:05",
-        "status": "stale",
-        "duration": 62.6,
+        "last_run": "2026-04-22 12:02:03",
+        "status": "ok",
+        "duration": 121.7,
         "summary": {}
       },
       "morningbriefing": {
@@ -74,16 +72,16 @@
   "prizm": {
     "sessions_run": 90,
     "picks_qualified": 1294,
-    "outcomes_graded": 1105,
+    "outcomes_graded": 1106,
     "win_rate": 57.5,
-    "bankroll": 1792.04,
+    "bankroll": 1794.04,
     "budget_spent": 2.54,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-21",
     "props_analyzed": 224473
   },
   "git": {
-    "last_commit": "e6e0470 Auto-sync 2026-04-22 11:45 | 1 files updated",
+    "last_commit": "8fcf189 Auto-sync 2026-04-22 12:01 | 1 files updated",
     "last_pull": "Successfully rebase"
   }
 }
