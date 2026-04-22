@@ -1,24 +1,22 @@
 {
-  "collected_at": "2026-04-22T14:15:02.438766+00:00",
+  "collected_at": "2026-04-22T14:18:01.704629+00:00",
   "server": {
     "ip": "192.241.241.102",
     "hostname": "ubuntu-s-1vcpu-1gb-35gb-intel-nyc2-01",
     "region": "NYC2",
-    "uptime": "15d 15h 43m",
+    "uptime": "15d 15h 46m",
     "python": "3.12.3"
   },
   "health": {
-    "status": "yellow",
-    "alerts": [
-      "CPU 100.0%"
-    ]
+    "status": "green",
+    "alerts": []
   },
   "resources": {
-    "cpu_pct": 100.0,
+    "cpu_pct": 10.0,
     "ram": {
-      "used_mb": 681,
+      "used_mb": 630,
       "total_mb": 961,
-      "pct": 70.9
+      "pct": 65.6
     },
     "disk": {
       "used_gb": 8.4,
@@ -77,13 +75,13 @@
     "outcomes_graded": 1107,
     "win_rate": 57.5,
     "bankroll": 1799.22,
-    "budget_spent": 0.26,
+    "budget_spent": 0.34,
     "budget_cap": 7.0,
     "last_run_date": "2026-04-21",
     "props_analyzed": 229854
   },
   "git": {
-    "last_commit": "e596172 fix: odds daily cap bug, deploy race condition lock,",
+    "last_commit": "538474b Auto-sync 2026-04-22 14:15 | 1 files updated",
     "last_pull": "Successfully rebase"
   }
 }
