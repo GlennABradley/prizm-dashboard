@@ -19,8 +19,8 @@
   },
   "morningbriefing": {
     "status": "success",
-    "ran_at": "2026-04-22 13:36:44",
-    "duration_sec": 224.3,
+    "ran_at": "2026-04-24 20:30:25",
+    "duration_sec": 155.2,
     "summary": {}
   },
   "validator": {
@@ -63,7 +63,7 @@
     "duration_sec": 0.0,
     "summary": {}
   },
-  "_updated_at": "2026-04-24T12:13:32.127932+00:00",
+  "_updated_at": "2026-04-24T20:30:25.973573+00:00",
   "calibrate": {
     "status": "success",
     "ran_at": "2026-04-12 13:00:01",
