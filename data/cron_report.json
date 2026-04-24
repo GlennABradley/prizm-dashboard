@@ -1,203 +1,91 @@
 {
   "autograde": {
     "status": "success",
-    "ran_at": "2026-04-22 12:02:03",
-    "duration_sec": 121.7,
-    "summary": {}
-  },
-  "hyperchamber": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:05:08",
-    "duration_sec": 6.9,
-    "summary": {}
-  },
-  "validator": {
-    "status": "success",
-    "ran_at": "2026-04-22 13:01:25",
-    "duration_sec": 83.0,
+    "ran_at": "2026-04-22 13:35:41",
+    "duration_sec": 162.0,
     "summary": {}
   },
   "dailyrun": {
     "status": "success",
-    "ran_at": "2026-04-22 14:38:56",
-    "duration_sec": 2201.0,
+    "ran_at": "2026-04-22 14:19:12",
+    "duration_sec": 1147.1,
     "summary": {}
   },
   "lategrade": {
     "status": "success",
-    "ran_at": "2026-04-22 03:32:07",
-    "duration_sec": 126.0,
+    "ran_at": "2026-04-22 03:32:35",
+    "duration_sec": 155.2,
     "summary": {}
   },
   "morningbriefing": {
     "status": "success",
-    "ran_at": "2026-04-22 12:07:44",
-    "duration_sec": 42.7,
+    "ran_at": "2026-04-22 13:36:44",
+    "duration_sec": 224.3,
+    "summary": {}
+  },
+  "validator": {
+    "ran_at": "2026-04-07 22:23 UTC",
+    "status": "success",
+    "duration_sec": 38,
+    "summary": {
+      "passed": 141,
+      "total_checks": 141
+    }
+  },
+  "hyperchamber": {
+    "status": "success",
+    "ran_at": "2026-04-22 13:33:17",
+    "duration_sec": 17.7,
+    "summary": {}
+  },
+  "preflight_failure": {
+    "ran_at": "2026-04-08T14:33:47.171164",
+    "errors": [
+      "\u274c ABORT: Budget exhausted. $7.00/$7.00 spent. Only $0.00 remaining \u2014 not enough for a meaningful run."
+    ],
+    "warnings": []
+  },
+  "insights": {
+    "status": "success",
+    "ran_at": "2026-04-13 12:30:05",
+    "duration_sec": 5.5,
     "summary": {}
   },
   "oddsbatch": {
     "status": "success",
-    "ran_at": "2026-04-22 13:30:07",
-    "duration_sec": 5.7,
+    "ran_at": "2026-04-13 13:30:00",
+    "duration_sec": 0.5,
     "summary": {}
   },
-  "pp_prefetch": {
+  "logrotate": {
     "status": "success",
-    "ran_at": "2026-04-22 13:15:13",
-    "duration_sec": 11.2,
+    "ran_at": "2026-04-13 08:00:01",
+    "duration_sec": 0.0,
     "summary": {}
   },
-  "_generated_at": "2026-04-11T02:42:06.936715+00:00",
-  "dailyrun_6pm": {
+  "_updated_at": "2026-04-22T14:19:12.775030+00:00",
+  "calibrate": {
     "status": "success",
-    "ran_at": "2026-04-21 22:36:29",
-    "duration_sec": 2187.0,
-    "summary": {}
-  },
-  "_updated_at": "2026-04-22T16:15:08.006246+00:00",
-  "microcal": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:15:03",
-    "duration_sec": 1.0,
-    "summary": {}
-  },
-  "insights": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:30:19",
-    "duration_sec": 17.2,
-    "summary": {}
-  },
-  "study": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:35:03",
-    "duration_sec": 1.3,
-    "summary": {}
-  },
-  "prop_analyst": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:45:04",
-    "duration_sec": 2.9,
-    "summary": {}
-  },
-  "feedback": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:12:03",
-    "duration_sec": 1.5,
+    "ran_at": "2026-04-12 13:00:01",
+    "duration_sec": 0.2,
     "summary": {}
   },
   "dailyrun_10am": {
     "status": "success",
-    "ran_at": "2026-04-22 14:38:56",
-    "duration_sec": 2201.0,
+    "ran_at": "2026-04-22 14:19:12",
+    "duration_sec": 1147.1,
+    "summary": {}
+  },
+  "dailyrun_6pm": {
+    "status": "success",
+    "ran_at": "2026-04-21 22:20:37",
+    "duration_sec": 1237.8,
     "summary": {}
   },
   "dailyrun_1pm": {
     "status": "success",
-    "ran_at": "2026-04-21 17:33:33",
-    "duration_sec": 2010.4,
-    "summary": {}
-  },
-  "shadow_grader": {
-    "status": "success",
-    "ran_at": "2026-04-22 03:57:56",
-    "duration_sec": 774.6,
-    "summary": {}
-  },
-  "calibrate": {
-    "status": "success",
-    "ran_at": "2026-04-19 13:00:14",
-    "duration_sec": 12.3,
-    "summary": {}
-  },
-  "preflight_failure": {
-    "ran_at": "2026-04-20T14:00:17.831763",
-    "errors": [
-      "\u274c ABORT: Conviction threshold nhl_OVER=78 is 18pp above base (60). STEAM cannot score this high \u2014 0 picks guaranteed. Reset with: python3.11 prizm_auto_calibrator.py"
-    ],
-    "warnings": []
-  },
-  "morning_scan": {
-    "status": "success",
-    "ran_at": "2026-04-22 10:00:19",
-    "duration_sec": 16.3,
-    "summary": {}
-  },
-  "lineup_scan": {
-    "status": "success",
-    "ran_at": "2026-04-22 16:00:04",
-    "duration_sec": 2.9,
-    "summary": {}
-  },
-  "steam_watch": {
-    "status": "success",
-    "ran_at": "2026-04-22 16:15:08",
-    "duration_sec": 6.4,
-    "summary": {}
-  },
-  "clv_close": {
-    "status": "success",
-    "ran_at": "2026-04-21 22:40:01",
-    "duration_sec": 0.2,
-    "summary": {}
-  },
-  "hist_backfill": {
-    "status": "success",
-    "ran_at": "2026-04-22 03:00:21",
-    "duration_sec": 19.1,
-    "summary": {}
-  },
-  "shadow_to_history": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:16:11",
-    "duration_sec": 69.3,
-    "summary": {}
-  },
-  "intelligence": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:25:08",
-    "duration_sec": 5.8,
-    "summary": {}
-  },
-  "institute": {
-    "status": "success",
-    "ran_at": "2026-04-22 03:45:18",
-    "duration_sec": 16.7,
-    "summary": {}
-  },
-  "game_props": {
-    "status": "success",
-    "ran_at": "2026-04-22 13:45:38",
-    "duration_sec": 36.5,
-    "summary": {}
-  },
-  "agent_score": {
-    "status": "success",
-    "ran_at": "2026-04-22 12:00:02",
-    "duration_sec": 0.3,
-    "summary": {}
-  },
-  "daily_learning": {
-    "status": "success",
-    "ran_at": "2026-04-19 13:21:45",
-    "duration_sec": 10.9,
-    "summary": {}
-  },
-  "scratch_alert": {
-    "status": "success",
-    "ran_at": "2026-04-21 21:30:04",
-    "duration_sec": 1.8,
-    "summary": {}
-  },
-  "retrospective": {
-    "status": "success",
-    "ran_at": "2026-04-19 13:21:33",
-    "duration_sec": 0.7,
-    "summary": {}
-  },
-  "ev_scan": {
-    "status": "success",
-    "ran_at": "2026-04-22 14:15:03",
-    "duration_sec": 0.7,
+    "ran_at": "2026-04-21 17:17:44",
+    "duration_sec": 1063.8,
     "summary": {}
   }
 }
