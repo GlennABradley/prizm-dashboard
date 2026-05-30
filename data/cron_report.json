@@ -34,8 +34,8 @@
   },
   "hyperchamber": {
     "status": "success",
-    "ran_at": "2026-05-29 19:25:31",
-    "duration_sec": 21.8,
+    "ran_at": "2026-05-30 12:05:15",
+    "duration_sec": 2.2,
     "summary": {}
   },
   "preflight_failure": {
@@ -63,7 +63,7 @@
     "duration_sec": 0.0,
     "summary": {}
   },
-  "_updated_at": "2026-05-30T04:32:34.199176+00:00",
+  "_updated_at": "2026-05-30T12:05:15.368482+00:00",
   "calibrate": {
     "status": "success",
     "ran_at": "2026-04-12 13:00:01",
