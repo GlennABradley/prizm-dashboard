@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-05-30T12:19:47.861649+00:00",
+  "generated_at": "2026-06-01T12:28:43.422377+00:00",
   "schema": 2,
   "power": {
     "tier_a": 1246,
-    "tier_b": 2694,
+    "tier_b": 2857,
     "tier_c": 43742,
-    "tier_d": 1469,
+    "tier_d": 1569,
     "level_name": "\u2726 ULTRA INSTINCT \u2726",
-    "shadow_total": 49415
+    "shadow_total": 49678
   },
   "alltime": {
-    "props_fetched": 68576,
-    "pp_fetched": 68576,
-    "ud_fetched": 11425,
-    "analyzed": 49415,
+    "props_fetched": 72504,
+    "pp_fetched": 72504,
+    "ud_fetched": 15036,
+    "analyzed": 49678,
     "qualified": 1246,
-    "slips_generated": 53247,
+    "slips_generated": 54247,
     "outcomes_graded": 1078,
-    "sessions": 110,
+    "sessions": 115,
     "api_spend": 0.45
   },
   "today": {
-    "date": "2026-05-30",
-    "pp_fetched": 0,
-    "ud_fetched": 0,
-    "total_fetched": 0,
-    "sessions": 0,
+    "date": "2026-06-01",
+    "pp_fetched": 609,
+    "ud_fetched": 1133,
+    "total_fetched": 1742,
+    "sessions": 1,
     "qualified": 4,
     "api_cost": 0.0
   },
   "meta": {
-    "days_active": 60,
+    "days_active": 62,
     "first_run": "2026-03-31",
     "last_run": "2026-04-24"
   },
