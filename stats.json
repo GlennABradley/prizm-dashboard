@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T12:28:43.422377+00:00",
+  "generated_at": "2026-06-01T12:28:47.717877+00:00",
   "schema": 2,
   "power": {
     "tier_a": 1246,
@@ -10,8 +10,8 @@
     "shadow_total": 49678
   },
   "alltime": {
-    "props_fetched": 72504,
-    "pp_fetched": 72504,
+    "props_fetched": 74246,
+    "pp_fetched": 74246,
     "ud_fetched": 15036,
     "analyzed": 49678,
     "qualified": 1246,
