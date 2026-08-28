@@ -1,26 +1,26 @@
 {
   "autograde": {
     "status": "success",
-    "ran_at": "2026-06-01 12:29:23",
-    "duration_sec": 107.2,
+    "ran_at": "2026-06-06 12:38:01",
+    "duration_sec": 100.6,
     "summary": {}
   },
   "dailyrun": {
     "status": "success",
-    "ran_at": "2026-06-01 12:34:26",
-    "duration_sec": 410.4,
+    "ran_at": "2026-06-04 03:33:41",
+    "duration_sec": 924.4,
     "summary": {}
   },
   "lategrade": {
     "status": "success",
-    "ran_at": "2026-06-01 12:29:24",
-    "duration_sec": 108.1,
+    "ran_at": "2026-06-06 04:19:23",
+    "duration_sec": 87.6,
     "summary": {}
   },
   "morningbriefing": {
     "status": "success",
-    "ran_at": "2026-06-01 12:28:36",
-    "duration_sec": 60.2,
+    "ran_at": "2026-06-06 12:38:46",
+    "duration_sec": 94.8,
     "summary": {}
   },
   "validator": {
@@ -34,8 +34,8 @@
   },
   "hyperchamber": {
     "status": "success",
-    "ran_at": "2026-06-01 12:27:39",
-    "duration_sec": 3.6,
+    "ran_at": "2026-06-10 00:30:33",
+    "duration_sec": 9.0,
     "summary": {}
   },
   "preflight_failure": {
@@ -47,45 +47,45 @@
   },
   "insights": {
     "status": "success",
-    "ran_at": "2026-04-13 12:30:05",
-    "duration_sec": 5.5,
+    "ran_at": "2026-08-27 12:30:10",
+    "duration_sec": 4.7,
     "summary": {}
   },
   "oddsbatch": {
     "status": "success",
-    "ran_at": "2026-04-13 13:30:00",
-    "duration_sec": 0.5,
+    "ran_at": "2026-08-27 13:30:06",
+    "duration_sec": 0.9,
     "summary": {}
   },
   "logrotate": {
     "status": "success",
-    "ran_at": "2026-04-13 08:00:01",
-    "duration_sec": 0.0,
+    "ran_at": "2026-08-27 08:00:06",
+    "duration_sec": 0.1,
     "summary": {}
   },
-  "_updated_at": "2026-06-01T12:34:26.578129+00:00",
+  "_updated_at": "2026-08-27T13:30:06.138443+00:00",
   "calibrate": {
     "status": "success",
-    "ran_at": "2026-04-12 13:00:01",
-    "duration_sec": 0.2,
+    "ran_at": "2026-08-23 13:00:04",
+    "duration_sec": 0.4,
     "summary": {}
   },
   "dailyrun_10am": {
     "status": "success",
-    "ran_at": "2026-06-01 12:34:26",
-    "duration_sec": 410.4,
+    "ran_at": "2026-06-02 14:08:47",
+    "duration_sec": 527.3,
     "summary": {}
   },
   "dailyrun_6pm": {
     "status": "success",
-    "ran_at": "2026-05-31 01:05:58",
-    "duration_sec": 628.0,
+    "ran_at": "2026-06-04 03:33:41",
+    "duration_sec": 924.4,
     "summary": {}
   },
   "dailyrun_1pm": {
     "status": "success",
-    "ran_at": "2026-05-30 17:31:19",
-    "duration_sec": 730.9,
+    "ran_at": "2026-06-03 18:38:15",
+    "duration_sec": 348.7,
     "summary": {}
   }
 }
